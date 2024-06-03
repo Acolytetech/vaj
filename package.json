@@ -34,7 +34,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint .",
@@ -59,8 +59,14 @@
     ]
   },
   "devDependencies": {
-    
-    
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-class-properties": "^7.24.6",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.24.6",
+    "@babel/plugin-transform-optional-chaining": "^7.24.6",
+    "@babel/plugin-transform-private-methods": "^7.24.6",
+    "@emailjs/browser": "^4.3.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "svgo": "^2.8.0",
     "tailwindcss": "^3.4.3"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",

@@ -4,7 +4,7 @@ import './Navbar.css'
 import './Class.css'
 const Navbar = () => {
   const [menuActive, setMenuActive] = useState(false);
-  const [subMenuActive, setSubMenuActive] = useState(false);
+  const [ setSubMenuActive] = useState(false);
   const [currentMenuTitle, setCurrentMenuTitle] = useState('');
   const [subMenu, setSubMenu] = useState(null);
 

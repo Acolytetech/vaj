@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import './TopProduct.css';
 
 const TopProduct = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex] = useState(0);
 
   useEffect(() => {
     AOS.init();

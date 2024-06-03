@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.css';
 import logo from '../images/vajravel_logo-removebg-preview.png';
 import '@fortawesome/fontawesome-free/css/all.css';
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -51,10 +52,10 @@ const Footer = () => {
         </div>
         <div className="legal-links">
           <ul>
-            <li><Link to="/terms">Terms & Conditions</a></li>
-            <li><Link to="/privacy">Privacy Policy</a></li>
-            <li><Link to="/sitemap">Sitemap</a></li>
-            <li><Link to="/employee-login">Employee Login</a></li>
+            <li><Link to="/#">Terms & Conditions</Link></li>
+            <li><Link to="/#">Privacy Policy</Link></li>
+            <li><Link to="/#">Sitemap</Link></li>
+            <li><Link to="/#">Employee Login</Link></li>
           </ul>
         </div>
       </div>
