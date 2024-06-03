@@ -1,0 +1,70 @@
+.client {
+  background-image: url('../../image/img1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: start;
+  justify-content: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.client-container {
+  background: rgba(134, 52, 52, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1200px;
+  width: 50%;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-sizing: border-box;
+}
+
+/* Responsive styles */
+@media (max-width: 700px) {
+  .client-container {
+    width: 100%;
+  }
+
+  .text-3xl {
+    font-size: 2rem; /* Adjust as needed for smaller screens */
+  }
+
+  .text-base {
+    font-size: 1rem; /* Adjust as needed for smaller screens */
+  }
+
+  .text-xl {
+    font-size: 1.25rem; /* Adjust as needed for smaller screens */
+  }
+
+  .text-2xl {
+    font-size: 1.5rem; /* Adjust as needed for smaller screens */
+  }
+}
+
+@media (max-width: 500px) {
+  .client-container {
+    padding: 10px;
+  }
+
+  .text-3xl {
+    font-size: 1.5rem; /* Further adjust for very small screens */
+  }
+
+  .text-base {
+    font-size: 0.875rem; /* Further adjust for very small screens */
+  }
+
+  .text-xl {
+    font-size: 1rem; /* Further adjust for very small screens */
+  }
+
+  .text-2xl {
+    font-size: 1.25rem; /* Further adjust for very small screens */
+  }
+}

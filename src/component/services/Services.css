@@ -1,0 +1,17 @@
+.custom-carousel-container {
+  max-width: 1200px; /* Adjust based on your design */
+  margin: 0 auto;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.service-text {
+  text-align: center;
+  color: #000; /* Ensure the text color is visible */
+  font-size: 1.2rem; /* Adjust as needed */
+  margin-top: 10px;
+}

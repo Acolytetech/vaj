@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif; /* Sets the primary font to Roboto */
+    font-weight: 400;
+    overflow-x: hidden;
+}

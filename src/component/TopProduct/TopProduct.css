@@ -1,0 +1,38 @@
+.fixed-bg {
+  background-image: url('../../image/product.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.content-container {
+  max-width: 50%;
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 20px; /* Add padding to the content container */
+}
+
+@media (max-width: 1200px) {
+  .content-container {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 700px) {
+  .content-container {
+    max-width: 100%; /* Adjust width to occupy full width */
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  .fixed-bg {
+    justify-content: center;
+    padding: 10px;
+  }
+}

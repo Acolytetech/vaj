@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.whoweare {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  /* flex-wrap: wrap-reverse; */
+  padding-top: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.vajaravel {
+  scale: 1.1;
+  font-size: 2rem;
+  background-color: #f7b205;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: 'Josefin Sans';
+  color: white;
+  font-weight: 700;
+  padding: 20px; /* Add padding for better visibility */
+}
+
+.content {
+  width: 100%;
+  max-width: 800px; /* Limit content width for larger screens */
+  margin: 0 auto;
+  padding: 0 20px; /* Add padding to the sides for better readability */
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center; /* Center align the heading */
+  color: #f7b205;
+  font-weight: 700;
+}
+
+.content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  color: rgb(15, 15, 15);
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 50px;
+}
+
+.imgsection {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center align the images */
+  margin-top: -50px;  
+  margin-bottom: 30px;
+}
+
+.imgsection img {
+  width: 100%; /* Make images responsive */
+  max-width: 300px; /* Limit image width for smaller screens */
+  height: auto;
+  margin: 0 10px; /* Add space between images */
+  border-radius: 50%; /* Reduce border radius for smaller screens */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust box shadow */
+}
+
+/* Media Query for tablets and smaller screens */
+@media (max-width: 768px) {
+  .content {
+      padding: 0 10px; /* Adjust content padding for smaller screens */
+  }
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 480px) {
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .whoweare {
+    width: 100%;
+    height: fit-content;
+  
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .vajaravel {
+    font-size: 10px;
+    background-color: #f7b205;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Josefin Sans';
+    color: white;
+    font-weight: 700;
+    padding: 20px; /* Add padding for better visibility */
+  }
+  
+  .content {
+    width: 100%;
+    max-width: 800px; /* Limit content width for larger screens */
+    margin: 0 auto;
+    padding: 0 20px; /* Add padding to the sides for better readability */
+  }
+  
+  .content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center; /* Center align the heading */
+    color: #f7b205;
+    font-weight: 700;
+  }
+  
+  .content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    color: rgb(15, 15, 15);
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .imgsection {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center align the images */
+    margin-top: 50px; /* Adjust margin for better spacing */
+  }
+  
+  .imgsection img {
+    width: 100%; /* Make images responsive */
+    max-width: 300px; /* Limit image width for smaller screens */
+    height: auto;
+    margin: 0 10px; /* Add space between images */
+    border-radius: 15px; /* Reduce border radius for smaller screens */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust box shadow */
+  }
+}
