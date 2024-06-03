@@ -1,12 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Navbar from './component/navbar/Navbar';
-import Home from './component/home/Home';
-import Service from './component/services/Services';
-import Deliver from './component/Deliver/Deliver';
-import TopProduct from './component/TopProduct/TopProduct';
-import Client from './component/Client/Client';
-import Form from './component/Client/Form.js/Form';
 import Footer from './component/footer/Footer';
 import Whoweare from './component/innerPages/Who/Whoweare'
 import First from './First';

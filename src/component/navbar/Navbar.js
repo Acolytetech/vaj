@@ -63,26 +63,26 @@ const Navbar = () => {
                   <li className="menu-item-has-children">
                     <span>Company <i className="fa fa-angle-down"></i></span>
                     <div className="sub-menu mega-menu mega-menu-column-4">
-                      <div className="list-item text-center">
-                        <Link to="/about">
+                      {/* <div className="list-item text-center">
+                        <Link to="">
                           <h4 className="title">About US</h4>
                         </Link>
-                      </div>
+                      </div> */}
                       <div className="list-item text-center">
                         <Link to="/who-we-are">
                           <h4 className="title">Who We Are</h4>
                         </Link>
                       </div>
-                      <div className="list-item text-center">
-                        <Link to="/leadership-team">
+                      {/* <div className="list-item text-center">
+                        <Link to="">
                           <h4 className="title">Leadership Team</h4>
                         </Link>
-                      </div>
-                      <div className="list-item text-center">
+                      </div> */}
+                      {/* <div className="list-item text-center">
                         <Link to="/price-and-planes">
                           <h4 className="title">Price & Planes</h4>
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </li>
                   <li className="menu-item-has-children">
