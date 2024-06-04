@@ -1,188 +1,189 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.css'
-import './Class.css'
+import { FaBars, FaTimes, FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa'; // Using react-icons for hamburger, close, and social media icons
+
 const Navbar = () => {
-  const [menuActive, setMenuActive] = useState(false);
-  const [ setSubMenuActive] = useState(false);
-  const [currentMenuTitle, setCurrentMenuTitle] = useState('');
-  const [subMenu, setSubMenu] = useState(null);
+  const [isOpen, setIsOpen] = useState(false);
+  const [submenuOpen, setSubmenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const toggleMenu = () => {
-    setMenuActive(!menuActive);
-  };
-
-  const showSubMenu = (hasChildren) => {
-    const subMenuElement = hasChildren.querySelector('.sub-menu');
-    setSubMenu(subMenuElement);
-    setSubMenuActive(true);
-    subMenuElement.style.animation = 'slideLeft 0.5s ease forwards';
-    const menuTitle = hasChildren.querySelector('span').textContent;
-    setCurrentMenuTitle(menuTitle);
-  };
-
-  const hideSubMenu = () => {
-    if (subMenu) {
-      subMenu.style.animation = 'slideRight 0.5s ease forwards';
-      setTimeout(() => {
-        setSubMenuActive(false);
-        setSubMenu(null);
-      }, 300);
+    setIsOpen(!isOpen);
+    if (submenuOpen) {
+      setSubmenuOpen(false);
     }
-    setCurrentMenuTitle('');
   };
+
+  const toggleSubmenu = () => {
+    setSubmenuOpen(!submenuOpen);
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
-    <div>
-      <header className="header">
-        <div className="container">
-          <div className="row v-center">
-            <div className="header-item item-left">
-              <div className="logo">
-                <Link to="/">Vajrabel Traders</Link>
-              </div>
+    <nav className={`fixed w-full z-10 transition-colors duration-300 ${scrolled ? 'bg-gray-800' : 'bg-transparent'}`}>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16">
+          <div className="flex items-center">
+            <div className="text-lg font-semibold text-white">vagravel traders</div>
+          </div>
+          <div className="flex-grow flex justify-center">
+            <div className="hidden md:flex items-center space-x-6">
+              <Link to="/" className="text-gray-300 hover:text-white">Home</Link>
+              <button onClick={toggleSubmenu} className="text-gray-300 hover:text-white">Product</button>
+              <Link to="/about" className="text-gray-300 hover:text-white">About</Link>
+              <Link to="/contact-us" className="text-gray-300 hover:text-white">Contact Us</Link>
             </div>
-            <div className="header-item item-center">
-              <div className={`menu-overlay ${menuActive ? 'active' : ''}`} onClick={toggleMenu}></div>
-              <nav className={`menu ${menuActive ? 'active' : ''}`}>
-                <div className="mobile-menu-head">
-                  <div className="go-back" onClick={hideSubMenu}>
-                    <i className="fa fa-angle-left"></i>
+          </div>
+          <div className="hidden md:flex items-center space-x-4">
+            {/* <a href="https://facebook.com" className="text-gray-300 hover:text-white"><FaFacebook /></a>
+            <a href="https://whatsapp.com" className="text-gray-300 hover:text-white"><FaWhatsapp /></a>
+            <a href="https://instagram.com" className="text-gray-300 hover:text-white"><FaInstagram /></a> */}
+            <a href="#" class="fab fa-facebook fa-1x text-gray-300 hover:text-white  "></a>
+        <a href="#" class="fab fa-instagram fa-1x text-gray-300 hover:text-white"></a>
+        <a href="#" class="fab fa-whatsapp fa-1x text-gray-300 hover:text-white "></a>
+          </div>
+          <div className="md:hidden">
+            <button onClick={toggleMenu} className="text-gray-300 hover:text-white">
+              {isOpen ? <FaTimes /> : <FaBars />}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {isOpen && (
+        <div className="md:hidden bg-gray-700">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="py-8">
+              <Link to="/" onClick={toggleMenu} className="block mb-4 text-gray-300 hover:text-white">Home</Link>
+              <button onClick={toggleSubmenu} className="block mb-4 text-gray-300 hover:text-white">Product</button>
+              {submenuOpen && (
+                <div className="bg-gray-600 p-4">
+                  <div>
+                    <h3 className="text-lg font-semibold mb-4">Bitumen</h3>
+                    <ul>
+                      <li className="mb-2"><Link to="/Bitumen" className="hover:text-gray-300 text-white-500">Bitumen</Link></li>
+                      <li className="mb-2"><Link to="/Ca-solvent" className="hover:text-gray-300 text-white">CA Solvent</Link></li>
+                      <li className="mb-2"><Link to="/Furnance-oil" className="hover:text-gray-300 text-white">Furnace Oil</Link></li>
+                      <li className="mb-2"><Link to="/Furnance-oil" className="hover:text-gray-300 text-white">Fuel Oil</Link></li>
+                      <li className="mb-2"><Link to="/Furnance-oil" className="hover:text-gray-300 text-white">Light Diesel Oil(LDO)</Link></li>
+                      <li className="mb-2"><Link to="/Furnance-oil" className="hover:text-gray-300 text-white">Mineral Turpentine Oil (MTO)</Link></li>
+                      <li className="mb-2"><Link to="/Furnance-oil" className="hover:text-gray-300 text-white">Rubber Processing Oil</Link></li>
+                      <li className="mb-2"><Link to="/Furnance-oil" className="hover:text-gray-300 text-white">Mixed Hydrocarbon Oil</Link></li>
+                    </ul>
                   </div>
-                  <div className="current-menu-title">{currentMenuTitle}</div>
-                  <div className="mobile-menu-close" onClick={toggleMenu}>&times;</div>
+                  <div>
+                    <h3 className="text-lg font-semibold mb-4">Coal</h3>
+                    <ul>
+                      <li className="mb-2"><Link to="/indian-coal" className="hover:text-gray-300">Indian Coal</Link></li>
+                      <li className="mb-2"><Link to="/indonesian-coal" className="hover:text-gray-300">Indonesian Coal</Link></li>
+                      <li className="mb-2"><Link to="/usa-coal" className="hover:text-gray-300">USA Coal</Link></li>
+                      <li className="mb-2"><Link to="/indonesian-coal" className="hover:text-gray-300">South Africa Oil</Link></li>
+                      <li className="mb-2"><Link to="/usa-coal" className="hover:text-gray-300">Petcoke</Link></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold mb-4">Solvent</h3>
+                    <ul>
+                      <li className="mb-2"><Link to="/C9-solvent" className="hover:text-gray-300">C 9 Solvent</Link></li>
+                      <li className="mb-2"><Link to="/Toluene" className="hover:text-gray-300">Toluene</Link></li>
+                      <li className="mb-2"><Link to="/Benzene" className="hover:text-gray-300">Benzene</Link></li>
+                      <li className="mb-2"><Link to="/C9-solvent" className="hover:text-gray-300">Glycol Ethers</Link></li>
+                      <li className="mb-2"><Link to="/Toluene" className="hover:text-gray-300">Ketones</Link></li>
+                      <li className="mb-2"><Link to="/Benzene" className="hover:text-gray-300">Methyle Alcohol</Link></li>
+                      <li className="mb-2"><Link to="/C9-solvent" className="hover:text-gray-300">Phenols</Link></li>
+                      <li className="mb-2"><Link to="/Toluene" className="hover:text-gray-300">Xylene</Link></li>
+                      <li className="mb-2"><Link to="/Benzene" className="hover:text-gray-300">N-Hexane</Link></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold mb-4">Minerals</h3>
+                    <ul>
+                      <li className="mb-2"><Link to="/C9-solvent" className="hover:text-gray-300">Mineral</Link></li>
+                      <li className="mb-2"><Link to="/Toluene" className="hover:text-gray-300">Lime Stone & Cement Grade</Link></li>
+                      <li className="mb-2"><Link to="/Benzene" className="hover:text-gray-300">Gypsum</Link></li>
+                      <li className="mb-2"><Link to="/C9-solvent" className="hover:text-gray-300">Pyroxenite</Link></li>
+                      <li className="mb-2"><Link to="/Toluene" className="hover:text-gray-300">Chrome ore</Link></li>
+                      <li className="mb-2"><Link to="/Benzene" className="hover:text-gray-300">Manganese ore</Link></li>
+                    </ul>
+                  </div>
                 </div>
-                <ul className="menu-main" onClick={(e) => {
-                  if (!menuActive) return;
-                  const hasChildren = e.target.closest('.menu-item-has-children');
-                  if (hasChildren) showSubMenu(hasChildren);
-                }}>
-                  <li>
-                    <Link to="/">Home</Link>
-                  </li>
-                  <li className="menu-item-has-children">
-                    <span>Company <i className="fa fa-angle-down"></i></span>
-                    <div className="sub-menu mega-menu mega-menu-column-4">
-                      {/* <div className="list-item text-center">
-                        <Link to="">
-                          <h4 className="title">About US</h4>
-                        </Link>
-                      </div> */}
-                      <div className="list-item text-center">
-                        <Link to="/who-we-are">
-                          <h4 className="title">Who We Are</h4>
-                        </Link>
-                      </div>
-                      {/* <div className="list-item text-center">
-                        <Link to="">
-                          <h4 className="title">Leadership Team</h4>
-                        </Link>
-                      </div> */}
-                      {/* <div className="list-item text-center">
-                        <Link to="/price-and-planes">
-                          <h4 className="title">Price & Planes</h4>
-                        </Link>
-                      </div> */}
-                    </div>
-                  </li>
-                  <li className="menu-item-has-children">
-                    <span>Product <i className="fa fa-angle-down"></i></span>
-                    <div className="sub-menu mega-menu mega-menu-column-4">
-                      <div className="list-item">
-                        <h4 className="title">Product Details</h4>
-                        <ul>
-                          <li><Link to="/Bitumen">Bitumen</Link></li>
-                          <li><Link to="/Ca-solvent">CA Solvent</Link></li>
-                          <li><Link to="/Furnance-oil">Furnace Oil</Link></li>
-                          <li><Link to="/Fuel-oil">Fuel Oil</Link></li>
-                          <li><Link to="/light-diesel-oil">Light Diesel Oil(LDO)</Link></li>
-                          <li><Link to="/mineral-turpentine-oil">Mineral Turpentine Oil (MTO)</Link></li>
-                          <li><Link to="/rubber-processing-oil">Rubber Processing Oil</Link></li>
-                          <li><Link to="/mixed-hydrocarbon-oil">Mixed Hydrocarbon Oil</Link></li>
-                        </ul>
-                      </div>
-                      <div className="list-item">
-                        <h4 className="title">COAl</h4>
-                        <ul>
-                          <li><Link to="/indian-coal">Indian Coal</Link></li>
-                          <li><Link to="/indonesian-coal">Indonesian Coal</Link></li>
-                          <li><Link to="/usa-coal">USA Coal</Link></li>
-                          <li><Link to="/south-africa-oil">South Africa Oil</Link></li>
-                          <li><Link to="/petcoke">Petcoke</Link></li>
-                        </ul>
-
-                      </div>
-                      <div className="list-item">
-  <h4 className="title">Solvent</h4>
-  <ul>
-    <li><Link to="/C9-solvent">C 9 Solvent</Link></li>
-    <li><Link to="/Toluene">Toluene</Link></li>
-    <li><Link to="/Benzene">Benzene</Link></li>
-    <li><Link to="/Glycol-Ethers">Glycol Ethers</Link></li>
-    <li><Link to="/Ketones">Ketones</Link></li>
-    <li><Link to="/methylalcohol">Methyle Alcohol</Link></li>
-    <li><Link to="/Phenols">Phenols</Link></li>
-    <li><Link to="/Xylene">Xylene</Link></li>
-    <li><Link to="/nhexane">N-Hexane</Link></li>
-  </ul>
-</div>
-
-                      <div className='list-item'>
-                        <h4 className="title">Solvent</h4>
-                        <ul>
-                          <li><Link to="/Mineral-oil">Mineral</Link></li>
-                          <li><Link to="/lime-stone-cement-grade">Lime Stone & Cement Grade</Link></li>
-                          <li><Link to="/gypsum">Gypsum</Link></li>
-                          <li><Link to="/gabbro-aggregate">Gabbro Aggregate</Link></li>
-                          <li><Link to="/pyroxenite">Pyroxenite</Link></li>
-                          <li><Link to="/chrome-ore">Chrome ore</Link></li>
-                          <li><Link to="/manganese-ore">Manganese ore</Link></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                  {/* <li className="menu-item-has-children">
-                    <Link to="#">Contact
-                     <i className="fas fa-angle-down"></i></Link>
-                    {/* <div className="sub-menu single-column-menu">
-                      <ul>
-                        <li><Link to="#">Standard Layout</Link></li>
-                        <li><Link to="#">Grid Layout</Link></li>
-                        <li><Link to="#">single Post Layout</Link></li>
-                      </ul> */}
-                  {/* </div> */}
-                  {/* </li>  */}
-                  {/* <li className="menu-item-has-children">
-                    <Link to="#">Pages <i className="fas fa-angle-down"></i></Link>
-                    <div className="sub-menu single-column-menu">
-                      <ul>
-                        <li><Link to="#">Login</Link></li>
-                        <li><Link to="#">Register</Link></li>
-                        <li><Link to="#">Faq</Link></li>
-                        <li><Link to="#">404 Page</Link></li>
-                      </ul>
-                    </div>
-                  </li> */}
-                  <li>
-                    <Link to="Contactus">Contact</Link>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-            <div className="header-item item-right">
-              <Link to="#"><i className="fas fa-search"></i></Link>
-
-              <div className="mobile-menu-trigger" onClick={toggleMenu}>
-                <span></span>
-              </div>
+              )}
+              <Link to="/about" onClick={toggleMenu} className="block mb-4 text-gray-300 hover:text-white">About</Link>
+              <Link to="/contact-us" onClick={toggleMenu} className="block mb-4 text-gray-300 hover:text-white">Contact Us</Link>
             </div>
           </div>
         </div>
-      </header>
+      )}
 
-      {/* <section className="banner-section"></section> */}
-
-    </div>
+      <div className={`hidden md:block ${submenuOpen ? 'bg-gray-700' : ''}`}>
+        {submenuOpen && (
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Bitumen</h3>
+              <ul>
+                <li className="mb-2"><Link to="/Bitumen" className="hover:text-gray-300">Bitumen</Link></li>
+                <li className="mb-2"><Link to="/Ca-solvent" className="hover:text-gray-300">CA Solvent</Link></li>
+                <li className="mb-2"><Link to="/Furnance-oil" className="hover:text-gray-300">Furnace Oil</Link></li>
+                <li className="mb-2"><Link to="/Furnance-oil" className="hover:text-gray-300">Fuel Oil</Link></li>
+                <li className="mb-2"><Link to="/Furnance-oil" className="hover:text-gray-300">Light Diesel Oil(LDO)</Link></li>
+                <li className="mb-2"><Link to="/Furnance-oil" className="hover:text-gray-300">Mineral Turpentine Oil (MTO)</Link></li>
+                <li className="mb-2"><Link to="/Furnance-oil" className="hover:text-gray-300">Rubber Processing Oil</Link></li>
+                <li className="mb-2"><Link to="/Furnance-oil" className="hover:text-gray-300">Mixed Hydrocarbon Oil</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Coal</h3>
+              <ul>
+                <li className="mb-2"><Link to="/indian-coal" className="hover:text-gray-300">Indian Coal</Link></li>
+                <li className="mb-2"><Link to="/indonesian-coal" className="hover:text-gray-300">Indonesian Coal</Link></li>
+                <li className="mb-2"><Link to="/usa-coal" className="hover:text-gray-300">USA Coal</Link></li>
+                <li className="mb-2"><Link to="/indonesian-coal" className="hover:text-gray-300">South Africa Oil</Link></li>
+                <li className="mb-2"><Link to="/usa-coal" className="hover:text-gray-300">Petcoke</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Solvent</h3>
+              <ul>
+                <li className="mb-2"><Link to="/C9-solvent" className="hover:text-gray-300">C 9 Solvent</Link></li>
+                <li className="mb-2"><Link to="/Toluene" className="hover:text-gray-300">Toluene</Link></li>
+                <li className="mb-2"><Link to="/Benzene" className="hover:text-gray-300">Benzene</Link></li>
+                <li className="mb-2"><Link to="/C9-solvent" className="hover:text-gray-300">Glycol Ethers</Link></li>
+                <li className="mb-2"><Link to="/Toluene" className="hover:text-gray-300">Ketones</Link></li>
+                <li className="mb-2"><Link to="/Benzene" className="hover:text-gray-300">Methyle Alcohol</Link></li>
+                <li className="mb-2"><Link to="/C9-solvent" className="hover:text-gray-300">Phenols</Link></li>
+                <li className="mb-2"><Link to="/Toluene" className="hover:text-gray-300">Xylene</Link></li>
+                <li className="mb-2"><Link to="/Benzene" className="hover:text-gray-300">N-Hexane</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Minerals</h3>
+              <ul>
+                <li className="mb-2"><Link to="/C9-solvent" className="hover:text-gray-300">Mineral</Link></li>
+                <li className="mb-2"><Link to="/Toluene" className="hover:text-gray-300">Lime Stone & Cement Grade</Link></li>
+                <li className="mb-2"><Link to="/Benzene" className="hover:text-gray-300">Gypsum</Link></li>
+                <li className="mb-2"><Link to="/C9-solvent" className="hover:text-gray-300">Pyroxenite</Link></li>
+                <li className="mb-2"><Link to="/Toluene" className="hover:text-gray-300">Chrome ore</Link></li>
+                <li className="mb-2"><Link to="/Benzene" className="hover:text-gray-300">Manganese ore</Link></li>
+              </ul>
+            </div>
+          </div>
+        )}
+      </div>
+    </nav>
   );
 };
 

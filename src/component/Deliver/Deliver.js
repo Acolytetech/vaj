@@ -1,15 +1,16 @@
 import React from 'react';
 import IndustryCard from './IndustryCard'; // Assuming IndustryCard is in the same directory
 import 'tailwindcss/tailwind.css';
-import coal from '../../image/icons/mining-cart.png';
-import oil from '../../image/icons/oil-pump.png';
-import minerals from '../../image/icons/gold-ingot.png';
+
+import coal from '../../image/icons/oil.jpg';
+import oil from '../../image/icons/coal.jpg';
+import minerals from '../../image/icons/mineral.jpg';
 
 const industries = [
   {
     title: 'Petroleum & Gas',
     image: oil, // Directly assign the image path
-    description: 'Petroleum and natural gas are nonrenewable sources of energy, a liquid found underground that can be used to make gasoline.'
+    description: 'Petroleum and natural gas are nonrenewable sources of energy. Crude oil, a liquid found underground, can be refined to produce gasoline and other fuels..'
   },
   {
     title: 'Coal Industries',
@@ -25,8 +26,7 @@ const industries = [
 
 const Deliver = () => {
   return (
-    <div className="px-4 bg-gray-200 py-24">
-      <h1 className="text-3xl font-semibold text-center mb-8">Delivering High-Performance Solutions Across Diverse Industries and Technologies!</h1>
+    <div className="px-4  py-24">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {industries.map((industry, index) => (
           <IndustryCard key={index} industry={industry} />

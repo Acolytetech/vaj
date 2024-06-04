@@ -7,7 +7,7 @@ import LightDieselOil3 from '../../../image/innerImage/Light Diesel oil 3.jpg'
 
 const lightdieseloil = () => {
     return (
-        <div className="container mx-auto p-4 mt-24">
+        <div className="container mx-auto p-4 ">
             <img
                 src={LightDieselOil}
                 alt="Sub 2"

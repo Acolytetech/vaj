@@ -7,7 +7,7 @@ import Ketones1 from '../../../image/innerImage/ketone.jpg'
 
 const KetonesComponent = () => {
   return (
-      <div className="container mx-auto p-4 mt-24">
+      <div className="container mx-auto p-4 ">
           <div style={{position:'relative'}}>
        <img
               src={KetonesBanner}

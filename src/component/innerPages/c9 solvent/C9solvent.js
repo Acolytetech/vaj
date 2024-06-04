@@ -6,7 +6,7 @@ import React from 'react';
  import c91 from '../../../image/innerImage/C9 Solvent.jpg'
 const C9solvent = () => {
   return (
-    <div className="container mx-auto p-4 mt-24">
+    <div className="container mx-auto p-4 ">
        <img
             src={c9}
             alt="Main"

@@ -7,7 +7,7 @@ import methyl from '../../../image/innerImage/Methyl Alcohol banner.jpg'
 import methyl1 from '../../../image/innerImage/Methyl Alcohol.jpg'
 const Methylalcohol = () => {
   return (
-      <div className="container mx-auto p-4 mt-24">
+      <div className="container mx-auto p-4 ">
           <div style={{position:'relative'}}>
        <img
               src={methyl}

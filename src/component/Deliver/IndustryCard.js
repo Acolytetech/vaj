@@ -1,20 +1,17 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import 'tailwindcss/tailwind.css';
+import './Card.css';
 
 const IndustryCard = ({ industry }) => {
-  const { title, image, description } = industry;
-
   return (
-    <motion.div
-      whileHover={{ scale: 1.05, backgroundColor: '#ADD8E6' }}
-      transition={{ duration: 0.2 }}
-      className="bg-white shadow-md rounded-lg p-6 max-w-sm mx-auto"
-    >
-      <img src={image} alt={title} className="w-32 h-32 mx-auto mb-4" />
-      <h2 className="text-base font-semibold mb-2 text-center">{title}</h2>
-      <p className="text-gray-600 text-center">{description}</p>
-    </motion.div>
+    <div className="relative mt-24">
+      <div className="max-w-sm mx-auto rounded overflow-hidden shadow-lg bg-white card">
+        <img className="w-full h-48 object-cover" src={industry.image} alt={industry.title} />
+        <div className="p-6">
+          <h5 className="font-bold text-xl mb-2">{industry.title}</h5>
+          <p className="text-gray-700 text-base">{industry.description}</p>
+        </div>
+      </div>
+    </div>
   );
 };
 

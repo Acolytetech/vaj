@@ -6,7 +6,7 @@ import n from '../../../image/innerImage/n xexane banner.png'
 
 const Nhexane = () => {
   return (
-      <div className="container mx-auto p-4 mt-24">
+      <div className="container mx-auto p-4 ">
           <div style={{position:'relative'}}>
        <img
               src={n}

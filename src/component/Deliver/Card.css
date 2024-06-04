@@ -1,0 +1,18 @@
+.card {
+    position: relative; /* Changed from absolute to relative for better positioning */
+    margin-top: -235px; /* Adjust this value if needed based on your layout */
+    transition: transform 0.3s; /* Added a smooth transition effect */
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Added hover effect for a slight lift */
+  }
+  
+  .relative {
+    position: relative; /* Ensure the outer div has relative positioning */
+  }
+  
+  .mt-24 {
+    margin-top: 6rem; /* Tailwind CSS margin-top utility class */
+  }
+  

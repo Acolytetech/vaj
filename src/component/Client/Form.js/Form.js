@@ -44,7 +44,7 @@ function Form() {
     e.preventDefault();
     if (validate()) {
       try {
-        await emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData, 'YOUR_USER_ID');
+        await emailjs.send('service_86hgq8j', 'YOUR_TEMPLATE_ID', formData, 'YOUR_USER_ID');
         setNotification({ message: 'Your application is submitted', type: 'success' });
         setFormData({ name: '', email: '', phone: '', industry: '' });
       } catch (error) {
@@ -65,6 +65,7 @@ function Form() {
         message={notification.message}
         type={notification.type}
         onClose={handleCloseNotification}
+        className="mt-4"
       />
       <div className="flex flex-col md:flex-row shadow-lg border w-full md:w-2/3 mx-auto my-10" style={{ marginTop: '-160px', position: 'relative', background: 'white' }}>
         <div className="w-full md:w-1/2">
