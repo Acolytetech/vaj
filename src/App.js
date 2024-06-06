@@ -1,6 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Navbar from './component/navbar/Navbar';
+import Home from './component/home/Home';
+import Service from './component/services/Services';
+import Deliver from './component/Deliver/Deliver';
+import TopProduct from './component/TopProduct/TopProduct';
+import Client from './component/Client/Client';
+import Form from './component/Client/Form.js/Form';
 import Footer from './component/footer/Footer';
 import Whoweare from './component/innerPages/Who/Whoweare'
 import First from './First';
@@ -34,7 +40,7 @@ import Petcoke from './component/innerPages/petCoke/Petcoke';
 import Chromeore from './component/innerPages/Chrome ore/Chromeore';
 import Magnanceore from './component/innerPages/magnances ore/Magnanceore';
 import Aboutsus from './component/Aboutsus';
-
+import Leadership from './component/Leadership';
 import Xylene from './component/innerPages/Xylene/Xylene';
 import Nhexane from './component/innerPages/nhexane/Nhexane';
 import Loader from './component/loader/Loader';
@@ -88,7 +94,7 @@ function App() {
           <Route path="/manganese-ore" element={<Magnanceore />} />
           <Route path="/abouts-us" element={<Aboutsus />} />
           <Route path="/who-we-are" element={<Whoweare />} />
-          
+          <Route path="/leadership" element={<Leadership />} />
           <Route path="/Xylene" element={<Xylene />} />
           <Route path="/contactus" element={<Contactus />} />
           <Route path="/nhexane" element={<Nhexane />} />

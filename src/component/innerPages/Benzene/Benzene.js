@@ -7,7 +7,7 @@ import benzene  from '../../../image/innerImage/benzene banner.png'
 
 const Benzene = () => {
   return (
-    <div className="container mx-auto p-4 ">
+    <div className="container mx-auto p-4">
        <img
             src={benzene}
             alt="Main"

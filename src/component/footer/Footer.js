@@ -10,8 +10,8 @@ const Footer = () => {
           <div className="quick-contact">
             <h4>Quick Contact</h4>
             <p>If you have any questions or <br/>need help, feel free to <br/> contact our team:</p> <br/>
-            <p><span style={{color:"chocolate",fontSize:"1.5rem"}}><i className="fas fa-phone"></i> 9311668312</span></p><br/>
-            <p>Address : Saberi, Noida Extension, <br/>Gautam Budha Nagar,<br/> Uttar Pradesh-201305</p>
+            <p><span style={{color:"chocolate",fontSize:"1.5rem"}}><i className="fas fa-phone-alt"></i> 9311668312</span></p><br/>
+            <p><strong>Address:</strong> Saberi, Noida Extension, <br/>Gautam Budha Nagar,<br/> Uttar Pradesh-201305</p>
           </div>
           <div className="links">
             <h4>Company</h4>
@@ -37,15 +37,14 @@ const Footer = () => {
             <h4>Sign up for industry alerts</h4>
             <p>Receive our latest news, thoughts, and insights from Koira.</p>
             <form>
-              <input type="email" placeholder="Your Email Address" className='italic' />
-              <button type="submit" className='mt-2'>Sign Up</button>
+              <input type="email" placeholder="Your Email Address" />
+              <button type="submit">Sign Up</button>
             </form>
-            <br/>
-            <p>You may withdraw your consent at any time!</p><br/>
+            <p>You may withdraw your consent at any time!</p>
             <div className='social-link'>
-        <a href="#" class="fab fa-facebook fa-1x"></a>
-        <a href="#" class="fab fa-instagram fa-1x"></a>
-        <a href="#" class="fab fa-whatsapp fa-1x"></a>
+        <a href="#" class="fab fa-facebook fa-2x"></a>
+        <a href="#" class="fab fa-instagram fa-2x"></a>
+        <a href="#" class="fab fa-whatsapp fa-2x"></a>
             </div>
           </div>
         </div>

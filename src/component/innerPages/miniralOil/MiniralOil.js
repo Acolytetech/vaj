@@ -5,7 +5,7 @@ import React from 'react';
 import miniral1 from '../../../image/innerImage/Mineral Oil 1.jpg'
 const MiniralOil = () => {
   return (
-    <div className="container mx-auto p-4 ">
+    <div className="container mx-auto p-4">
       <div className="flex flex-col md:flex-row bg-whiteoverflow-hidden">
        
         <div className="md:w-2/2 p-6 flex flex-col justify-center">

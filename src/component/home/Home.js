@@ -31,7 +31,7 @@ const Carousel = () => {
 
   return (
     <div className="relative carousel-container">
-      <Navbar/>
+      {/* <Navbar/> */}
       {images.map((image, index) => (
         <React.Fragment key={index}>
           {currentIndex === index && (

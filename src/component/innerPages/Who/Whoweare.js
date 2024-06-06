@@ -1,6 +1,9 @@
 import React from 'react';
 import './Whoweare.css';
-
+import { ForwardToInboxSharp } from '@mui/icons-material';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 // import Ourteam from '../ourteam/Ourteam';
 // import Whowearecrousel from './Whowearecrousel';
 // import image1 from 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOvZALupQp0Gm2auZnOQXB3gjRgVNPf7FZRQ&s'

@@ -2,7 +2,6 @@ import React from 'react';
 import './Footer.css';
 import logo from '../images/vajravel_logo-removebg-preview.png';
 import '@fortawesome/fontawesome-free/css/all.css';
-import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -19,12 +18,12 @@ const Footer = () => {
         <div className="links">
           <h4>Company</h4>
           <ul>
-            <li><Link to="/about">About Us</Link></li>
-            <li><Link to="/team">Meet Our Team</Link></li>
-            <li><Link to="/news">News & Media</Link></li>
-            <li><Link to="/case-studies">Case Studies</Link></li>
-            <li><Link to="/contacts">Contacts</Link></li>
-            <li><Link to="/careers">Careers</Link></li>
+            <li><Link to="/about">About Us</a></li>
+            <li><Link to="/team">Meet Our Team</a></li>
+            <li><Link to="/news">News & Media</a></li>
+            <li><Link to="/case-studies">Case Studies</a></li>
+            <li><Link to="/contacts">Contacts</a></li>
+            <li><Link to="/careers">Careers</a></li>
           </ul>
         </div>
         {/* <div className="products">
@@ -52,10 +51,10 @@ const Footer = () => {
         </div>
         <div className="legal-links">
           <ul>
-            <li><Link to="/#">Terms & Conditions</Link></li>
-            <li><Link to="/#">Privacy Policy</Link></li>
-            <li><Link to="/#">Sitemap</Link></li>
-            <li><Link to="/#">Employee Login</Link></li>
+            <li><Link to="/terms">Terms & Conditions</a></li>
+            <li><Link to="/privacy">Privacy Policy</a></li>
+            <li><Link to="/sitemap">Sitemap</a></li>
+            <li><Link to="/employee-login">Employee Login</a></li>
           </ul>
         </div>
       </div>

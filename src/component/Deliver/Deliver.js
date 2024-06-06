@@ -9,12 +9,12 @@ import minerals from '../../image/icons/mineral.jpg';
 const industries = [
   {
     title: 'Petroleum & Gas',
-    image: oil, // Directly assign the image path
+    image: coal, // Directly assign the image path
     description: 'Petroleum and natural gas are nonrenewable sources of energy. Crude oil, a liquid found underground, can be refined to produce gasoline and other fuels..'
   },
   {
     title: 'Coal Industries',
-    image: coal, // Directly assign the image path
+    image: oil, // Directly assign the image path
     description: 'Coals at IGR are always kept on high, we believe in purity of products. Indian Coals, US Coals, Pet-coke or Indonesian Coals we have all the varieties available at best cost.'
   },
   {
