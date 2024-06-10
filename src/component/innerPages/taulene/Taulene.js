@@ -12,7 +12,7 @@ const Toluence = () => {
             alt="Main"
             className=" w-full h-1/2" style={{height:'300px'}}
           />
-      <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden">
+      <div className="flex flex-col md:flex-row bg-white  overflow-hidden">
         
         <div className="md:w-2/2 p-6 flex flex-col justify-center">
        

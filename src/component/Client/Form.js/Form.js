@@ -44,7 +44,7 @@ function Form() {
     e.preventDefault();
     if (validate()) {
       try {
-        await emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData, 'YOUR_USER_ID');
+        await emailjs.send('service_urtipdo', 'template_p3o472o', formData, 'KngnTTHvdjtmcGdxs');
         setNotification({ message: 'Your application is submitted', type: 'success' });
         setFormData({ name: '', email: '', phone: '', industry: '' });
       } catch (error) {

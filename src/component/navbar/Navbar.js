@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa'; // Using react-icons for hamburger and close icons
+import logo from '../../image/logo.png'
+// import { WhatsApp } from '@mui/icons-material';
+import whats from '../../image/whatsApp.png'
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,42 +39,43 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`fixed w-full z-10 transition-colors duration-300 ${scrolled ? 'bg-gray-800' : 'bg-transparent'}`}>
+    <nav className={`fixed w-full z-10 transition-colors duration-300 ${scrolled ? 'bg-white' : 'bg-transparent'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <div className="text-lg font-semibold text-white">vagravel traders</div>
+            <div className="text-lg font-bold text-white">
+              <img src={logo} alt='vajravel Traders'/>
+            </div>
           </div>
           <div className="md:hidden">
-            <button onClick={toggleMenu} className="text-gray-300 hover:text-white">
+            <button onClick={toggleMenu} className="text-black text-bold hover:text-white">
               {isOpen ? <FaTimes /> : <FaBars />}
             </button>
           </div>
           <div className="hidden md:flex items-center space-x-6">
-            <Link to="/" className="text-gray-300 hover:text-white" onClick={handleSubmenuItemClick}>Home</Link>
-            <button onClick={() => setSubmenuOpen(!submenuOpen)} className="text-gray-300 hover:text-white">Product</button>
-            <Link to="/about" className="text-gray-300 hover:text-white" onClick={handleSubmenuItemClick}>About</Link>
-            <Link to="/contact-us" className="text-gray-300 hover:text-white" onClick={handleSubmenuItemClick}>Contact Us</Link>
+            <Link to="/" className="text-black hover:text-gray-500 font-bold" onClick={handleSubmenuItemClick}>Home</Link>
+            <button onClick={() => setSubmenuOpen(!submenuOpen)} className="text-black hover:text-gray-500 font-bold">Product</button>
+            <Link to="/about" className="text-black hover:text-gray-500 font-bold" onClick={handleSubmenuItemClick}>About</Link>
+            <Link to="/contact-us" className="text-black hover:text-gray-500 font-bold" onClick={handleSubmenuItemClick}>Contact Us</Link>
           </div>
         <div className="hidden md:flex items-center space-x-4">
-            {/* <a href="https://facebook.com" className="text-gray-300 hover:text-white"><FaFacebook /></a>
-            <a href="https://whatsapp.com" className="text-gray-300 hover:text-white"><FaWhatsapp /></a>
-            <a href="https://instagram.com" className="text-gray-300 hover:text-white"><FaInstagram /></a> */}
-            <a href="#" class="fab fa-facebook fa-1x text-gray-300 hover:text-white  "></a>
-        <a href="#" class="fab fa-instagram fa-1x text-gray-300 hover:text-white"></a>
-        <a href="#" class="fab fa-whatsapp fa-1x text-gray-300 hover:text-white "></a>
+          
+  <a href="https://wa.me/9311668312" className="text-gray-300 hover:text-white" style={{ color: '#25D366' }}>
+  <img src={whats} style={{ maxWidth: '33px' }} />
+        </a>
+        <div className='font-bold'>9311668312</div>
           </div>
       </div>
         </div>
 
       {isOpen && (
-        <div className="md:hidden bg-gray-700">
+        <div className="md:hidden bg-white">
           <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
             <div className="py-8">
               <Link to="/" onClick={toggleMenu} className="block mb-4 text-gray-300 hover:text-white">Home</Link>
               <button onClick={() => setSubmenuOpen(!submenuOpen)} className="block mb-4 text-gray-300 hover:text-white">Product</button>
               {submenuOpen && (
-                  <div className="bg-gray-600 p-4">
+                  <div className="bg-white p-4">
                   <div>
                     <h3 className="text-lg font-semibold mb-4">Bitumen</h3>
                     <ul>
@@ -85,8 +90,11 @@ const Navbar = () => {
                     </ul>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold mb-4">Coal</h3>
+                    {/* <h3 className="text-lg font-semibold mb-4">Coal</h3> */}
                     <ul>
+                    <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/base-fuel" className="hover:text-gray-300">Base Fuel</Link></li>
+                    <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/import-diesel" className="hover:text-gray-300">Import Diesel</Link></li>
+                    <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/bio-diesel" className="hover:text-gray-300">Bio Diesel</Link></li>
                       <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/indian-coal" className="hover:text-gray-300">Indian Coal</Link></li>
                       <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/indonesian-coal" className="hover:text-gray-300">Indonesian Coal</Link></li>
                       <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/usa-coal" className="hover:text-gray-300">USA Coal</Link></li>
@@ -95,11 +103,11 @@ const Navbar = () => {
                     </ul>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold mb-4">Solvent</h3>
+                    {/* <h3 className="text-lg font-semibold mb-4">Solvent</h3> */}
                     <ul>
-                      <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/C9-solvent" className="hover:text-gray-300">C 9 Solvent</Link></li>
-                      <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/Toluene" className="hover:text-gray-300">Toluene</Link></li>
-                      <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/Benzene" className="hover:text-gray-300">Benzene</Link></li>
+                      <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/C9-solvent" className="hover:text-gray-500">C 9 Solvent</Link></li>
+                      <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/Toluene" className="hover:text-gray-500">Toluene</Link></li>
+                      <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/Benzene" className="hover:text-gray-500">Benzene</Link></li>
                       <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/C9-solvent" className="hover:text-gray-300">Glycol Ethers</Link></li>
                       <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/Toluene" className="hover:text-gray-300">Ketones</Link></li>
                       <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/Benzene" className="hover:text-gray-300">Methyle Alcohol</Link></li>
@@ -109,14 +117,14 @@ const Navbar = () => {
                     </ul>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold mb-4">Minerals</h3>
+                  
                     <ul>
-                      <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/C9-solvent" className="hover:text-gray-300">Mineral</Link></li>
-                      <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/Toluene" className="hover:text-gray-300">Lime Stone & Cement Grade</Link></li>
-                      <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/Benzene" className="hover:text-gray-300">Gypsum</Link></li>
-                      <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/C9-solvent" className="hover:text-gray-300">Pyroxenite</Link></li>
-                      <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/Toluene" className="hover:text-gray-300">Chrome ore</Link></li>
-                      <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/Benzene" className="hover:text-gray-300">Manganese ore</Link></li>
+                     
+                      <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/Toluene" className="hover:text-gray-500">Lime Stone & Cement Grade</Link></li>
+                      <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/Benzene" className="hover:text-gray-500">Gypsum</Link></li>
+                      <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/C9-solvent" className="hover:text-gray-500">Pyroxenite</Link></li>
+                      <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/Toluene" className="hover:text-gray-500">Chrome ore</Link></li>
+                      <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/Benzene" className="hover:text-gray-500">Manganese ore</Link></li>
                     </ul>
                   </div>
                 </div>
@@ -128,7 +136,7 @@ const Navbar = () => {
         </div>
       )}
 
-      <div className={`hidden md:block ${submenuOpen ? 'bg-gray-700' : ''}`}>
+      <div className={`hidden md:block ${submenuOpen ? 'bg-white' : ''}`}>
         {submenuOpen && (
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
@@ -145,8 +153,11 @@ const Navbar = () => {
             </ul>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-4">Coal</h3>
+            {/* <h3 className="text-lg font-semibold mb-4">Coal</h3> */}
             <ul>
+            <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/import-diesel" className="hover:text-gray-300">Import Diesel</Link></li>
+            <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/base-fuel" className="hover:text-gray-300">Base Fuel</Link></li>
+            <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/bio-diesel" className="hover:text-gray-300">Bio Diesel</Link></li>
               <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/indian-coal" className="hover:text-gray-300">Indian Coal</Link></li>
               <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/indonesian-coal" className="hover:text-gray-300">Indonesian Coal</Link></li>
               <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/usa-coal" className="hover:text-gray-300">USA Coal</Link></li>
@@ -155,7 +166,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-4">Solvent</h3>
+            {/* <h3 className="text-lg font-semibold mb-4">Solvent</h3> */}
             <ul>
               <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/C9-solvent" className="hover:text-gray-300">C 9 Solvent</Link></li>
               <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/Toluene" className="hover:text-gray-300">Toluene</Link></li>
@@ -169,9 +180,9 @@ const Navbar = () => {
             </ul>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-4">Minerals</h3>
+            {/* <h3 className="text-lg font-semibold mb-4">Minerals</h3> */}
             <ul>
-              <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/C9-solvent" className="hover:text-gray-300">Mineral</Link></li>
+           
               <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/Toluene" className="hover:text-gray-300">Lime Stone & Cement Grade</Link></li>
               <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/Benzene" className="hover:text-gray-300">Gypsum</Link></li>
               <li className="mb-2"onClick={handleSubmenuItemClick}><Link to="/C9-solvent" className="hover:text-gray-300">Pyroxenite</Link></li>

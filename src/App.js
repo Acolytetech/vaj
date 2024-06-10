@@ -92,12 +92,14 @@ function App() {
           <Route path="/petcoke" element={<Petcoke />} />
           <Route path="/Chrome-Ore" element={<Chromeore />} />
           <Route path="/manganese-ore" element={<Magnanceore />} />
-          <Route path="/abouts-us" element={<Aboutsus />} />
+          <Route path="/about" element={<Whoweare />} />
           <Route path="/who-we-are" element={<Whoweare />} />
           <Route path="/leadership" element={<Leadership />} />
           <Route path="/Xylene" element={<Xylene />} />
-          <Route path="/contactus" element={<Contactus />} />
+          <Route path="/contact-us" element={<Contactus />} />
           <Route path="/nhexane" element={<Nhexane />} />
+          <Route path="/Toluene" element={<Toluence/>} />
+         
         </Routes>
         <Footer />
       </div>

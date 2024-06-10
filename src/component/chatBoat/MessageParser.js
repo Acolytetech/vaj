@@ -1,21 +1,17 @@
-// MessageParser.js
-import React from 'react';
+class MessageParser {
+  constructor(actionProvider) {
+    this.actionProvider = actionProvider;
+  }
 
-const MessageParser = ({ children, actions }) => {
-  const parse = (message) => {
-    console.log(message);
-  };
+  parse(message) {
+    const lowerCaseMessage = message.toLowerCase();
 
-  return (
-    <div className='p-4'>
-      {React.Children.map(children, (child) => {
-        return React.cloneElement(child, {
-          parse: parse,
-          actions: actions,
-        });
-      })}
-    </div>
-  );
-};
+    if (lowerCaseMessage.includes("hello") || lowerCaseMessage.includes("hi")) {
+      this.actionProvider.handleGreeting();
+    } else {
+      this.actionProvider.handleUserQuery();
+    }
+  }
+}
 
 export default MessageParser;

@@ -1,105 +1,108 @@
-.chatboat-container {
-    max-width: 100%;
-    margin: 0 auto; /* Center the container */
-    padding: 1rem; /* Add some padding for better layout */
-  }
-  
+.chatbot-container {
+  max-width: 100%;
+  max-height: 600px;
+  margin: 0 auto; /* Center the container */
+  padding: 0rem;  /* Add some padding for better layout */
+}
+
+.chatbot-box {
+  max-width: 100%;
+  width: 100%; /* Adjust width to 100% */
+  height:550px ; /* Adjust height as needed */
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd; /* Add a border for better visibility */
+  border-radius: 10px; /* Add a rounded corner for a better look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  overflow: hidden; /* Ensure the content stays within the box */
+}
+
+.chatbot-content {
+  height: 300px;
+  flex-grow: 1;
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding-top:-100px;
+  /* padding: 1rem; */
+}
+
+.chatbot-icon {
+  width: 50px; /* Adjust size of the icon */
+  height: 50px; /* Adjust size of the icon */
+  margin: 10px; /* Add some margin for better layout */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+.chatbot-input {
+  width: 100%; /* Make the input field full-width */
+  padding: 10px; /* Add some padding for better layout */
+  border: none; /* Remove the default border */
+  border-radius: 10px; /* Add a rounded corner for a better look */
+  font-size: 16px; /* Adjust the font size */
+  text-align: center; /* Center the text input */
+}
+
+.cross-icon {
+  position: absolute; /* Position the cross icon absolutely */
+  top: 10px; /* Adjust the top position */
+  right: 10px; /* Adjust the right position */
+  font-size: 20px; /* Adjust the font size */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+  text-align: center; /* Center the cross icon */
+}
+
+/* Hide horizontal scrollbar */
+.chatbot-content::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar in WebKit browsers */
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
   .chatbot-box {
-    max-width: 100%;
-    width: 100%; /* Adjust width to 100% */
-    height: 500px; /* Adjust height as needed */
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #ddd; /* Add a border for better visibility */
-    border-radius: 10px; /* Add a rounded corner for a better look */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    width: 90%; /* Adjust the width for smaller screens */
+    height: 400px; /* Adjust the height for smaller screens */
   }
-  
+
   .chatbot-content {
-    flex-grow: 1;
-    overflow-y: auto; /* Enable vertical scrolling */
-    padding: 1rem;
+    padding: 0.5rem;
   }
-  
+
   .chatbot-icon {
-    width: 50px; /* Adjust size of the icon */
-    height: 50px; /* Adjust size of the icon */
-    margin: 10px; /* Add some margin for better layout */
-    cursor: pointer; /* Change the cursor to a pointer on hover */
+    width: 40px; /* Adjust size for smaller screens */
+    height: 40px; /* Adjust size for smaller screens */
   }
-  
+
   .chatbot-input {
-    width: 100%; /* Make the input field full-width */
-    padding: 10px; /* Add some padding for better layout */
-    border: none; /* Remove the default border */
-    border-radius: 10px; /* Add a rounded corner for a better look */
-    font-size: 16px; /* Adjust the font size */
-    text-align: center; /* Center the text input */
+    font-size: 14px; /* Adjust the font size for smaller screens */
   }
-  
+
   .cross-icon {
-    position: absolute; /* Position the cross icon absolutely */
-    top: 10px; /* Adjust the top position */
-    right: 10px; /* Adjust the right position */
-    font-size: 20px; /* Adjust the font size */
-    cursor: pointer; /* Change the cursor to a pointer on hover */
-    text-align: center; /* Center the cross icon */
+    font-size: 18px; /* Adjust the font size for smaller screens */
   }
-  
-  /* Hide horizontal scrollbar */
-  .chatbot-content::-webkit-scrollbar {
-    display: none; /* Hide the scrollbar in WebKit browsers */
+}
+
+@media (max-width: 480px) {
+  .chatbot-box {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    margin-left: 20px;
   }
-  
-  /* Media queries for responsiveness */
-  
-  @media (max-width: 768px) {
-   .chatbot-box {
-      width: 90%; /* Adjust the width for smaller screens */
-      height: 400px; /* Adjust the height for smaller screens */
-    }
-  
-   .chatbot-content {
-      padding: 0.5rem;
-    }
-  
-   .chatbot-icon {
-      width: 40px; /* Adjust size for smaller screens */
-      height: 40px; /* Adjust size for smaller screens */
-    }
-  
-   .chatbot-input {
-      font-size: 14px; /* Adjust the font size for smaller screens */
-    }
-  
-   .cross-icon {
-      font-size: 18px; /* Adjust the font size for smaller screens */
-    }
+
+  .chatbot-content {
+    padding: 0.2rem;
   }
-  
-  @media (max-width: 480px) {
-  
-    .chatbot-box {
-        width: 100%;
-        height: 300px;
-        margin: auto;
-        margin-left: 20px;
-    }
-  
-   .chatbot-content {
-      padding: 0.2rem;
-    }
-  
-   .chatbot-icon {
-      width: 30px; /* Adjust size for even smaller screens */
-      height: 30px; /* Adjust size for even smaller screens */
-    }
-  
-   .chatbot-input {
-      font-size: 12px; /* Adjust the font size for even smaller screens */
-    }
-  
-   .cross-icon {
-      font-size: 16px; /* Adjust the font size for even smaller screens */
-    }
+
+  .chatbot-icon {
+    width: 30px; /* Adjust size for even smaller screens */
+    height: 30px; /* Adjust size for even smaller screens */
   }
+
+  .chatbot-input {
+    font-size: 12px; /* Adjust the font size for even smaller screens */
+  }
+
+  .cross-icon {
+    font-size: 16px; /* Adjust the font size for even smaller screens */
+  }
+}
