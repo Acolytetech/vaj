@@ -20,12 +20,31 @@ const Benzene = () => {
           <h2 className="text-2xl font-bold mb-4">Benzene</h2>
           <p className="text-gray-700 mb-4">
           
-          Benzene is used in the production of styrene, polystyrene and synthetic rubber; phenol, a component in phenolic resins and adhesives; and cyclohexane, a precursor of caprolactam and adipic acid, both used in nylon production.
+          <ol className='list-decimal ml-10 p-4'>
+        <li><span className='font-bold'>Chemical Formula: </span>   C₆H₆.  </li>
+        <li><span className='font-bold'> Appearance:</span> Clear, colorless liquid with a sweet odor. </li>
+        <li><span className='font-bold'>Boiling Point: </span>  Approximately 80.1°C (176.2°F).   </li>
+        <li><span className='font-bold'> Density:</span>  About 0.876 g/cm³ at 20°C.   </li>
+        <li><span className='font-bold'> Solubility:   </span>Slightly soluble in water, highly soluble in organic solvents.    </li>
+        <li><span className='font-bold'> Flammability:</span>  Highly flammable with a flash point of -11.1°C (12°F).    </li>
+        <li><span className='font-bold'>Toxicity: </span> Carcinogenic, with significant health risks upon exposure.     </li>
+       
+        
+    </ol>
           
           </p>
           <h2 className="text-2xl font-bold mb-4"> USES</h2>
                   <p className="text-gray-700">
-                  Some industries use benzene to make other chemicals that are used to make plastics, resins, and nylon and synthetic fibers. Benzene is also used to make some types of lubricants, rubbers, dyes, detergents, drugs, and pesticides.
+                  <ol className='list-decimal ml-10 p-4'>
+        <li><span className='font-bold'>Chemical Manufacturing:</span>  Used to produce other chemicals such as styrene and phenol.  </li>
+        <li><span className='font-bold'>  Solvent:</span> Utilized in various industrial applications as a solvent </li>
+        <li><span className='font-bold'>Fuel Component: </span>  Added to gasoline to enhance octane levels.   </li>
+        <li><span className='font-bold'> Plastics and Resins:</span>  Essential in the production of plastics and resins.  </li>
+        <li><span className='font-bold'>Rubber:  </span> Used in the manufacture of rubber and synthetic fibers.    </li>
+       
+       
+        
+    </ol>
          </p>
              </div>
       </div>

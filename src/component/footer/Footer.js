@@ -8,13 +8,13 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="footer-content flex flex-wrap justify-between">
           <div className="quick-contact w-full md:w-1/3 mb-8 md:mb-0">
-            <h4 className="text-lg font-semibold mb-4 text-yello-500">Quick Contact</h4>
+            <h1 className="text-lg font-semibold mb-4 text-yello-500">Quick Contact</h1>
             <p className="mb-4">If you have any questions or <br/>need help, feel free to <br/> contact our team:</p>
             <p className="text-chocolate text-xl"><i className="fas fa-phone"></i> 9311668312</p>
             <p className="mt-4"><strong>Address:</strong> Saberi, Noida Extension, <br/>Gautam Budha Nagar,<br/> Uttar Pradesh-201305</p>
           </div>
           <div className="links w-full md:w-1/3 mb-8 md:mb-0">
-            <h4 className="text-lg font-semibold mb-4 text-yellow-500">Company</h4>
+            <h1 className="text-lg font-semibold mb-4 ">Company</h1>
             <ul>
               <li className="mb-2"><a href="/about" className="text-gray-600 hover:text-gray-800">About Us</a></li>
               <li className="mb-2"><a href="/team" className="text-gray-600 hover:text-gray-800">Meet Our Team</a></li>
@@ -25,7 +25,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="subscribe w-full md:w-1/3">
-            <h4 className="text-lg font-semibold mb-4 text-yellow-500">Sign up for industry alerts</h4>
+            <h1 className="text-lg font-semibold mb-4 ">Sign up for industry alerts</h1>
             <p className="mb-4">Receive our latest news, thoughts, and insights from Koira.</p>
             <form>
               <input

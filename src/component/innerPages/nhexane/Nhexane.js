@@ -22,14 +22,26 @@ const Nhexane = () => {
                   <h2 className="text-2xl font-bold mb-4 ">N-Hexane</h2>
                   
                   <p className="text-gray-700 mb-4">
-                  Phenols are typically colorless or faintly colored liquids or solids with characteristic odors. They have higher boiling points and lower solubility in water compared to alcohols of similar molecular weight due to hydrogen bonding between phenol molecules.
+                  <ol className='list-decimal ml-10 p-4'>
+        <li><span className='font-bold'>Chemical Formula: </span>   C₆H₁₄. </li>
+        <li><span className='font-bold'> Appearance:</span> Clear, colorless liquid with a mild odor. </li>
+        <li><span className='font-bold'>Boiling Point: </span> Approximately 68.7°C (155.7°F).</li>
+        <li><span className='font-bold'>  Density: </span>About 0.66 g/cm³ at 20°C. </li>
+        <li><span className='font-bold'>Solubility: </span> Insoluble in water, soluble in organic solvents. </li>
+        <li><span className='font-bold'>  Flammability: </span>Highly flammable with a flash point around -22°C (-8°F).  </li>
+        <li><span className='font-bold'> Toxicity:</span>  Neurotoxic, can cause nerve damage with prolonged exposure.   </li>
+        
+    </ol>
                </p>
           <h2 className="text-2xl font-bold mb-4"> USES</h2>
                   <p className="text-gray-700">
-                  Phenols have a wide range of industrial applications, including as disinfectants, antiseptics, and preservatives due to their antimicrobial properties.
-They are used in the production of plastics, resins, and adhesives, as well as in the synthesis of pharmaceuticals, dyes, and fragrances.
-Phenols are also important intermediates in organic synthesis, serving as building blocks for the preparation of various organic compounds.
-
+                  <ol className='list-decimal ml-10 p-4'>
+        <li><span className='font-bold'> Solvent: </span> Used in the extraction of vegetable oils from seeds.   </li>
+        <li><span className='font-bold'>  Industrial Cleaning: </span> Effective in cleaning and degreasing applications. </li>
+        <li><span className='font-bold'>Adhesives:</span>  Utilized in the formulation of adhesives and sealants.   </li>
+        <li><span className='font-bold'> Chemical Synthesis:  </span> Acts as a reagent in chemical reactions.     </li>
+        <li><span className='font-bold'>  Electronics:</span>  Used in the electronics industry for cleaning and manufacturing.   </li>
+    </ol>
                   </p>
              </div>
       </div>

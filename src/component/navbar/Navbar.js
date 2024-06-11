@@ -44,7 +44,12 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="text-lg font-bold text-white">
-              <img src={logo} alt='vajravel Traders'/>
+            <Link to="/" className="text-black hover:text-gray-500 font-bold" onClick={handleSubmenuItemClick}>
+            <img src={logo} alt='vajravel Traders'/>
+            
+            </Link>
+
+              {/* <img src={logo} alt='vajravel Traders'/> */}
             </div>
           </div>
           <div className="md:hidden">

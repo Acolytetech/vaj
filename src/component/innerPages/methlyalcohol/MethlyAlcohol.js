@@ -22,14 +22,28 @@ const Methylalcohol = () => {
        
           <h2 className="text-2xl font-bold mb-4 ">Methyl Alcohol</h2>
           <p className="text-gray-700 mb-4">
-          Methanol is primarily produced from natural gas, but it can also be produced from renewable sources such as biomass. The production process typically involves synthesis gas (syngas) production followed by catalytic conversion of syngas to methanol.
+          <ol className='list-decimal ml-10 p-4'>
+        <li><span className='font-bold'>Chemical Formula: </span>  CH₃OH. </li>
+        <li><span className='font-bold'> Appearance:</span>  Clear, colorless liquid.  </li>
+        <li><span className='font-bold'>Boiling Point: </span> Approximately 64.7°C (148.5°F). </li>
+        <li><span className='font-bold'>  Density: </span>About 0.7918 g/cm³ at 20°C.   </li>
+        <li><span className='font-bold'>Solubility: </span>  Miscible with water and many organic solvents. </li>
+        <li><span className='font-bold'>  Flammability: </span>Highly flammable with a flash point of 11°C (52°F).</li>
+        <li><span className='font-bold'> Toxicity:</span> Highly toxic, can cause blindness and death if ingested.  </li>
+        
+    </ol>
              </p>
           <h2 className="text-2xl font-bold mb-4"> USES</h2>
                   <p className="text-gray-700">
-                  Methanol is widely used as a solvent in various industries, including paints, coatings, adhesives, and cleaning products.
-It is a precursor chemical in the production of formaldehyde, acetic acid, and other chemicals.
-Methanol is used as a fuel or fuel additive, particularly in racing cars, marine engines, and certain types of fuel cells.
-It is also used in the production of biodiesel and as a denaturant for ethanol.
+                  <ol className='list-decimal ml-10 p-4'>
+        <li><span className='font-bold'>Solvent: </span>  Commonly used in industrial and laboratory applications.  </li>
+        <li><span className='font-bold'>  Fuel:</span> Used as a fuel and fuel additive. </li>
+        <li><span className='font-bold'>Antifreeze: </span>  Component in antifreeze and windshield washer fluid.   </li>
+        <li><span className='font-bold'> Chemical Feedstock: </span> Used in the production of formaldehyde and other chemicals.    </li>
+        <li><span className='font-bold'> Pharmaceuticals: </span> Utilized in the manufacture of pharmaceuticals and medical products.    </li>
+       
+        
+    </ol>
 
                   </p>
              </div>

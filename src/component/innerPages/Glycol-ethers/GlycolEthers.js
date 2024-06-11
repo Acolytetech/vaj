@@ -23,13 +23,30 @@ const GlycolEthers = () => {
        
           <h2 className="text-2xl font-bold mb-4">Glycol Ethers</h2>
           <p className="text-gray-700 mb-4">
-          
-          Benzene is used in the production of styrene, polystyrene and synthetic rubber; phenol, a component in phenolic resins and adhesives; and cyclohexane, a precursor of caprolactam and adipic acid, both used in nylon production.
+          <ol className='list-decimal ml-10 p-4'>
+        <li><span className='font-bold'> Composition:</span> Composed of ether and alcohol functional groups.   </li>
+        <li><span className='font-bold'> Types:</span> Includes ethylene glycol ethers and propylene glycol ethers. </li>
+        <li><span className='font-bold'>Appearance: </span>  Clear, colorless liquids.   </li>
+        <li><span className='font-bold'>Boiling Point:</span>   Varies depending on specific glycol ether.   </li>
+        <li><span className='font-bold'>Solubility:  </span>  Soluble in water and most organic solvents.     </li>
+        <li><span className='font-bold'> Odor: </span>  Mild, pleasant odor.    </li>
+        <li><span className='font-bold'> Toxicity: </span> Generally low toxicity, but can cause irritation and CNS effects with high exposure.      </li>
+       
+       
+        
+    </ol>
           
           </p>
           <h2 className="text-2xl font-bold mb-4"> USES</h2>
                   <p className="text-gray-700">
-                  Some industries use benzene to make other chemicals that are used to make plastics, resins, and nylon and synthetic fibers. Benzene is also used to make some types of lubricants, rubbers, dyes, detergents, drugs, and pesticides.
+                  <ol className='list-decimal ml-10 p-4'>
+        <li><span className='font-bold'>  Composed of ether and alcohol functional groups. Solvent:</span> Used in paints, inks, and coatings for its solvent properties.   </li>
+        <li><span className='font-bold'> Cleaning:</span>  Effective in industrial and household cleaning products. </li>
+        <li><span className='font-bold'>Personal Care:</span>   Ingredient in cosmetics and personal care products.    </li>
+        <li><span className='font-bold'>  Automotive:</span> Used in brake fluids and anti-freeze formulations.   </li>
+        <li><span className='font-bold'>  Electronics: </span> Utilized in the manufacturing of electronics and semiconductors.  </li>
+    </ol>
+                 
          </p>
              </div>
       </div>

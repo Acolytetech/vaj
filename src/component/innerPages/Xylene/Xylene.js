@@ -22,13 +22,26 @@ const Xylene = () => {
                   <h2 className="text-2xl font-bold mb-4 ">Xylene</h2>
                   
                   <p className="text-gray-700 mb-4">
-                  Phenols are typically colorless or faintly colored liquids or solids with characteristic odors. They have higher boiling points and lower solubility in water compared to alcohols of similar molecular weight due to hydrogen bonding between phenol molecules.
+                  <ol className='list-decimal ml-10 p-4'>
+        <li><span className='font-bold'>Chemical Formula: </span>   C₈H₁₀.</li>
+        <li><span className='font-bold'> Appearance:</span>White crystalline solid or clear, colorless liquid. Includes ortho-xylene, meta-xylene, and para-xylene. </li>
+        <li><span className='font-bold'>Boiling Point: </span> Varies with isomer (e.g., p-xylene: 138.4°C).  </li>
+        <li><span className='font-bold'>  Density: </span> About 0.86 g/cm³ at 20°C.  </li>
+        <li><span className='font-bold'>Solubility: </span>  Insoluble in water, soluble in organic solvents.   </li>
+        <li><span className='font-bold'>  Flammability: </span>Highly flammable with a flash point around 27°C (81°F).</li>
+      
+        
+    </ol>
                </p>
           <h2 className="text-2xl font-bold mb-4"> USES</h2>
                   <p className="text-gray-700">
-                  Phenols have a wide range of industrial applications, including as disinfectants, antiseptics, and preservatives due to their antimicrobial properties.
-They are used in the production of plastics, resins, and adhesives, as well as in the synthesis of pharmaceuticals, dyes, and fragrances.
-Phenols are also important intermediates in organic synthesis, serving as building blocks for the preparation of various organic compounds.
+                  <ol className='list-decimal ml-10 p-4'>
+        <li><span className='font-bold'> Solvent: </span> Widely used in paints, coatings, and adhesives.    </li>
+        <li><span className='font-bold'>  Chemical Feedstock: </span> Used in the production of terephthalic acid for PET plastics.   </li>
+        <li><span className='font-bold'>Printing: </span>  Utilized in the printing industry for inks and dyes.   </li>
+        <li><span className='font-bold'> Rubber and Leather:  </span> Used in the production of rubber and leather goods.     </li>
+        <li><span className='font-bold'>  Laboratory: </span> Commonly used as a solvent in laboratory settings.   </li>
+    </ol>
 
                   </p>
              </div>

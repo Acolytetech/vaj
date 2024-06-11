@@ -47,12 +47,13 @@ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Gb
     
   }
   
-  h4 {
+  .font-semibold {
     font-size: 1.2rem;
     margin-bottom: 1rem;
     font-weight: 600;
-    color: chocolate;
+    color: white;
     width: fit-content;
+    /* border-bottom: white solid ; */
   }
   
   ul {
@@ -93,7 +94,7 @@ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Gb
   }
   
   .subscribe button {
-    background-color:chocolate;
+    background-color:rgb(228, 132, 8);
     color:white;
     border: none;
     padding: 0.5rem 1rem;
@@ -103,8 +104,8 @@ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Gb
   }
   
   .subscribe button:hover {
-    background-color: #ddd;
-    color: chocolate;
+    background-color:white;
+    color:rgb(228, 132, 8);
   }
   
   .footer-bottom {

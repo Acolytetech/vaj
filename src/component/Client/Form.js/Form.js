@@ -71,7 +71,7 @@ function Form() {
           <img src={form} alt="Form" className="w-full h-full object-cover" />
         </div>
         <div className="w-full md:w-1/2 p-8">
-          <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
+          <h1 className="text-2xl font-bold mb-4">Contact Us</h1>
           <form className="space-y-4" onSubmit={handleSubmit}>
             <div>
               <label className="block text-sm font-medium text-gray-700">Name</label>
