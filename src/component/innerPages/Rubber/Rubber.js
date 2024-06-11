@@ -24,13 +24,32 @@ const Rudder = () => {
         <div className="md:w-2/2 p-6 flex flex-col justify-center">
           <h2 className="text-2xl font-bold mb-4">RUBBER PROCESS OIL</h2>
           <p className="text-gray-700 mb-4">
-          
-Rubber processing oil or naphthenic oil as it is called, is used during the mixing of rubber compounds. It is also used to produce products from a rubber band, huge and even small toys. The rubber process oil that we sell at Myriro is an oil composition with a kinematic viscosity at 100 °C and contains less than 3% Polynuclear aromatic compounds.
-They are further processed as process oil for rubber compounds, incredibly aromatic rubbers. Rubber process oil is used throughout a mix of rubber compounds. Get the best rubber process oil at Myriro at wholesale prices from the best wholesalers from Vadodara.
+          <ol className='list-decimal ml-10 p-4'>
+        <li><span className='font-bold'>  Composition: </span>  Mixture of aromatic, naphthenic, and paraffinic hydrocarbons.     </li>
+        <li><span className='font-bold'> Types:</span> Includes aromatic, paraffinic, and naphthenic oils.   </li>
+        <li><span className='font-bold'>Appearance:</span>   Varies from light yellow to dark brown.    </li>
+        <li><span className='font-bold'> Viscosity: </span>  Medium to high viscosity.    </li>
+        <li><span className='font-bold'> Boiling Point:</span>  High boiling range, ensuring stability at processing temperatures  </li>
+        <li><span className='font-bold'>Compatibility:</span>  Compatible with various types of rubber polymers.     </li>
+        <li><span className='font-bold'>  Properties:</span>  Improves flexibility, durability, and processing of rubber compounds.     </li>
+
+        
+    </ol>
+
           </p>
           <h2 className="text-2xl font-bold mb-4">uses</h2>
           <p className="text-gray-700">
-          Rubber process oil products are used as a component in rubber formulations for the manufacturing of rubber products Such products are tires, rubber bands, hoses, rubber shock absorbers, footwears, wire and cable coverings, flooring materials, solvents in the production of adhesives, sealants, polishes and many more.
+          <ol className='list-decimal ml-10 p-4'>
+        <li><span className='font-bold'>  Rubber Manufacturing: </span>  Essential in the production of rubber products like tires and hoses.     </li>
+        <li><span className='font-bold'> Plasticizer:</span>  Acts as a plasticizer in rubber compounding. </li>
+        <li><span className='font-bold'>Softening Agent:</span>   Enhances the softness and workability of rubber.     </li>
+        <li><span className='font-bold'> Viscosity: </span>  Medium to high viscosity.    </li>
+        <li><span className='font-bold'> Boiling Point:</span>  High boiling range, ensuring stability at processing temperatures  </li>
+        <li><span className='font-bold'>Extender Oil:</span>   Used to extend the rubber polymer and reduce costs.     </li>
+        <li><span className='font-bold'>  Industrial Products: </span>  Utilized in making industrial rubber products like belts and gaskets.      </li>
+
+        
+    </ol>
           </p>
         </div>
       </div>

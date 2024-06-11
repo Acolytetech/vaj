@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.aboutcard-section{
+    width: 100%;
+    /* max-height: fit-content; */
+    display: flex;
+    flex-wrap: wrap;
+    /* outline: auto; */
+    background-color: rgb(19, 19, 18);
+    padding: 30px;
+}
+.aboutcardimg{
+    width: 50%;
+    padding: 35px 0px 30px 30px;
+    /* height: 40px; */
+    /* outline: auto; */
+}
+.aboutcardimg img{
+    width: 100%;
+    height: 750px;
+
+}
+.aboutcardcontent{
+    width: 50%;
+    /* height: 450px; */
+    /* outline: auto; */
+    text-align: justify;
+    padding: 50px;
+    color: white;
+}
+.aboutcardcontent p h1{
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.aboutcardcontent p span{
+    line-height: 20px;
+    margin-top: 200px;
+}
+.ourteamimg{
+    width: 100%;
+    height: 950px;
+    margin: auto;
+    /* height: fit-content; */
+    position: relative;
+    z-index: 1;
+    padding: auto;
+    /* margin-bottom: 200px; */
+    background-color: black;
+    overflow-y: visible;
+
+}
+.ourteamimg img{
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    scale: 1;
+    transition: 3s;
+    top: -100px;
+z-index: -1;
+}
+/* .ourteamimg:Hover img{
+    
+    scale:1;
+    transition: 3s;
+} */
+.ourteamcontent{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    /* background-color: aqua; */
+
+    flex-wrap: wrap;
+   top:400px;
+   left:10%;
+
+    
+}
+.sec1{
+
+    text-align: center;
+    margin: 5%;
+    width: 40%;
+    height: 450;
+    background-color: rgb(43, 39, 39);
+    color: white;
+    border: solid 2px white ;
+    padding-top: 70px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    
+}
+.sec1 h2{
+    font-weight: 800;
+    color: rgb(237, 164, 6);
+}
+.sec1 p{
+    margin: 30px;
+    line-height: 30px;
+}
+@media only screen and (max-width: 768px) {
+    .aboutspage, .aboutspage img{
+        width: 100%;
+        height: 200px;
+
+    }
+    .aboutcardimg,
+    .aboutcardcontent {
+        width: 100%; /* Full width on smaller screens */
+        height: fit-content;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .ourteamcontent {
+        top: 200px; /* Adjust as needed */
+        margin: 0;
+        padding: 0;
+    }
+    
+    .sec1 {
+        width: 90%; /* Adjust as needed */
+    }
+    .aboutcard-section{
+        width: 100%;
+        /* max-height: fit-content; */
+        display: flex;
+        flex-wrap: wrap;
+        /* outline: auto; */
+        background-color: rgb(19, 19, 18);
+        padding: 30px;
+    }
+    .aboutcardimg{
+        width: 100%;
+        padding: 35px 0px 30px 30px;
+        /* height: 40px; */
+        /* outline: auto; */
+    }
+    .aboutcardimg img{
+        width: 100%;
+        height: 750px;
+    
+    }
+    .aboutcardcontent{
+        width: 100%;
+        /* height: 450px; */
+        /* outline: auto; */
+        text-align: justify;
+        padding: 50px;
+        color: white;
+    }
+    .aboutcardcontent p h1{
+        line-height: 30px;
+        font-size: 10px;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+    .aboutcardcontent p span{
+        line-height: 20px;
+        margin-top: 200px;
+    }
+    .ourteamimg{
+        width: 100%;
+        height: 950px;
+        margin: auto;
+        /* height: fit-content; */
+        position: relative;
+        z-index: 1;
+        padding: auto;
+        /* margin-bottom: 200px; */
+        background-color: black;
+        overflow-y: visible;
+    
+    }
+    .ourteamimg img{
+        width: 90%;
+        height: 600px;
+        margin: auto;
+        scale: 1;
+        transition: 3s;
+        top: -100px;
+    z-index: -1;
+    }
+    /* .ourteamimg:Hover img{
+        
+        scale:1;
+        transition: 3s;
+    } */
+    .ourteamcontent{
+        width: 80%;
+        height: 500px;
+        margin: auto;
+        display: flex;
+        position: absolute;
+        /* background-color: aqua; */
+    
+        flex-wrap: wrap;
+       top:400px;
+       left:10%;
+    
+        
+    }
+    .sec1{
+    
+        text-align: center;
+        margin: 5%;
+        width: 40%;
+        height: 450;
+        background-color: rgb(43, 39, 39);
+        color: white;
+        border: solid 2px white ;
+        padding-top: 70px;
+        margin-bottom: 30px;
+        border-radius: 30px;
+        
+    }
+    .sec1 h2{
+        font-weight: 800;
+        color: rgb(237, 164, 6);
+    }
+    .sec1 p{
+        margin: 30px;
+        line-height: 30px;
+    }
+}

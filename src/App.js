@@ -92,8 +92,8 @@ function App() {
           <Route path="/petcoke" element={<Petcoke />} />
           <Route path="/Chrome-Ore" element={<Chromeore />} />
           <Route path="/manganese-ore" element={<Magnanceore />} />
-          <Route path="/about" element={<Whoweare />} />
-          <Route path="/who-we-are" element={<Whoweare />} />
+          <Route path="/about" element={<Aboutsus />} />
+          {/* <Route path="/who-we-are" element={<Whoweare />} /> */}
           <Route path="/leadership" element={<Leadership />} />
           <Route path="/Xylene" element={<Xylene />} />
           <Route path="/contact-us" element={<Contactus />} />

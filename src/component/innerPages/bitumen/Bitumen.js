@@ -14,29 +14,36 @@ const Bitumen = () => {
                 <div className="md:w-2/2 p-6 flex flex-col justify-center">
                 <img src={rubber1} alt='bitumen'/>
 
-                    <h2 className="text-2xl font-bold mb-4">Bitumen</h2>
+                    <h2 className="text-2xl font-bold mt-2">Bitumen</h2>
                     <p className="text-gray-700 mb-4">
-                    Bitumen, which is a versatile substance formed from crude oil, is sometimes referred to as tar oil or asphalt. It is made up of complex hydrocarbons and may contain iron, calcium, sulfur, oxygen, and other components. The kind and source of the crude oil used to make bitumen determine its quality and usability. Because bitumen has adhesive and waterproofing qualities, it has historically been used to bond building materials and line the bottoms of ships. Bitumen is utilized in many different systems, parts, and constructions nowadays.
+                   <ol className='list-decimal ml-6'>
+                    <li><span className='font-bold'>Composition:</span> Primarily composed of complex hydrocarbons, including alkanes, cycloalkanes, and aromatic compounds. </li>
 
-V10, V20, V30, and V40 features
-The terms V10, V20, V30, and V40 usually relate to bitumen's viscosity grades, which specify its particular usage in various applications. These are a few typical applications for
+<li><span className='font-bold'>Physical State:</span> Solid or semi-solid at room temperature, with a black or dark brown color. </li>
 
-                       <ul>
-                        <h3>VARITIES:-</h3>
-                        <li>V10</li>
-                        <li>V20</li>
-                        <li>V30</li>
-                        <li>V40</li>
-                       </ul>
-                       
-                       
-                        
+<li><span className='font-bold'>Physical State:</span> Highly viscous, with the ability to soften when heated and harden when cooled. </li>
+
+<li><span className='font-bold'>Source:</span> Derived from the distillation of crude oil during the refining process. </li>
+
+<li><span className='font-bold'>Types:</span> Includes penetration grade, oxidized bitumen, cutback bitumen, and bitumen emulsions. </li>
+
+<li><span className='font-bold'>Properties:</span> Water-resistant, adhesive, and durable with good aging resistance. </li>
+
+<li><span className='font-bold'>Environmental Impact:</span> Non-toxic in its solid form but can emit hazardous fumes when heated. </li>
+                   </ol> 
                     </p>
                     <h2 className="text-2xl font-bold mb-4">Uses</h2>
                     <p className="text-gray-700">
-                    Multiple systems, components, and structures are constructed and operated on using bitumen, including the following
-                    Uses for Bitumen
-The product may be used in many modern ways. It is widely employed in road paving and is primarily intended to feed industrial application. The majority of roads in the United States are composed of bitumen or bitumen mixed with aggregates, like concrete.
+               <ol className='list-decimal ml-6'>
+                <li><span className='font-bold'>Road Construction:</span> Primary use in asphalt concrete for paving roads, runways, and parking lots. </li>
+                <li><span className='font-bold'>Waterproofing:</span> Used in roofing and waterproofing applications for buildings and structures. </li>
+
+<li><span className='font-bold'>Insulation:</span> Acts as a soundproofing and insulating material in construction. </li>
+
+<li><span className='font-bold'>Sealant: </span>Effective as a sealant for joints and cracks in structures. </li>
+
+<li><span className='font-bold'>Industrial Applications: </span>Utilized in the production of bituminous paints and coatings. </li>
+               </ol>
                     </p>
                 </div>
             </div>

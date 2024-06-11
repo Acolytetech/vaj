@@ -17,23 +17,28 @@ const Miniral = () => {
                 <div className="md:w-2/2 p-6 flex flex-col justify-center">
                     <h2 className="text-2xl font-bold mb-4">Mineral Turpentine Oil</h2>
                     <p className="text-gray-700 mb-4">
-                    Spirit of turpentine, or just plain turpentine, is another name for the liquid that is produced by distilling resin that is collected from live trees, mostly pines. The oil has a distinct smell and is made up of terpenes, primarily alpha- and beta-pinene. Owing to its medicinal effects and solvent characteristics, it has been utilized for millennia in a variety of applications.
-                    <p>
-                    Turpentine is useful in many industrial applications because it works well as a solvent for oils, resins, and waxes.
-                    <h1 style={{fontSize:'1.2rem',lineHeight:'3rem',fontWeight:'600'}}>Aromatic:</h1> It has a strong, unique smell, which is both a quality and a useful attribute in some situations.
-Turpentine oil evaporates fast at room temperature due to its high volatility.
-<h1 style={{fontSize:'1.2rem',lineHeight:'3rem',fontWeight:'600'}}>Flammable:</h1> Turpentine needs to be handled carefully since it is extremely flammable due to its volatile nature.
-                    </p>
+                    <ol className='list-decimal ml-10 p-4'>
+        <li><span className='font-bold'> UComposition: </span>  Primarily composed of aliphatic hydrocarbons.    </li>
+        <li><span className='font-bold'> Appearance:</span>  Clear, colorless liquid.     </li>
+        <li><span className='font-bold'>Boiling Range:</span>  Typically between 140°C and 200°C.    </li>
+        <li><span className='font-bold'> Solubility:</span> Insoluble in water but soluble in organic solvents.   </li>
+
+        <li><span className='font-bold'> Odor: </span>Characteristic mild odor.     </li>
+        <li><span className='font-bold'> Flammability:</span> Flammable with a flash point around 31°C (87.8°F).      </li>
+        <li><span className='font-bold'> Toxicity:</span> Can cause irritation and dizziness upon prolonged exposure.      </li>
+        
+    </ol>
                     </p>
                     <h2 className="text-2xl font-bold mb-4">Uses</h2>
                     <p className="text-gray-700">
-                    Turpentine is frequently used as a paint thinner and solvent for oil-based paints, varnishes, and lacquers. It facilitates component dissolution and mixing, enhancing finish and application.
+                    <ol className='list-decimal ml-10 p-4'>
+        <li><span className='font-bold'>  Cleaning Agent: </span>  Effective in cleaning and degreasing applications.     </li>
+        <li><span className='font-bold'> Solvent:</span>  Used in the formulation of various industrial solvents.   </li>
+        <li><span className='font-bold'>Polish and Waxes:</span>   Component in furniture polish and waxes.    </li>
+        <li><span className='font-bold'> Printing Ink:</span>  Utilized in the printing industry for ink formulation.    </li>
 
-                    <h1 style={{fontSize:'1.2rem',lineHeight:'3rem',fontWeight:'600'}}>Cleaning Agent:</h1> Turpentine works well as a solvent to clean brushes, rollers, and other painting equipment. Tar and adhesive residues are also removed using it.
-
-                    <h1 style={{fontSize:'1.2rem',lineHeight:'3rem',fontWeight:'600'}}>Applications in Medicine:</h1> Turpentine oil has long been used, albeit sparingly, to treat a variety of illnesses. It was once used to cure ailments including rheumatism and muscular soreness. Because of its antibacterial and anti-inflammatory qualities, it has been administered topically. However, because safer substitutes are now available, its usage in contemporary medicine has decreased.
-
-Aromatherapy and Fragrances: Turpentine oil is occasionally utilized in
+        
+    </ol>
                     </p>
                 </div>
             </div>

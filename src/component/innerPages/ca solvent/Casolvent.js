@@ -24,31 +24,23 @@ const Casolvent = () => {
     <br/> 
     Casolvent is applied in the construction and maintenance of many structures, systems, and components, such as the following:
     <ol className='list-decimal ml-10 p-4'>
-        <li>Roads and Highways: Used extensively in the construction of roads, highways, and runways due to its durability and resistance to traffic loads.</li>
-        <li>Roofing: Employed in the manufacture of roofing materials like shingles and roofing felt, providing waterproofing and protection.</li>
-        <li>Pavement Preservation: Ideal for surface dressing, micro-surfacing, and other pavement preservation treatments.</li>
-        <li>Industrial Coatings: Used to produce protective coatings for metal surfaces to prevent corrosion.</li>
-        <li>Pipe Coating: Provides a protective layer for pipelines, especially in the oil and gas industry, to prevent corrosion and damage.</li>
-        <li>Soundproofing: Applied in soundproofing materials to reduce noise levels in buildings and vehicles.</li>
-        <li>Marine Construction: Utilized in the construction and maintenance of marine structures due to its resistance to water and salt.</li>
-        <li>Mastic Asphalt: Used in flooring, roofing, and waterproofing applications where a durable and waterproof material is needed.</li>
-        <li>Waterproof Membranes: Essential for creating waterproof membranes for bridges, tunnels, and other infrastructure projects.</li>
-        <li>Cement Production: Mixed with cement to enhance its properties for specific construction needs.</li>
-        <li>Adhesives: Serves as an adhesive in building and construction materials, particularly in areas exposed to water.</li>
-        <li>Sealants: Employed in sealant applications for roads, pavements, and other surfaces.</li>
-        <li>Pavement and Concrete Joints: Used to seal joints in pavements and concrete structures, ensuring longevity and resistance to weather conditions.</li>
+        <li><span className='font-bold'>Chemical Name: </span>Cyclohexane, also known as hexahydrobenzene. </li>
+        <li><span className='font-bold'>Appearance:</span> Clear, colorless liquid with a distinct odor. </li>
+        <li><span className='font-bold'>Boiling Point:</span> Around 80.74°C (177.33°F) .</li>
+        <li><span className='font-bold'>Solubility:</span> Insoluble in water but soluble in most organic solvents.</li>
+        <li><span className='font-bold'>Flammability:</span> Highly flammable with a flash point of -20°C (-4°F). </li>
+        <li><span className='font-bold'>Density:</span> Approximately 0.778 g/cm³. </li>
+        <li><span className='font-bold'>Toxicity:</span> Can cause dizziness, headache, and nausea upon inhalation. </li>
+        
     </ol>
-    Casolvent is a byproduct of crude oil. It is composed of complex hydrocarbons and contains elements like calcium, iron, sulfur, and oxygen. The quality of the material and ease of production depend on the source and type of crude oil from which it is derived. It was first used for its natural adhesive and waterproofing characteristics, helping to bind building materials together, as well as to line ship bottoms.
-    <br/>
-
-
-                        
-                    </p>
+                       </p>
                     <h2 className="text-2xl font-bold mb-4">Uses</h2>
                     <p className="text-gray-700">
-                    Casolvent is applied in the construction and maintenance of many structures, systems, and components, such as the following
-                    Casolvent Uses
-The product has several modern uses. It's generally meant for industrial use and is commonly found in road paving. The majority of U.S. roads are made of either Casolvent or a combination of Casolvent and aggregates, such as concrete.
+                  <li><span className='font-bold'>Solvent: </span> Commonly used as a solvent in chemical synthesis and industrial processes.  </li>
+                  <li><span className='font-bold'>Paint and Coatings:</span>  Utilized in the manufacture of varnishes, paints, and coatings.  </li>
+                  <li><span className='font-bold'>Adhesives:</span> Adhesives: Used in adhesive formulations for its solvent properties.    </li>
+                  <li><span className='font-bold'>Rubber and Plastics: </span> Employed in the production of rubber and plastic materials.   </li>
+                  <li><span className='font-bold'>Laboratory Use:</span>  Serves as a solvent in laboratory settings for chemical reactions and extractions.  </li>
                     </p>
                 </div>
             </div>

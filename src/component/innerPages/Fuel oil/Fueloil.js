@@ -20,13 +20,29 @@ const Fueloil = () => {
           
  
           Fuel oil is a kind of fuel that is obtained by the distillation of petroleum. It is frequently used to power and heat many kinds of engines, especially in industrial settings and to heat houses. Fuel oil comes in a variety of grades, from light to heavy, with varying viscosities and energy contents. Fuel oil is frequently used in boilers, furnaces, and power plants to produce heat and electricity.
-
-<h3>Make-Up</h3>
-The precise composition of fuel oil varies based on the quality and source of the crude oil, which is made up of a variety of hydrocarbons. Long-chain hydrocarbons, aromatic chemicals, and maybe metals, nitrogen, and sulfur are among its constituents. These contaminants may have an impact on the fuel's efficiency and emissions.
+          <ol className='list-decimal ml-10 p-4'>
+        <li><span className='font-bold'>Composition: </span>  Mixture of hydrocarbons, primarily alkanes, cycloalkanes, and aromatic compounds. . </li>
+        <li><span className='font-bold'> Grades:</span> Includes various grades such as heavy fuel oil (HFO) and light fuel oil (LFO).  </li>
+        <li><span className='font-bold'>Density:</span> Varies with grade, generally denser than water.  </li>
+        <li><span className='font-bold'>Viscosity:</span>  Medium to high viscosity, depending on the grade.  </li>
+        <li><span className='font-bold'>Sulfur Content:</span> Can contain varying levels of sulfur.  </li>
+        <li><span className='font-bold'> Color: </span> Ranges from yellowish to dark brown. </li>
+        <li><span className='font-bold'> Storage and Handling:</span>  Requires special handling and storage due to its flammable nature. </li>
+        
+    </ol>
+          
           </p>
           <h2 className="text-2xl font-bold mb-4">Uses</h2>
           <p className="text-gray-700">
-          Rubber process oil products are used as a component in rubber formulations for the manufacturing of rubber products Such products are tires, rubber bands, hoses, rubber shock absorbers, footwears, wire and cable coverings, flooring materials, solvents in the production of adhesives, sealants, polishes and many more.
+          <ol className='list-decimal ml-10 p-4'>
+        <li><span className='font-bold'> Heating: </span>  Widely used in heating applications for industrial and residential buildings.  </li>
+        <li><span className='font-bold'> Power Plants:</span>  Fuels turbines and engines for electricity generation.   </li>
+        <li><span className='font-bold'>Marine Fuel:</span>  Used in ships and large marine vessels.   </li>
+        <li><span className='font-bold'> Industrial Processes: </span> Provides energy for various industrial manufacturing processes.  </li>
+        <li><span className='font-bold'> Backup Power:</span> Acts as a backup fuel for emergency generators.   </li>
+       
+        
+    </ol>
           </p>
         </div>
       </div>
