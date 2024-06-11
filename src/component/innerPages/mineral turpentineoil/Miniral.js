@@ -15,7 +15,7 @@ const Miniral = () => {
             <div className="flex flex-col md:flex-row bg-white  overflow-hidden">
 
                 <div className="md:w-2/2 p-6 flex flex-col justify-center">
-                    <h2 className="text-2xl font-bold mb-4">Mineral Turpentine Oil</h2>
+                    <h1 className="text-2xl font-bold mb-4">Mineral Turpentine Oil</h1>
                     <p className="text-gray-700 mb-4">
                     <ol className='list-decimal ml-10 p-4'>
         <li><span className='font-bold'> UComposition: </span>  Primarily composed of aliphatic hydrocarbons.    </li>

@@ -17,7 +17,7 @@ const Casolvent = () => {
                 <div className="md:w-2/2 p-6 flex flex-col justify-center">
                 <img src={rubber1} alt='bitumen'/>
 
-                    <h2 className="text-2xl font-bold mb-4">CA Solvent</h2>
+                    <h1 className="text-2xl font-bold mb-4">CA Solvent</h1>
                     <p className="text-gray-700 mb-4">
                   
     Casolvent, also known as asphalt and tar oil, is a substance produced through the processing of crude waste. 

@@ -21,7 +21,7 @@ function Mixed() {
      
         
         <div className="md:w-2/2 p-6 flex flex-col justify-center">
-          <h2 className="text-2xl font-bold mb-4"> MIXED HYDROCARBON OIL GREEN/YELLOW MATERIAL</h2>
+          <h1 className="text-2xl font-bold mb-4"> MIXED HYDROCARBON OIL GREEN/YELLOW MATERIAL</h1>
           <p className="text-gray-700 mb-4">
           <ol className='list-decimal ml-10 p-4'>
         <li><span className='font-bold'>Composition: </span>   Blend of various hydrocarbons, including aliphatic and aromatic compounds.  </li>

@@ -20,7 +20,7 @@ const Methylalcohol = () => {
         
         <div className="md:w-2/2 p-6 flex flex-col justify-center">
        
-          <h2 className="text-2xl font-bold mb-4 ">Methyl Alcohol</h2>
+          <h1 className="text-2xl font-bold mb-4 ">Methyl Alcohol</h1>
           <p className="text-gray-700 mb-4">
           <ol className='list-decimal ml-10 p-4'>
         <li><span className='font-bold'>Chemical Formula: </span>  CH₃OH. </li>

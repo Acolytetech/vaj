@@ -10,7 +10,7 @@ const Gypsum = () => {
        
         <div className="md:w-2/2 p-6 flex flex-col justify-center">
           <img src={gypsum} alt='gypsum'/>
-          <h2 className="text-2xl font-bold mb-4">Gypsum: A Versatile Mineral with Wide-Ranging Applications</h2>
+          <h1 className="text-2xl font-bold mb-4">Gypsum: A Versatile Mineral with Wide-Ranging Applications</h1>
           <p className="text-gray-700 mb-4">
           
           

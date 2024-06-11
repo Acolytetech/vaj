@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="container">
       <div className="footer-content">
         <div className="quick-contact">
-          <h4>Quick Contact</h4>
+          <h1>Quick Contact</h1>
           <p>If you have any questions or <br/>need help,  feel free to <br/> contact our team:</p> <br/>
           <p><span style={{color:"chocolate",fontSize:"1.5rem"}}> <i className='fa fa-phone fa-1x'></i> 9311668312</span></p><br/>
           <p><strong>Address:</strong> Saberi, Noida Extension, <br/>Gautam Budha Nagar,<br/> Uttar Pradesh-201305</p>
@@ -18,12 +18,12 @@ const Footer = () => {
         <div className="links">
           <h4>Company</h4>
           <ul>
-            <li><Link to="/about">About Us</a></li>
-            <li><Link to="/team">Meet Our Team</a></li>
-            <li><Link to="/news">News & Media</a></li>
-            <li><Link to="/case-studies">Case Studies</a></li>
-            <li><Link to="/contacts">Contacts</a></li>
-            <li><Link to="/careers">Careers</a></li>
+            <li><Link to="/about">About Us</Link></li>
+            <li><Link to="/team">Meet Our Team</Link></li>
+            <li><Link to="/news">News & Media</Link></li>
+            <li><Link to="/case-studies">Case Studies</Link></li>
+            <li><Link to="/contacts">Contacts</Link></li>
+            <li><Link to="/careers">Careers</Link></li>
           </ul>
         </div>
         {/* <div className="products">
@@ -51,10 +51,10 @@ const Footer = () => {
         </div>
         <div className="legal-links">
           <ul>
-            <li><Link to="/terms">Terms & Conditions</a></li>
-            <li><Link to="/privacy">Privacy Policy</a></li>
-            <li><Link to="/sitemap">Sitemap</a></li>
-            <li><Link to="/employee-login">Employee Login</a></li>
+            <li><Link to="/terms">Terms & Conditions</Link></li>
+            <li><Link to="/privacy">Privacy Policy</Link></li>
+            <li><Link to="/sitemap">Sitemap</Link></li>
+            <li><Link to="/employee-login">Employee Login</Link></li>
           </ul>
         </div>
       </div>

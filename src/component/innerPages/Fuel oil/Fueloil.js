@@ -32,7 +32,7 @@ const Fueloil = () => {
     </ol>
           
           </p>
-          <h2 className="text-2xl font-bold mb-4">Uses</h2>
+          <h1 className="text-2xl font-bold mb-4">Uses</h1>
           <p className="text-gray-700">
           <ol className='list-decimal ml-10 p-4'>
         <li><span className='font-bold'> Heating: </span>  Widely used in heating applications for industrial and residential buildings.  </li>

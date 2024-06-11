@@ -16,7 +16,7 @@ const MiniralOil = () => {
           
           Mineral oil is a colorless, oily, almost tasteless, water-insoluble liquid. It's found in cosmetics, carrier oils, and lubricant laxatives
           </p>
-          <h2 className="text-2xl font-bold mb-4"> USES</h2>
+          <h1 className="text-2xl font-bold mb-4"> USES</h1>
           <p className="text-gray-700">
          
           Its uses include moisturizing the skin treating dandruff, cradle cap, cracked feet, mild eczema, and other skin problem removing earwax and relieving constipation.

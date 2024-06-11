@@ -11,7 +11,7 @@ const Gabbro = () => {
        
         <div className="md:w-2/2 p-6 flex flex-col justify-center">
         <img src={gabbro} alt='gabbro'/>
-          <h2 className="text-2xl font-bold mb-4">Gabbro Aggregate: A Durable and Versatile Construction Material</h2>
+          <h1 className="text-2xl font-bold mb-4">Gabbro Aggregate: A Durable and Versatile Construction Material</h1>
           <p className="text-gray-700 mb-4">
           
           Gabbro is a coarse-grained, dark-colored igneous rock composed mainly of calcium-rich plagioclase feldspar, pyroxene, and sometimes olivine. It forms through the slow cooling and crystallization of magma deep within the Earth's crust. Gabbro is known for its high strength, durability, and resistance to weathering, making it an ideal material for construction applications, particularly as an aggregate.

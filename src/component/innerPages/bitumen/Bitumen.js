@@ -14,7 +14,7 @@ const Bitumen = () => {
                 <div className="md:w-2/2 p-6 flex flex-col justify-center">
                 <img src={rubber1} alt='bitumen'/>
 
-                    <h2 className="text-2xl font-bold mt-2">Bitumen</h2>
+                    <h1 className="text-2xl font-bold mt-2">Bitumen</h1>
                     <p className="text-gray-700 mb-4">
                    <ol className='list-decimal ml-6'>
                     <li><span className='font-bold'>Composition:</span> Primarily composed of complex hydrocarbons, including alkanes, cycloalkanes, and aromatic compounds. </li>

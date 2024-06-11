@@ -37,7 +37,7 @@ const Rudder = () => {
     </ol>
 
           </p>
-          <h2 className="text-2xl font-bold mb-4">uses</h2>
+          <h1 className="text-2xl font-bold mb-4">uses</h1>
           <p className="text-gray-700">
           <ol className='list-decimal ml-10 p-4'>
         <li><span className='font-bold'>  Rubber Manufacturing: </span>  Essential in the production of rubber products like tires and hoses.     </li>

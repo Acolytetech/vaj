@@ -21,7 +21,7 @@ const GlycolEthers = () => {
         
         <div className="md:w-2/2 p-6 flex flex-col justify-center">
        
-          <h2 className="text-2xl font-bold mb-4">Glycol Ethers</h2>
+          <h1 className="text-2xl font-bold mb-4">Glycol Ethers</h1>
           <p className="text-gray-700 mb-4">
           <ol className='list-decimal ml-10 p-4'>
         <li><span className='font-bold'> Composition:</span> Composed of ether and alcohol functional groups.   </li>

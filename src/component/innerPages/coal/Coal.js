@@ -9,7 +9,7 @@ const Coal = () => {
         <div className="md:w-2/2 p-6 flex flex-col justify-center">
         
                 <img src='' alt='bitumen'/>
-          <h2 className="text-2xl font-bold mb-4">Indian Coal: An Integral Part of the Energy Landscape</h2>
+          <h1 className="text-2xl font-bold mb-4">Indian Coal: An Integral Part of the Energy Landscape</h1>
           <p className="text-gray-700 mb-4">
           
           

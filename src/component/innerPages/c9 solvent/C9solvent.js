@@ -16,7 +16,7 @@ const C9solvent = () => {
         
         <div className="md:w-2/2 p-6 flex flex-col justify-center">
        
-          <h2 className="text-2xl font-bold mb-4">C9 solvent</h2>
+          <h1 className="text-2xl font-bold mb-4">C9 solvent</h1>
           <p className="text-gray-700 mb-4">
           
           

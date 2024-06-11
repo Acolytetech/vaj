@@ -17,7 +17,7 @@ const Furananceoil = () => {
 
                     <img src={rubber1} alt='bitumen'/>
 
-                    <h2 className="text-2xl font-bold mb-4">Furanance Oil</h2>
+                    <h1 className="text-2xl font-bold mb-4">Furanance Oil</h1>
                   <p className='text-gray-700'>
                   Compared to lighter fractions like gasoline or diesel, furnace oil is a complex blend of hydrocarbons with a greater molecular weight composition. A byproduct of the distillation of crude oil, furnace oil is often referred to as heavy fuel oil (HFO). In addition to aromatic molecules and long-chain hydrocarbons, it also contains a variety of contaminants including metals and asphaltenes. The crude oil's origin and the refining method employed both affect the composition.
                      <p className='text-gray-700"'>
