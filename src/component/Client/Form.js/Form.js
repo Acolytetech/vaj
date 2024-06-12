@@ -124,6 +124,8 @@ function Form() {
                 <option value="Education">Education</option>
               </select>
               {errors.industry && <p className="text-red-500 text-xs mt-1">{errors.industry}</p>}
+              {/* Message Section */}
+              <p className="text-gray-600 text-sm mt-1">Please select the industry that best represents your field.</p>
             </div>
             <div>
               <button

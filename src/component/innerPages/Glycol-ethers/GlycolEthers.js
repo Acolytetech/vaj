@@ -4,7 +4,7 @@ import React from 'react';
 // import Benzene3 from '../../../image/innerImage/Toluence Oil 3.jpg'
 import glycol from '../../../image/innerImage/Glycol Ether Banner.jpg'
 import glycol1 from '../../../image/innerImage/Glycol Ether.jpg'
-// import Gabbro from '../gabbro/Gabbro';
+import glycol2 from '../../../image/innerImage/Glycol.jpg'
 
 const GlycolEthers = () => {
   return (
@@ -59,13 +59,13 @@ const GlycolEthers = () => {
             className="object-cover w-full h-full rounded-lg"
           />
         </div> 
-       {/* <div className="w-1/2 p-2">
+       <div className="w-1/2 p-2">
           <img
-            src={taulene3}
+            src={glycol2}
             alt="Sub 2"
             className="object-cover w-full h-full rounded-lg"
           />
-        </div> */}
+        </div>
       </div>
     </div>
   );

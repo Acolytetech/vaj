@@ -4,6 +4,7 @@ import React from 'react';
 // import miniral3 from '../../../image/innerImage/miniral2.jpg'
  import c9 from '../../../image/innerImage/c9 solvent banner.jpg'
  import c91 from '../../../image/innerImage/C9 Solvent.jpg'
+ import c92 from '../../../image/innerImage/c9solvent2.jpg'
 const C9solvent = () => {
   return (
     <div className="container mx-auto p-4 ">
@@ -56,7 +57,7 @@ const C9solvent = () => {
         </div> 
        <div className="w-1/2 p-2">
           <img
-            src=''
+            src={c92}
             alt="Sub 2"
             className="object-cover w-full h-full rounded-lg"
           />

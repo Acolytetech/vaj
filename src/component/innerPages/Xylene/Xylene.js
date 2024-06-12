@@ -15,7 +15,7 @@ const Xylene = () => {
           />
               <h1 style={{ fontSize: '2rem', fontWeight: '700',position:'absolute', top:'20px', left:'550px', color:'black' }}>XYLENE</h1>
               </div>
-      <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden">
+      <div className="flex flex-col md:flex-row  overflow-hidden">
         
         <div className="md:w-2/2 p-6 flex flex-col justify-center">
        

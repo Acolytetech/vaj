@@ -4,6 +4,7 @@ import React from 'react';
 // import Benzene3 from '../../../image/innerImage/Toluence Oil 3.jpg'
 import KetonesBanner from '../../../image/innerImage/Ketones banner.jpg'
 import Ketones1 from '../../../image/innerImage/ketone.jpg'
+import Ketones2 from '../../../image/innerImage/ketone.png'
 
 const KetonesComponent = () => {
   return (
@@ -62,7 +63,7 @@ const KetonesComponent = () => {
         </div> 
        {/* <div className="w-1/2 p-2">
           <img
-            src={taulene3}
+            src={Ketones2}
             alt="Sub 2"
             className="object-cover w-full h-full rounded-lg"
           />

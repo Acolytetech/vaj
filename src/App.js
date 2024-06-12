@@ -78,13 +78,13 @@ function App() {
           <Route path="/benzene" element={<Benzene />} />
           <Route path="/glycol-ethers" element={<GlycolEthers />} />
           <Route path="/Ketones" element={<Ketones />} />
-          <Route path="/methylalcohol" element={<Methylalcohol />} />
+          <Route path="/methyle-alcohol" element={<Methylalcohol />} />
           <Route path="/phenols" element={<Phenols />} />
           <Route path="/Contactus" element={<Contactus />} />
           <Route path="/indian-coal" element={<Coal />} />
           <Route path="/indonesian-coal" element={<Indo />} />
           <Route path="/usa-coal" element={<UsaCoal />} />
-          <Route path="/south-africa-oil" element={<South />} />
+          <Route path="/south-africa-coal" element={<South />} />
           <Route path="/lime-stone-cement-grade" element={<Limecement />} />
           <Route path="/Gypsum" element={<Gypsum />} />
           <Route path="/gabbro-aggregate" element={<Gabbro />} />
@@ -93,13 +93,12 @@ function App() {
           <Route path="/Chrome-Ore" element={<Chromeore />} />
           <Route path="/manganese-ore" element={<Magnanceore />} />
           <Route path="/about" element={<Aboutsus />} />
-          {/* <Route path="/who-we-are" element={<Whoweare />} /> */}
+          <Route path="/who-we-are" element={<Whoweare />} />
           <Route path="/leadership" element={<Leadership />} />
           <Route path="/Xylene" element={<Xylene />} />
           <Route path="/contact-us" element={<Contactus />} />
-          <Route path="/nhexane" element={<Nhexane />} />
-          <Route path="/Toluene" element={<Toluence/>} />
-         
+          <Route path="/n-hexane" element={<Nhexane />} />
+          <Route path="/Toluene" element={<Toluence />} />
         </Routes>
         <Footer />
       </div>

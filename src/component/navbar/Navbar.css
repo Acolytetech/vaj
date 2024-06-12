@@ -1,4 +1,12 @@
-/* Navbar.css */
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}/* Navbar.css */
+nav{
+  width: 100%;
+  height: fit-content;
+}
 .navbar-container {
 	overflow-y: auto;
 	max-height: calc(100vh - 4rem);

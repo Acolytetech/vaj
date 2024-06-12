@@ -80,8 +80,8 @@ function Aboutsus() {
         </div>
       </div>
 
-      {/* <Cardcarousel/> */}
-      
+    
+      <Whoweare/>
       <div className='ourteamimg'>
         <img src={ourteamimg1} alt='vajravel team img' data-aos="zoom-in"  data-aos-duration="2000"/>
       <div className='ourteamcontent'>

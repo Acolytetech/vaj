@@ -3,7 +3,8 @@ import React from 'react';
 // import Benzene2 from '../../../image/innerImage/Toluence Oil 2.jpg'
 // import Benzene3 from '../../../image/innerImage/Toluence Oil 3.jpg'
 import benzene  from '../../../image/innerImage/benzene banner.png'
-
+import benzene1 from '../../../image/innerImage/Benzene.jpg'
+import benzene2 from '../../../image/innerImage/benezene.jpg'
 
 const Benzene = () => {
   return (
@@ -48,23 +49,23 @@ const Benzene = () => {
          </p>
              </div>
       </div>
-      {/* <div className="flex flex-wrap mt-4 ">
+      <div className="flex flex-wrap mt-4 ">
         
         <div className="w-1/2 p-2">
           <img
-            src={taulene2}
+            src={benzene1}
             alt="Sub 2"
             className="object-cover w-full h-full rounded-lg"
           />
         </div> 
        <div className="w-1/2 p-2">
           <img
-            src={taulene3}
+            src={benzene2}
             alt="Sub 2"
             className="object-cover w-full h-full rounded-lg"
           />
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
