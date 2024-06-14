@@ -1,7 +1,4 @@
 import React from 'react';
-// import Benzene1 from '../../../image/innerImage/benzene.jpg'
-// import Benzene2 from '../../../image/innerImage/Toluence Oil 2.jpg'
-// import Benzene3 from '../../../image/innerImage/Toluence Oil 3.jpg'
 import benzene  from '../../../image/innerImage/benzene banner.png'
 import benzene1 from '../../../image/innerImage/Benzene.jpg'
 import benzene2 from '../../../image/innerImage/benezene.jpg'

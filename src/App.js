@@ -44,15 +44,18 @@ import Leadership from './component/Leadership';
 import Xylene from './component/innerPages/Xylene/Xylene';
 import Nhexane from './component/innerPages/nhexane/Nhexane';
 import Loader from './component/loader/Loader';
+import Import from './component/innerPages/Diesel/Import';
+import Base from './component/innerPages/Diesel/Base';
+import Bio from './component/innerPages/Diesel/Bio';
 
 function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate a loading time (e.g., data fetching)
+
     setTimeout(() => {
       setLoading(false);
-    }, 2000); // 2 seconds delay
+    }, 2000); 
   }, []);
 
   if (loading) {
@@ -98,7 +101,10 @@ function App() {
           <Route path="/Xylene" element={<Xylene />} />
           <Route path="/contact-us" element={<Contactus />} />
           <Route path="/n-hexane" element={<Nhexane />} />
-          <Route path="/Toluene" element={<Toluence />} />
+          <Route path="/import-diesel" element={<Import />} />
+          <Route path="/base-fuel" element={<Base />} />
+          <Route path="/bio-diesel" element={<Bio />} />
+          
         </Routes>
         <Footer />
       </div>

@@ -1,6 +1,4 @@
 import React from 'react';
-
-// import { South } from '@mui/icons-material';
 import southafricancoal from'../../../image/innerImage/South Africa Coal.jpg'
 
 const Southcoal= () => {

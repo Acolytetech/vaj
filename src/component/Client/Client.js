@@ -10,11 +10,32 @@ function Client() {
     AOS.init();
   }, []);
 
+  const teamMembers = [
+    {
+      name: 'John Doe',
+      position: 'CEO',
+      image: 'https://via.placeholder.com/150',
+      info: 'John has over 20 years of experience in the industry.'
+    },
+    {
+      name: 'Jane Smith',
+      position: 'CTO',
+      image: 'https://via.placeholder.com/150',
+      info: 'Jane is an expert in technology and innovation.'
+    },
+    {
+      name: 'Bob Johnson',
+      position: 'CFO',
+      image: 'https://via.placeholder.com/150',
+      info: 'Bob has a strong background in finance and operations.'
+    }
+  ];
+
   return (
     <div className="client">
       <div className="client-container" data-aos="fade-right">
         <h1 className="text-2xl md:text-3xl font-bold mb-2 leading-relaxed p-5 text-white">
-          Serving Impressive List Of Long Term Clients!
+          Meet Our Team!
         </h1>
         <Carousel
           autoPlay
@@ -25,21 +46,16 @@ function Client() {
           interval={5000}
           className="carousel-container"
         >
-          <div className="carousel-slide">
-            <p className="text-sm md:text-base lg:text-lg text-white mb-4 py-8 font-medium leading-relaxed p-5">
-              Our worldwide presence ensures timeliness, cost efficiency and compliance adherence required to ensure your timelines are met.
-            </p>
-          </div>
-          <div className="carousel-slide">
-            <p className="text-sm md:text-base lg:text-lg text-white mb-4 py-8 font-medium leading-relaxed p-5">
-              Serving with experience and expertise in multiple industries, as one of the World's leading corporations!
-            </p>
-          </div>
-          <div className="carousel-slide">
-            <p className="text-sm md:text-base lg:text-lg text-white mb-4 py-8 font-medium leading-relaxed p-5">
-              You are helping to lead the charge; we can help you build on your past successes and prepare for your great future.
-            </p>
-          </div>
+          {teamMembers.map((member, index) => (
+            <div className="carousel-slide" key={index}>
+              <img src={member.image} alt={`${member.name}`} className="team-image"/>
+              <h2 className="text-lg md:text-xl lg:text-2xl text-white font-bold mt-4">{member.name}</h2>
+              <h3 className="text-md md:text-lg lg:text-xl text-white font-medium mb-2">{member.position}</h3>
+              <p className="text-sm md:text-base lg:text-lg text-white mb-4 font-medium leading-relaxed p-5">
+                {member.info}
+              </p>
+            </div>
+          ))}
         </Carousel>
       </div>
     </div>

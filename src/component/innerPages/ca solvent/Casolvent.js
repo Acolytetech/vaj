@@ -2,12 +2,6 @@ import React from 'react';
 import rubber1 from '../../../image/innerImage/CA Solvent 1.jpg';
 import ca2 from '../../../image/innerImage/CA Solvent 2.jpg'
 import ca3 from '../../../image/innerImage/CA Solvent 3.jpg'
-
-
-
-
-
-
 const Casolvent = () => {
     return (
         <div className="container mx-auto p-4">

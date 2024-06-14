@@ -1,7 +1,4 @@
 import React from 'react';
-// import Glycol from '../../../image/innerImage/glycol-ethers.jpg'
-// import Benzene2 from '../../../image/innerImage/Toluence Oil 2.jpg'
-// import Benzene3 from '../../../image/innerImage/Toluence Oil 3.jpg'
 import glycol from '../../../image/innerImage/Glycol Ether Banner.jpg'
 import glycol1 from '../../../image/innerImage/Glycol Ether.jpg'
 import glycol2 from '../../../image/innerImage/Glycol.jpg'

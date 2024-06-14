@@ -1,5 +1,4 @@
 import React from 'react';
-
 import rubber1 from '../../../image/innerImage/Furnace Oil 1.jpg'
 import rubber2 from '../../../image/innerImage/Furnace Oil 2.jpg'
 import rubber3 from '../../../image/innerImage/Furnace Oil 3.jpg'

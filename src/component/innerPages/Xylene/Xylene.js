@@ -1,7 +1,6 @@
 import React from 'react';
 import xyleneimg from '../../../image/innerImage/xylene.jpeg'
-// import Benzene2 from '../../../image/innerImage/Toluence Oil 2.jpg'
-// import Benzene3 from '../../../image/innerImage/Toluence Oil 3.jpg'
+
 
 
 const Xylene = () => {

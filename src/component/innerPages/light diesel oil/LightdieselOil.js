@@ -2,9 +2,6 @@ import React from 'react';
 import LightDieselOil from '../../../image/innerImage/Light Diesel oil 1.jpg'
 import LightDieselOil2 from '../../../image/innerImage/Light Diesel oil 2.jpg'
 import LightDieselOil3 from '../../../image/innerImage/Light Diesel oil 3.jpg'
-
-
-
 const lightdieseloil = () => {
     return (
         <div className="container mx-auto p-4 ">

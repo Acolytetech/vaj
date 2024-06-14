@@ -1,7 +1,5 @@
 import React from 'react';
 import rubber1 from '../../../image/innerImage/Bitumen 1.jpg';
-
-
 import b2 from '../../../image/innerImage/Bitumen 2.jpg'
 import b3 from '../../../image/innerImage/Bitumen 3.jpg'
 

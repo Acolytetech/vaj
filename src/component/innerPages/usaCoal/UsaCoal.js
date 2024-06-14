@@ -1,5 +1,5 @@
 import React from 'react'
-// import usacoal1 from '../../../image/innerImage/usa coal.png'
+
 
 
 function UsaCoal() {

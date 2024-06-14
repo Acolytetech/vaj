@@ -1,7 +1,4 @@
 import React from 'react';
-// import Ketone from '../../../image/innerImage/ketones.webp'
-// import Benzene2 from '../../../image/innerImage/Toluence Oil 2.jpg'
-// import Benzene3 from '../../../image/innerImage/Toluence Oil 3.jpg'
 import KetonesBanner from '../../../image/innerImage/Ketones banner.jpg'
 import Ketones1 from '../../../image/innerImage/ketone.jpg'
 import Ketones2 from '../../../image/innerImage/ketone.png'

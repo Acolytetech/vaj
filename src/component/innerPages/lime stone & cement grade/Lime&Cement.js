@@ -1,7 +1,4 @@
 
-// import miniral1 from '../../../image/innerImage/Mineral Oil 1.jpg'
-// import miniral2 from '../../../image/innerImage/miniral1.png'
-// import miniral3 from '../../../image/innerImage/miniral2.jpg'
 
 
 const Miniraloil = () => {
@@ -24,12 +21,26 @@ const Miniraloil = () => {
           <p className="text-gray-700 mb-4">
           
           
-MTO is used as an extraction solvent, as a cleaning solvent, as a degreasing solvent and as a solvent in Aerosols, Paints, Wood preservatives, Lacquers, Varnishes, and Asphalt produces MTO is mainly used as RAW material for paints/ varnishes.
+          <ol className='list-decimal ml-10 p-4'>
+        <li>Lime stone is primarily composed of calcium carbonate (CaCO3). </li>
+        <li>It often contains impurities such as clay, sand, iron oxide, and organic materials. </li>
+        <li>It is a sedimentary rock formed from the skeletal fragments of marine organisms. </li>
+        <li>Cement grade limestone has higher purity and is specifically used for cement manufacturing. </li>
+        <li>It is typically quarried in large blocks for various industrial uses. </li>
+        <li>The quality and composition of limestone can vary significantly depending on its geological formation. </li>  
+    </ol>
           </p>
           <h2 className="text-2xl font-bold mb-4"> USES</h2>
           <p className="text-gray-700">
-         
-In foods and beverages, distilled turpentine oil is used as a flavoring ingredient. In manufacturing, turpentine oil is used in soap and cosmetics and also as a paint solvent. It is also added to perfumes, foods, and cleaning agents as a fragrance.
+          <ol className='list-decimal ml-10 p-4'>
+        <li>Lime stone is primarily composed of calcium carbonate (CaCO3).Main raw material in the manufacture of cement.  </li>
+        <li>Used as a flux in steel production to remove impurities.  </li>
+        <li>Employed in the production of lime for agriculture and water treatment.  </li>
+        <li>Crushed limestone is used as an aggregate in construction. </li>
+        <li>Acts as a soil conditioner and pH stabilizer in agriculture.  </li>
+        <li>Utilized in the production of glass and ceramics.  </li>  
+    </ol>
+
           </p>
         </div>
       </div>

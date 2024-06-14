@@ -1,6 +1,4 @@
 import React from 'react';
-// import miniral1 from '../../../image/innerImage/miniral1.png'
-// // import miniral2 from '../../../image/innerImage'
 import gypsum1 from '../../../image/innerImage/Gypsum.jpg'
 import gypsum from '../../../image/innerImage/Gypsum banner.jpg'
 const Gypsum = () => {
@@ -12,13 +10,8 @@ const Gypsum = () => {
           <img src={gypsum} alt='gypsum'/>
           <h1 className="text-2xl font-bold mb-4">Gypsum: A Versatile Mineral with Wide-Ranging Applications</h1>
           <p className="text-gray-700 mb-4">
-          
-          
           Gypsum is a soft sulfate mineral composed of calcium sulfate dihydrate (CaSO4·2H2O). It forms through the evaporation of saline water and is commonly found in sedimentary rocks. Gypsum has been utilized by humans for various purposes for thousands of years, owing to its abundance, versatility, and unique properties.
-
-
           </p>
-
           <h2 className="text-2xl font-bold mb-4"> Properties of Gypsum</h2>
           <ul></ul>
           <h2 className="text-2xl font-bold mb-4"> USES</h2>

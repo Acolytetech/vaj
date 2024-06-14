@@ -1,5 +1,4 @@
 import React from 'react';
-// import coal1 from '../../../image/i./nnerImage/Coal1.jpg'
 import coal2 from '../../../image/innerImage/Indian Coal.jpg'
 const Coal = () => {
   return (

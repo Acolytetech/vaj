@@ -1,7 +1,5 @@
 import React from 'react';
-// import phenols from '../../../image/innerImage/phenols.jpg'
-// import Benzene2 from '../../../image/innerImage/Toluence Oil 2.jpg'
-// import Benzene3 from '../../../image/innerImage/Toluence Oil 3.jpg'
+
 
 
 const Phenols = () => {

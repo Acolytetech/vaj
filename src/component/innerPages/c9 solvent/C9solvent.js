@@ -1,7 +1,4 @@
 import React from 'react';
-// import c9solvent from '../../../image/innerImage/c9 sovent.jpeg'
-// import miniral2 from '../../../image/innerImage/miniral1.png'
-// import miniral3 from '../../../image/innerImage/miniral2.jpg'
  import c9 from '../../../image/innerImage/c9 solvent banner.jpg'
  import c91 from '../../../image/innerImage/C9 Solvent.jpg'
  import c92 from '../../../image/innerImage/c9solvent2.jpg'

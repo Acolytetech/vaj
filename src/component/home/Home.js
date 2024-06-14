@@ -31,7 +31,7 @@ const Carousel = () => {
 
   return (
     <div className="relative carousel-container">
-      {/* <Navbar/> */}
+    
       {images.map((image, index) => (
         <React.Fragment key={index}>
           {currentIndex === index && (
@@ -41,7 +41,7 @@ const Carousel = () => {
                 <h1 className="text-4xl sm:text-2xl md:text-xl lg:text-8xl font-semibold p-12 " data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                   {image.caption}
                 </h1>
-                {/* <p className="mt-2 px-4 carousel-paragraph">{image.paragraph}</p> */}
+               
               </div>
             </div>
           )}

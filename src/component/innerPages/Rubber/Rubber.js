@@ -1,10 +1,8 @@
 import React from 'react';
-
-// import r1 from '../../../image/innerImage/'
 import rubber1 from '../../../image/innerImage/Rubber Processing Oil 1.jpg'
 import rubber2 from '../../../image/innerImage/Rubber Processing Oil 2.jpg'
 import rubber3 from '../../../image/innerImage/Rubber Processing Oil 3.jpg'
-// import rubber3 from '../../../image/innerImage/rubber3.png'
+
 
 
 const Rudder = () => {

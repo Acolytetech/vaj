@@ -1,10 +1,7 @@
 import React from 'react';
-// import methyl from '../../../image/innerImage/methyl.jpg'
-// import Benzene2 from '../../../image/innerImage/Toluence Oil 2.jpg'
-// import Benzene3 from '../../../image/innerImage/Toluence Oil 3.jpg'
 import methyl from '../../../image/innerImage/Methyl Alcohol banner.jpg'
-
 import methyl1 from '../../../image/innerImage/Methyl Alcohol.jpg'
+
 const Methylalcohol = () => {
   return (
       <div className="container mx-auto p-4 ">

@@ -1,7 +1,5 @@
 import React from 'react';
-// import miniral1 from '../../../image/innerImage/miniral1.png'
-// // import miniral2 from '../../../image/innerImage'
-// import miniral2 from '../../../image/innerImage/miniral2.jpg'
+
 
 const LimeStone = () => {
   return (

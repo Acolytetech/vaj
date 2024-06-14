@@ -1,16 +1,10 @@
 import React from 'react'
 import './contactus.css';
 import Form from '../Client/Form.js/Form';
-// import Client from '../Client/Client';
 import contact from '../../image/innerImage/Contact Us.jpg'
 function Contactus() {
     return (
         <div className='contactpage'>
-
-      
-       
-            
-         
             <img src={contact} alt='contact us ' className='contactimg'/><br/>
             <Form />
             <iframe

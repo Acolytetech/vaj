@@ -12,24 +12,28 @@ const ChromeOreComponent = () => {
         <div className="md:w-2/2 p-6 flex flex-col justify-center">
           <h1 className="text-2xl font-bold mb-4">Chrome-Ore: A Durable and Versatile Construction Material</h1>
           <p className="text-gray-700 mb-4">
-          
-          Gabbro is a coarse-grained, dark-colored igneous rock composed mainly of calcium-rich plagioclase feldspar, pyroxene, and sometimes olivine. It forms through the slow cooling and crystallization of magma deep within the Earth's crust. Gabbro is known for its high strength, durability, and resistance to weathering, making it an ideal material for construction applications, particularly as an aggregate.
-
-
+          <ol className='list-decimal ml-10 p-4'>
+        <li>Chrome ore, also known as chromite, is an oxide of chromium and iron (FeCr2O4).  </li>
+        <li>It is the main source of chromium for industrial applications.   </li>
+        <li>The ore is usually found in layered igneous rock formations.   </li>
+        <li>Chrome ore deposits are primarily located in South Africa, Kazakhstan, India, and Turkey.   </li>
+        <li>It has a high melting point and is resistant to corrosion.   </li>
+        <li>The quality of chrome ore is determined by its chromium content and the presence of impurities.  </li>  
+    </ol>
           </p>
 
           <h2 className="text-2xl font-bold mb-4"> Properties of Gypsum</h2>
           <ul></ul>
           <h2 className="text-2xl font-bold mb-4"> USES</h2>
           <p className="text-gray-700">
-         
-          .Construction of Roads and Highways
-.Concrete Production
-.Railway Ballast
-.Coastal and Marine Engineering
-.Landscaping and Decorative Applications
-.Concrete Blocks and Precast Products
-
+          <ol className='list-decimal ml-10 p-4'>
+        <li>Main raw material for the production of ferrochrome, an alloy used in stainless steel.   </li>
+        <li>Used in the manufacturing of refractory bricks and materials.    </li>
+        <li>Employed in the production of chrome plating for corrosion-resistant surfaces.    </li>
+        <li>Utilized in the chemical industry for the production of chromium compounds.    </li>
+        <li>Acts as a catalyst in various industrial processes.   </li>
+        <li>Used in the leather tanning industry.   </li>  
+    </ol>
           </p>
         </div>
       </div>

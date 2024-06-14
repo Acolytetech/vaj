@@ -1,7 +1,5 @@
 
 import React from 'react'
-
-
 import mixed1 from '../../../image/innerImage/Mixed Hydrocarbon Oil 1.jpg'
 import mixed2 from '../../../image/innerImage/Mixed Hydrocarbon Oil 2.jpg'
 import mixed3 from '../../../image/innerImage/Mixed Hydrocarbon Oil 3.jpg'

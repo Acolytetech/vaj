@@ -45,7 +45,6 @@ const Carousel = () => {
             <h1 className="text-4xl sm:text-2xl md:text-xl lg:text-8xl font-semibold p-12">
               {image.caption}
             </h1>
-            {/* <p className="mt-2 px-4 carousel-paragraph">{image.paragraph}</p> */}
           </div>
         </div>
       ))}

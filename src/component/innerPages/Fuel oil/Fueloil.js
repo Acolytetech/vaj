@@ -19,18 +19,7 @@ const Fueloil = () => {
           <p className="text-gray-700 mb-4">
           
  
-          Fuel oil is a kind of fuel that is obtained by the distillation of petroleum. It is frequently used to power and heat many kinds of engines, especially in industrial settings and to heat houses. Fuel oil comes in a variety of grades, from light to heavy, with varying viscosities and energy contents. Fuel oil is frequently used in boilers, furnaces, and power plants to produce heat and electricity.
-          {/* <ol className='list-decimal ml-10 p-4'>
-        <li><span className='font-bold'>Composition: </span>  Mixture of hydrocarbons, primarily alkanes, cycloalkanes, and aromatic compounds. . </li>
-        <li><span className='font-bold'> Grades:</span> Includes various grades such as heavy fuel oil (HFO) and light fuel oil (LFO).  </li>
-        <li><span className='font-bold'>Density:</span> Varies with grade, generally denser than water.  </li>
-        <li><span className='font-bold'>Viscosity:</span>  Medium to high viscosity, depending on the grade.  </li>
-        <li><span className='font-bold'>Sulfur Content:</span> Can contain varying levels of sulfur.  </li>
-        <li><span className='font-bold'> Color: </span> Ranges from yellowish to dark brown. </li>
-        <li><span className='font-bold'> Storage and Handling:</span>  Requires special handling and storage due to its flammable nature. </li>
-        
-    </ol> */}
-          
+          Fuel oil is a kind of fuel that is obtained by the distillation of petroleum. It is frequently used to power and heat many kinds of engines, especially in industrial settings and to heat houses. Fuel oil comes in a variety of grades, from light to heavy, with varying viscosities and energy contents. Fuel oil is frequently used in boilers, furnaces, and power plants to produce heat and electricity   
           </p>
           <h1 className="text-2xl font-bold mb-4">Uses</h1>
           <p className="text-gray-700">

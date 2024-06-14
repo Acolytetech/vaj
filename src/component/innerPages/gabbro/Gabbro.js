@@ -1,5 +1,4 @@
 import React from 'react';
-
 import gabbro from '../../../image/innerImage/Gabbro Aggregate banner.jpg'
 import gabbro1 from '../../../image/innerImage/Gabbro Aggregate.jpg'
 

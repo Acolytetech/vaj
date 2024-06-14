@@ -1,7 +1,4 @@
 import React from 'react';
-// import miniral1 from '../../../image/innerImage/miniral1.png'
-// // import miniral2 from '../../../image/innerImage'
-// import miniral2 from '../../../image/innerImage/miniral2.jpg'
 import miniral1 from '../../../image/innerImage/Mineral Oil 1.jpg'
 const MiniralOil = () => {
   return (
