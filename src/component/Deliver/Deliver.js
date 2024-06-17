@@ -4,7 +4,7 @@ import 'tailwindcss/tailwind.css';
 
 import coal from '../../image/icons/oil.jpg';
 import oil from '../../image/icons/coal.jpg';
-import minerals from '../../image/icons/mineral.jpg';
+import bio from '../../image/biodiesel.png';
 
 const industries = [
   {
@@ -13,13 +13,13 @@ const industries = [
     description: 'Petroleum and natural gas are nonrenewable sources of energy. Crude oil, a liquid found underground, can be refined to produce gasoline and other fuels..'
   },
   {
-    title: 'Coal Industries',
+    title:  'Industries',
     image: oil, // Directly assign the image path
     description: 'Coals at IGR are always kept on high, we believe in purity of products. Indian Coals, US Coals, Pet-coke or Indonesian Coals we have all the varieties available at best cost.'
   },
   {
-    title: 'Minerals Industries',
-    image: minerals, // Directly assign the image path
+    title: 'Bio Diesel',
+    image: bio, // Directly assign the image path
     description: 'Hygiene and Health are the most valuable thing this 2020, IGR have served country in this crucial time. All kinds of Minerals and ores available at best quality and good cost.'
   }
 ];

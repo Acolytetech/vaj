@@ -1,12 +1,14 @@
 // import { ImportContacts } from '@mui/icons-material';
 import React from 'react';
-
+import b1 from '../../../image/innerImage/Base Oil.png'
+import b2 from '../../../image/innerImage/Base-oil (1).jpg'
+import b3 from '../../../image/innerImage/base-oil.jpg'
 const Base = () => {
   return (
     <div className="container mx-auto p-4">
-      <div className="flex flex-col md:flex-row bg-white overflow-hidden">
-       
-        <div className="md:w-1/2 p-6 flex flex-col justify-center">
+      <div className="flex flex-col md:flex-row bg-white  overflow-hidden">
+                <div className="md:w-2/2 p-6 flex flex-col justify-center">
+                <img src={b1} alt='bio-oil'/>
           <h1 className="text-2xl font-bold mb-4"> Base-Fuel
 
           </h1>
@@ -37,24 +39,24 @@ const Base = () => {
           </p>
         </div>
       </div>
-      {/* <div className="flex flex-wrap mt-4">
+      <div className="flex flex-wrap mt-4">
         
         <div className="w-1/2 p-2">
           <img
-            src={rubber2}
-            alt="Sub 2"
-            className="object-cover w-full h-full rounded-lg"
-          />
-        </div
-        <div className="w-1/2 p-2">
-          <img
-            src={rubber3}
+            src={b2}
             alt="Sub 2"
             className="object-cover w-full h-full rounded-lg"
           />
         </div>
-      </div> */}
-    </div>
+        <div className="w-1/2 p-2">
+          <img
+            src={b3}
+            alt="Sub 2"
+            className="object-cover w-full h-full rounded-lg"
+          />
+        </div>
+      </div>
+        </div>
   );
 };
 

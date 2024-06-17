@@ -32,7 +32,7 @@ import Coal from './component/innerPages/coal/Coal';
 import Indo from './component/innerPages/Indo/Indo';
 import UsaCoal from './component/innerPages/usaCoal/UsaCoal';
 import South from './component/innerPages/south/South';
-import Limecement from './component/innerPages/lime stone & cement grade/Lime&Cement';
+// import Limecement from './component/innerPages/lime stone & cement grade/Lime&Cement';
 import Gypsum from './component/innerPages/gysm/Gypsum';
 import Gabbro from './component/innerPages/gabbro/Gabbro';
 import Pyroxenite from './component/innerPages/Pyroxenite/Pyroxenite';
@@ -47,6 +47,7 @@ import Loader from './component/loader/Loader';
 import Import from './component/innerPages/Diesel/Import';
 import Base from './component/innerPages/Diesel/Base';
 import Bio from './component/innerPages/Diesel/Bio';
+import Lime from './component/innerPages/lime stone & cement grade/Lime';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -88,7 +89,7 @@ function App() {
           <Route path="/indonesian-coal" element={<Indo />} />
           <Route path="/usa-coal" element={<UsaCoal />} />
           <Route path="/south-africa-coal" element={<South />} />
-          <Route path="/lime-stone-cement-grade" element={<Limecement />} />
+          <Route path="/Lime-stone" element={<Lime />} />
           <Route path="/Gypsum" element={<Gypsum />} />
           <Route path="/gabbro-aggregate" element={<Gabbro />} />
           <Route path="/pyroxenite" element={<Pyroxenite />} />
@@ -104,7 +105,7 @@ function App() {
           <Route path="/import-diesel" element={<Import />} />
           <Route path="/base-fuel" element={<Base />} />
           <Route path="/bio-diesel" element={<Bio />} />
-          
+          <Route path="/Toluene" element={<Toluence />} />
         </Routes>
         <Footer />
       </div>

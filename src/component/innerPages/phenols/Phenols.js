@@ -1,13 +1,14 @@
 import React from 'react';
-
-
+import p1 from '../../../image/innerImage/Phenol.png'
+import p2 from '../../../image/innerImage/Phenol1.jpg'
+import p3 from '../../../image/innerImage/Phenol2.jpg'
 
 const Phenols = () => {
   return (
       <div className="container mx-auto p-4">
           <div style={{position:'relative'}}>
        <img
-              src=''
+              src={p1}
             alt="Main"
             className=" w-full h-1/2" style={{height:'300px'}}
           />
@@ -44,23 +45,23 @@ const Phenols = () => {
                   </p>
              </div>
       </div>
-      {/* <div className="flex flex-wrap mt-4 ">
+      <div className="flex flex-wrap mt-4 ">
         
         <div className="w-1/2 p-2">
           <img
-            src={taulene2}
+            src={p2}
             alt="Sub 2"
             className="object-cover w-full h-full rounded-lg"
           />
         </div> 
        <div className="w-1/2 p-2">
           <img
-            src={taulene3}
+            src={p3}
             alt="Sub 2"
             className="object-cover w-full h-full rounded-lg"
           />
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

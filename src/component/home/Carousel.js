@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import './Carousel.css'; // Import custom CSS file
+import './Carousel.css';
 import Image1 from '../../image/oil web banner 4.jpg';
 import Image2 from '../../image/oil web banner 2.jpg';
 import Image3 from '../../image/oil web banner 1.jpg';
@@ -16,23 +16,27 @@ const images = [
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [prevIndex, setPrevIndex] = useState(null);
 
   useEffect(() => {
     const interval = setInterval(() => {
+      setPrevIndex(currentIndex);
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, 10000); // Change image every 10 seconds
     return () => clearInterval(interval);
-  }, []);
+  }, [currentIndex]);
 
   useEffect(() => {
     AOS.init();
   }, []);
 
   const prevImage = () => {
+    setPrevIndex(currentIndex);
     setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
   };
 
   const nextImage = () => {
+    setPrevIndex(currentIndex);
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
 
@@ -42,7 +46,7 @@ const Carousel = () => {
         <div key={index} className={`relative carousel-image-container ${currentIndex === index ? 'active' : ''}`}>
           <img src={image.src} alt={image.alt} className="carousel-image" />
           <div className={`absolute top-4 left-4 p-20 text-white px-2 py-1 rounded carousel-caption ${currentIndex === index ? 'active' : ''}`} data-aos="fade-up">
-            <h1 className="text-4xl sm:text-2xl md:text-xl lg:text-8xl font-semibold p-12">
+            <h1 className="text-4xl sm:text-xl md:text-xl lg:text-8xl font-semibold p-12" style={{marginLeft:'-20px'}}>
               {image.caption}
             </h1>
           </div>

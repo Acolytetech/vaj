@@ -38,7 +38,7 @@ const Carousel = () => {
             <div className="relative carousel-image-container active">
               <img src={image.src} alt={image.alt} className="carousel-image" />
               <div className="absolute top-4 left-4 p-20 text-white px-2 py-1 rounded carousel-caption mt-24">
-                <h1 className="text-4xl sm:text-2xl md:text-xl lg:text-8xl font-semibold p-12 " data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <h1 className="text-4xl sm:text-2xl md:text-xl lg:text-6xl font-semibold p-12 " data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                   {image.caption}
                 </h1>
                

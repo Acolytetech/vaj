@@ -111,21 +111,15 @@ function Form() {
             </div>
             <div>
               <label className="block text-sm font-medium text-gray-700">Industry</label>
-              <select
-                name="industry"
-                className="mt-1 p-2 border w-full rounded"
-                value={formData.industry}
-                onChange={handleChange}
-              >
-                <option value="">Select Industry</option>
-                <option value="Technology">Technology</option>
-                <option value="Healthcare">Healthcare</option>
-                <option value="Finance">Finance</option>
-                <option value="Education">Education</option>
-              </select>
-              {errors.industry && <p className="text-red-500 text-xs mt-1">{errors.industry}</p>}
-              {/* Message Section */}
-              <p className="text-gray-600 text-sm mt-1">Please select the industry that best represents your field.</p>
+              <textarea
+  name="industry"
+  className="mt-1 p-2 border w-full rounded"
+  value={formData.industry}
+  onChange={handleChange}
+  placeholder="Enter Industry"
+>
+</textarea>
+             
             </div>
             <div>
               <button

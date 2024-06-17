@@ -1,6 +1,7 @@
 import React from 'react';
-import xyleneimg from '../../../image/innerImage/xylene.jpeg'
-
+import x1 from '../../../image/innerImage/xylene banner.jpg'
+import x2 from '../../../image/innerImage/Xylene-3.jpg'
+import x3 from '../../../image/innerImage/xylene1.webp'
 
 
 const Xylene = () => {
@@ -8,7 +9,7 @@ const Xylene = () => {
       <div className="container mx-auto p-4">
           <div style={{position:'relative'}}>
        <img
-              src={xyleneimg}
+              src={x1}
             alt="Main"
             className=" w-full h-1/2" style={{height:'300px'}}
           />
@@ -45,23 +46,23 @@ const Xylene = () => {
                   </p>
              </div>
       </div>
-      {/* <div className="flex flex-wrap mt-4 ">
+      <div className="flex flex-wrap mt-4 ">
         
         <div className="w-1/2 p-2">
           <img
-            src={taulene2}
+            src={x2}
             alt="Sub 2"
             className="object-cover w-full h-full rounded-lg"
           />
         </div> 
        <div className="w-1/2 p-2">
           <img
-            src={taulene3}
+            src={x3}
             alt="Sub 2"
             className="object-cover w-full h-full rounded-lg"
           />
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

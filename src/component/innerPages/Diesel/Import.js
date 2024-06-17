@@ -1,9 +1,17 @@
 // import { ImportContacts } from '@mui/icons-material';
 import React from 'react';
+import import1 from '../../../image/innerImage/imported1.jpg'
+import import2 from '../../../image/innerImage/imported2.jpg'
+import import3 from '../../../image/innerImage/imported3.jpg'
 
 const Import= () => {
   return (
     <div className="container mx-auto p-4">
+       <img
+            src={import1}
+            alt="Sub 2"
+            className="object-cover w-full h-full rounded-lg" style={{height:300}}
+          />
       <div className="flex flex-col md:flex-row bg-white  overflow-hidden">
        
         <div className="md:w-1/2 p-6 flex flex-col justify-center">
@@ -37,23 +45,23 @@ const Import= () => {
           </p>
         </div>
       </div>
-      {/* <div className="flex flex-wrap mt-4">
+      <div className="flex flex-wrap mt-4">
         
         <div className="w-1/2 p-2">
           <img
-            src={rubber2}
-            alt="Sub 2"
-            className="object-cover w-full h-full rounded-lg"
-          />
-        </div
-        <div className="w-1/2 p-2">
-          <img
-            src={rubber3}
+            src={import2}
             alt="Sub 2"
             className="object-cover w-full h-full rounded-lg"
           />
         </div>
-      </div> */}
+        <div className="w-1/2 p-2">
+          <img
+            src={import3}
+            alt="Sub 2"
+            className="object-cover w-full h-full rounded-lg"
+          />
+        </div>
+      </div>
     </div>
   );
 };

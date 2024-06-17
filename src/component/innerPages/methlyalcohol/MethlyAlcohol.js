@@ -1,7 +1,7 @@
 import React from 'react';
 import methyl from '../../../image/innerImage/Methyl Alcohol banner.jpg'
 import methyl1 from '../../../image/innerImage/Methyl Alcohol.jpg'
-
+import methyl2 from '../../../image/innerImage/methyle2.jpg'
 const Methylalcohol = () => {
   return (
       <div className="container mx-auto p-4 ">
@@ -50,6 +50,13 @@ const Methylalcohol = () => {
         <div className="w-1/2 p-2">
           <img
             src={methyl1}
+            alt="Sub 2"
+            className="object-cover w-full h-full rounded-lg"
+          />
+        </div> 
+        <div className="w-1/2 p-2">
+          <img
+            src={methyl2}
             alt="Sub 2"
             className="object-cover w-full h-full rounded-lg"
           />

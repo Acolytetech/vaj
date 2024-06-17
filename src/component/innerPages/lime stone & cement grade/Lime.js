@@ -1,7 +1,6 @@
+import React from 'react'
 
-
-
-const Miniraloil = () => {
+function Lime() {
   return (
     <div className="container mx-auto p-4">
        <img
@@ -13,7 +12,7 @@ const Miniraloil = () => {
             alt="Main"
             className="object-cover w-full h-full"
           />
-      <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden">
+      <div className="flex flex-col md:flex-row bg-white  overflow-hidden">
         
         <div className="md:w-2/2 p-6 flex flex-col justify-center">
        
@@ -62,7 +61,7 @@ const Miniraloil = () => {
         </div>
       </div> */}
     </div>
-  );
-};
+  )
+}
 
-export default Miniraloil;
+export default Lime

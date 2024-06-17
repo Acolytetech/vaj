@@ -1,7 +1,7 @@
 import React from 'react';
 import ChromeoreBanner from '../../../image/innerImage/Chrome Ore banner.jpg'
 import Chromeore1 from '../../../image/innerImage/Chrome Ore.jpg'
-
+import Chromeore2 from '../../../image/innerImage/chrome3.png'
 const ChromeOreComponent = () => {
   return (
     <div className="container mx-auto p-4">
@@ -46,13 +46,13 @@ const ChromeOreComponent = () => {
             className="object-cover w-full h-full rounded-lg"
           />
         </div>
-        {/* <div className="w-1/2 p-2">
+        <div className="w-1/2 p-2">
           <img
-            src={rubber3}
+            src={Chromeore2}
             alt="Sub 2"
             className="object-cover w-full h-full rounded-lg"
           />
-        </div> */}
+        </div>
       </div>
     </div>
   );

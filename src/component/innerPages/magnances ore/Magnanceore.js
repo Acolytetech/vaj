@@ -7,7 +7,7 @@ const Magnanceore = () => {
     <div className="container mx-auto p-4">
        <img src={Magnanceore1} alt='indonesian coal' style={{width:'100%',height:'400px'}} />
 
-      <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden">
+      <div className="flex flex-col md:flex-row bg-white  overflow-hidden">
        
         <div className="md:w-2/2 p-6 flex flex-col justify-center">
           <h1 className="text-2xl font-bold mb-4">Manganese-Ore: A Durable and Versatile Construction Material</h1>

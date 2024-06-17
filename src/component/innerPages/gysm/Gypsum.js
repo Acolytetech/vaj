@@ -1,6 +1,7 @@
 import React from 'react';
 import gypsum1 from '../../../image/innerImage/Gypsum.jpg'
 import gypsum from '../../../image/innerImage/Gypsum banner.jpg'
+import g3 from '../../../image/innerImage/gipsom3.webp'
 const Gypsum = () => {
   return (
     <div className="container mx-auto p-4">
@@ -36,13 +37,13 @@ const Gypsum = () => {
             className="object-cover w-full h-full rounded-lg"
           />
         </div>
-        {/* <div className="w-1/2 p-2">
+        <div className="w-1/2 p-2">
           <img
-            src={rubber3}
+            src={g3}
             alt="Sub 2"
             className="object-cover w-full h-full rounded-lg"
           />
-        </div> */}
+        </div>
       </div>
     </div>
   );
