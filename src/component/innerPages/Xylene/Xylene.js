@@ -13,7 +13,7 @@ const Xylene = () => {
             alt="Main"
             className=" w-full h-1/2" style={{height:'300px'}}
           />
-              <h1 style={{ fontSize: '2rem', fontWeight: '700',position:'absolute', top:'20px', left:'550px', color:'black' }}>XYLENE</h1>
+              <h1 style={{ fontSize: '2rem', fontWeight: '700',position:'absolute', top:'20px', left:'550px', color:'black' }}></h1>
               </div>
       <div className="flex flex-col md:flex-row  overflow-hidden">
         

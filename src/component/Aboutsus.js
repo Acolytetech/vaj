@@ -7,6 +7,8 @@ import './Aboutsus.css';
 import Whoweare from './innerPages/Who/Whoweare';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+// import loader  from '../image/loader.jpg'
+import oil from '../image/about.webp'
 
 
  
@@ -21,7 +23,7 @@ function Aboutsus() {
 
         <div className='aboutcard-section'>
           <div className='aboutcardimg'>
-            <img src={aboutcardimg1} alt='about us img'  data-aos="fade-right"
+            <img src={oil} alt='about us img'  data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine" />
           </div>
@@ -83,7 +85,7 @@ function Aboutsus() {
     
       <Whoweare/>
       <div className='ourteamimg'>
-        <img src={ourteamimg1} alt='vajravel team img' data-aos="zoom-in"  data-aos-duration="2000"/>
+        <img src={oil} alt='vajravel team img' data-aos="zoom-in"  data-aos-duration="2000"/>
       <div className='ourteamcontent'>
         <div className='sec1' data-aos="fade-up"
      data-aos-duration="3000">

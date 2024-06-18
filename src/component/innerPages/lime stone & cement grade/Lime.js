@@ -16,7 +16,7 @@ function Lime() {
         
         <div className="md:w-2/2 p-6 flex flex-col justify-center">
        
-          <h1 className="text-2xl font-bold mb-4">MINERAL  OIL</h1>
+          <h1 className="text-2xl font-bold mb-4">Lime Stone & Cement Grade</h1>
           <p className="text-gray-700 mb-4">
           
           

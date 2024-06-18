@@ -48,6 +48,9 @@ import Import from './component/innerPages/Diesel/Import';
 import Base from './component/innerPages/Diesel/Base';
 import Bio from './component/innerPages/Diesel/Bio';
 import Lime from './component/innerPages/lime stone & cement grade/Lime';
+import Tyre from './component/innerPages/Chrome ore/oil/Tyre';
+import Industrial from './component/innerPages/Chrome ore/oil/Industrial';
+import Recycle from './component/innerPages/Chrome ore/oil/Recycle';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -106,6 +109,9 @@ function App() {
           <Route path="/base-fuel" element={<Base />} />
           <Route path="/bio-diesel" element={<Bio />} />
           <Route path="/Toluene" element={<Toluence />} />
+          <Route path="/tyre-oil" element={<Tyre />} />
+          <Route path="/industrial-oil" element={<Industrial />} />
+          <Route path="/recyling-oil" element={<Recycle/>} />
         </Routes>
         <Footer />
       </div>

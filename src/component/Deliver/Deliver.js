@@ -20,7 +20,7 @@ const industries = [
   {
     title: 'Bio Diesel',
     image: bio, // Directly assign the image path
-    description: 'Hygiene and Health are the most valuable thing this 2020, IGR have served country in this crucial time. All kinds of Minerals and ores available at best quality and good cost.'
+    description: 'Biodiesel is a renewable, eco-friendly fuel made from vegetable oils or animal fats, reducing carbon emissions and enhancing energy security. '
   }
 ];
 

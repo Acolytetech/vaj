@@ -11,7 +11,7 @@ const Methylalcohol = () => {
             alt="Main"
             className=" w-full h-1/2" style={{height:'300px'}}
           />
-              <h1 style={{ fontSize: '2rem', fontWeight: '700',position:'absolute', top:'230px', left:'500px', color:'black' }}>Methyl Alcohol</h1>
+              <h1 style={{ fontSize: '2rem', fontWeight: '700',position:'absolute', top:'230px', left:'500px', color:'black' }}></h1>
               </div>
       <div className="flex flex-col md:flex-row bg-white overflow-hidden">
         
