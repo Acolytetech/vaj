@@ -8,7 +8,7 @@ function Form() {
     name: '',
     email: '',
     phone: '',
-    industry: ''
+    Message: ''
   });
   const [errors, setErrors] = useState({});
   const [notification, setNotification] = useState({ message: '', type: '' });
@@ -44,10 +44,13 @@ function Form() {
     e.preventDefault();
     if (validate()) {
       try {
-        await emailjs.send('service_urtipdo', 'template_p3o472o', formData, 'KngnTTHvdjtmcGdxs');
+        console.log('Sending formData:', formData); // Log formData
+        const response = await emailjs.send('service_rkvivfh', 'template_0xjo79r', formData, 'pi7HGACaR03yvY8LG');
+        console.log('EmailJS response:', response); // Log EmailJS response
         setNotification({ message: 'Your application is submitted', type: 'success' });
         setFormData({ name: '', email: '', phone: '', industry: '' });
       } catch (error) {
+        console.error('Failed to send email:', error); // Log the detailed error
         setNotification({ message: 'There was an error submitting your application', type: 'error' });
       }
     } else {
@@ -110,16 +113,15 @@ function Form() {
               {errors.phone && <p className="text-red-500 text-xs mt-1">{errors.phone}</p>}
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700">Industry</label>
+              <label className="block text-sm font-medium text-gray-700">Message</label>
               <textarea
-  name="industry"
-  className="mt-1 p-2 border w-full rounded"
-  value={formData.industry}
-  onChange={handleChange}
-  placeholder="Enter Industry"
->
-</textarea>
-             
+                name="industry"
+                className="mt-1 p-2 border w-full rounded"
+                value={formData.industry}
+                onChange={handleChange}
+                placeholder="Enter Industry"
+              />
+              {errors.industry && <p className="text-red-500 text-xs mt-1">{errors.industry}</p>}
             </div>
             <div>
               <button
@@ -137,3 +139,5 @@ function Form() {
 }
 
 export default Form;
+
+
