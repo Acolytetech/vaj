@@ -14,7 +14,7 @@ class ActionProvider {
 
   handleUserQuery = () => {
     const botMessage = this.createChatBotMessage(
-      "For further assistance, please call 9311668312 or send a WhatsApp message. Our team will contact you shortly."
+      "For further assistance, please call 6380685643 or send a WhatsApp message. Our team will contact you shortly."
     );
     this.setChatbotMessage(botMessage);
   };
