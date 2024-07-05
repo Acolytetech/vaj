@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './component/navbar/Navbar';
 import Home from './component/home/Home';
 import Service from './component/services/Services';
@@ -10,7 +10,7 @@ import Form from './component/Client/Form.js/Form';
 import Footer from './component/footer/Footer';
 import Whoweare from './component/innerPages/Who/Whoweare'
 import First from './First';
-import './App.css'
+import './App.css';
 import Rudder from './component/innerPages/Rubber/Rubber';
 import Miniral from './component/innerPages/mineral turpentineoil/Miniral';
 import Mixed from './component/innerPages/mixed/Mixed';
@@ -32,7 +32,6 @@ import Coal from './component/innerPages/coal/Coal';
 import Indo from './component/innerPages/Indo/Indo';
 import UsaCoal from './component/innerPages/usaCoal/UsaCoal';
 import South from './component/innerPages/south/South';
-import Limecement from './component/innerPages/lime stone & cement grade/Lime&Cement';
 import Gypsum from './component/innerPages/gysm/Gypsum';
 import Gabbro from './component/innerPages/gabbro/Gabbro';
 import Pyroxenite from './component/innerPages/Pyroxenite/Pyroxenite';
@@ -44,15 +43,21 @@ import Leadership from './component/Leadership';
 import Xylene from './component/innerPages/Xylene/Xylene';
 import Nhexane from './component/innerPages/nhexane/Nhexane';
 import Loader from './component/loader/Loader';
+import Import from './component/innerPages/Diesel/Import';
+import Base from './component/innerPages/Diesel/Base';
+import Bio from './component/innerPages/Diesel/Bio';
+import Lime from './component/innerPages/lime stone & cement grade/Lime';
+import Tyre from './component/innerPages/Chrome ore/oil/Tyre';
+import Industrial from './component/innerPages/Chrome ore/oil/Industrial';
+import Recycle from './component/innerPages/Chrome ore/oil/Recycle';
 
 function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate a loading time (e.g., data fetching)
     setTimeout(() => {
       setLoading(false);
-    }, 2000); // 2 seconds delay
+    }, 2000); 
   }, []);
 
   if (loading) {
@@ -78,26 +83,33 @@ function App() {
           <Route path="/benzene" element={<Benzene />} />
           <Route path="/glycol-ethers" element={<GlycolEthers />} />
           <Route path="/Ketones" element={<Ketones />} />
-          <Route path="/methylalcohol" element={<Methylalcohol />} />
+          <Route path="/methyle-alcohol" element={<Methylalcohol />} />
           <Route path="/phenols" element={<Phenols />} />
           <Route path="/Contactus" element={<Contactus />} />
           <Route path="/indian-coal" element={<Coal />} />
           <Route path="/indonesian-coal" element={<Indo />} />
           <Route path="/usa-coal" element={<UsaCoal />} />
-          <Route path="/south-africa-oil" element={<South />} />
-          <Route path="/lime-stone-cement-grade" element={<Limecement />} />
+          <Route path="/south-africa-coal" element={<South />} />
+          <Route path="/Lime-stone" element={<Lime />} />
           <Route path="/Gypsum" element={<Gypsum />} />
           <Route path="/gabbro-aggregate" element={<Gabbro />} />
           <Route path="/pyroxenite" element={<Pyroxenite />} />
           <Route path="/petcoke" element={<Petcoke />} />
           <Route path="/Chrome-Ore" element={<Chromeore />} />
           <Route path="/manganese-ore" element={<Magnanceore />} />
-          <Route path="/abouts-us" element={<Aboutsus />} />
+          <Route path="/about" element={<Aboutsus />} />
           <Route path="/who-we-are" element={<Whoweare />} />
           <Route path="/leadership" element={<Leadership />} />
           <Route path="/Xylene" element={<Xylene />} />
-          <Route path="/contactus" element={<Contactus />} />
-          <Route path="/nhexane" element={<Nhexane />} />
+          <Route path="/contact-us" element={<Contactus />} />
+          <Route path="/n-hexane" element={<Nhexane />} />
+          <Route path="/import-diesel" element={<Import />} />
+          <Route path="/base-fuel" element={<Base />} />
+          <Route path="/bio-diesel" element={<Bio />} />
+          <Route path="/Toluene" element={<Toluence />} />
+          <Route path="/tyre-oil" element={<Tyre />} />
+          <Route path="/industrial-oil" element={<Industrial />} />
+          <Route path="/recyling-oil" element={<Recycle />} />
         </Routes>
         <Footer />
       </div>

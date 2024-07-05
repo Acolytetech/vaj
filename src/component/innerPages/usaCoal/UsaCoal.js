@@ -1,5 +1,5 @@
 import React from 'react'
-// import usacoal1 from '../../../image/innerImage/usa coal.png'
+
 
 
 function UsaCoal() {
@@ -9,7 +9,7 @@ function UsaCoal() {
 
       <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden">
         <div className="md:w-2/2 p-6 flex flex-col justify-center">
-          <h2 className="text-2xl font-bold mb-4">USA Coal: A Global Energy Resource</h2>
+          <h1 className="text-2xl font-bold mb-4">USA Coal: A Global Energy Resource</h1>
           <p className="text-gray-700 mb-4">
           
           

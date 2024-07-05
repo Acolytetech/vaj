@@ -1,66 +1,67 @@
 import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.css';
-import './Footer.css'
+import './Footer.css';
+import { Link } from 'react-router-dom';
+
+import im from '../../image/indiamart1.png';
+
+import logo from '../../image/loader2.png';
+
 
 const Footer = () => {
+
+
   return (
     <footer className="footer">
       <div className="container">
         <div className="footer-content">
-          <div className="quick-contact">
-            <h4>Quick Contact</h4>
-            <p>If you have any questions or <br/>need help, feel free to <br/> contact our team:</p> <br/>
-            <p><span style={{color:"chocolate",fontSize:"1.5rem"}}><i className="fas fa-phone-alt"></i> 9311668312</span></p><br/>
-            <p><strong>Address:</strong> Saberi, Noida Extension, <br/>Gautam Budha Nagar,<br/> Uttar Pradesh-201305</p>
+          <div className="logo ">
+            <img src={logo} alt='Vajravel Traders Logo' className='logo-img' />
           </div>
-          <div className="links">
-            <h4>Company</h4>
+
+          <div className="menu">
+            <h4>Our Company</h4>
             <ul>
-              <li><a href="/about">About Us</a></li>
-              <li><a href="/team">Meet Our Team</a></li>
-              <li><a href="/news">News & Media</a></li>
-              <li><a href="/case-studies">Case Studies</a></li>
-              <li><a href="/contacts">Contacts</a></li>
-              <li><a href="/careers">Careers</a></li>
+              <li>  <Link to="/" target='-blank' className='block mb-4'>Home</Link></li>
+              <li><Link to="/about" target='_self' className="block mb-4">About</Link></li>
+              <li><Link to="/contact-us" target='_self' className="block mb-4">Contact Us</Link></li>
+
             </ul>
+
           </div>
-          {/* <div className="products">
-            <h4>Products</h4>
-            <ul>
-              <li>Petroleum And Industrial Fuel Oil</li>
-              <li>Coal</li>
-              <li>Solvent</li>
-              <li>Mineral</li>
-            </ul>
-          </div> */}
-          <div className="subscribe">
-            <h4>Sign up for industry alerts</h4>
-            <p>Receive our latest news, thoughts, and insights from Koira.</p>
-            <form>
-              <input type="email" placeholder="Your Email Address" />
-              <button type="submit">Sign Up</button>
-            </form>
-            <p>You may withdraw your consent at any time!</p>
-            <div className='social-link'>
-        <a href="#" class="fab fa-facebook fa-2x"></a>
-        <a href="#" class="fab fa-instagram fa-2x"></a>
-        <a href="#" class="fab fa-whatsapp fa-2x"></a>
-            </div>
+          <div className="company-info">
+            <p>
+              <h4>Vajravel Traders Private Limited</h4>
+              <div className='address '>
+                ADDRESS-  NO.155,KUMARAGIRIPET,
+                SOUTH AMMAPET,Salem,Salem,
+                Tamil Nadu,India-636015
+
+              </div>
+
+
+              <ul className='social-link flex gap-4'>
+
+                {/* <li>
+                  <a href="https://www.facebook.com/vajraveltraders/" target='_blank'><i className="fab fa-facebook-square fa-2x"></i></a>
+                </li> */}
+                <li>
+                  <a href="https://www.instagram.com/vajraveltraders/" target='_blank'><i className="fab fa-instagram fa-2x"></i></a>
+                </li>
+                {/* <li>
+                  <a href="https://www.linkedin.com/company/vajravel-traders-private-limited/" target='_blank'><i className="fab fa-linkedin fa-2x" style={{ borderRadius: '10px' }}></i></a>
+                </li> */}
+                <li>
+                  <a href="https://www.twitter.com/vajraveltraders/" target='_blank'><img src={im} alt='indiamart' className='indiamart' /></a>
+                </li>
+              </ul>
+            </p>
+
           </div>
         </div>
         <div className="footer-bottom">
-          <div className="legal-links">
-            <ul>
-              <li><a href="/terms">Terms & Conditions</a></li>
-              <li><a href="/privacy">Privacy Policy</a></li>
-              <li><a href="/sitemap">Sitemap</a></li>
-              <li><a href="/employee-login">Employee Login</a></li>
-            </ul>
-          </div>
+          <p>&copy; 2024 Vajravel Traders Private Limited, All Rights Reserved.</p>
         </div>
-      </div>
-      <div className="copyright">
-        <p>© 2023 INTER GLOBAL RESOURCES, All Rights Reserved.</p>
       </div>
     </footer>
   );

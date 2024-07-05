@@ -4,18 +4,14 @@ import { ForwardToInboxSharp } from '@mui/icons-material';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-// import Ourteam from '../ourteam/Ourteam';
-// import Whowearecrousel from './Whowearecrousel';
-// import image1 from 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOvZALupQp0Gm2auZnOQXB3gjRgVNPf7FZRQ&s'
-
+import about from '../../../image/about.png'
 
 const Whoweare = () => {
     
   return (
-    <>
-      <h1 className='vajaravel'>Vajravel traders pvt. ltd. </h1>
-    
-    
+    < >
+    <div>
+ 
     <div className="whoweare">
         <div className='content'>
         
@@ -31,18 +27,13 @@ so, we that carrying our trust with most of the costumers.
      </p>
      
     </div>
-    <div className='content imgsection'>
-        <img src={ 'https://themes.webdevia.com/petroleum-gas/wp-content/uploads/2016/01/CEO-d3.png'} alt=''/>
-       {/* <img src={ 'https://etimg.etb2bimg.com/photo/91208202.cms'} alt=''/> */}
-        {/* <img src={ 'https://etimg.etb2bimg.com/photo/91208202.cms'} alt=''/> */}
-       
-      </div>
-      
+
       
     </div>
-    {/* <Ourteam /> */}
+    </div>
     </>
   );
 };
 
 export default Whoweare;
+

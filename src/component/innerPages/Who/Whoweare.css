@@ -9,18 +9,20 @@
   height: fit-content;
   display: flex;
   /* flex-wrap: wrap-reverse; */
-  padding-top: 100px;
+  padding: 50px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
   overflow: hidden;
+  background-color: #0e0d0d;
+  color: white;
 }
 
 .vajaravel {
   scale: 1.1;
   font-size: 2rem;
-  background-color: #f7b205;
+  background-color: #0e0d0d;
   text-transform: capitalize;
   text-align: center;
   font-family: 'Josefin Sans';
@@ -40,7 +42,7 @@
   font-size: 3rem;
   margin-bottom: 1rem;
   text-align: center; /* Center align the heading */
-  color: #f7b205;
+  color: #f7f6f5;
   font-weight: 700;
 }
 
@@ -49,7 +51,7 @@
   line-height: 1.6;
   margin-bottom: 1.5rem;
   text-align: justify;
-  color: rgb(15, 15, 15);
+  color: rgb(250, 246, 246);
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
   margin-left: 50px;
@@ -86,12 +88,7 @@
     padding: 0px;
     box-sizing: border-box;
   }
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
+ 
   .whoweare {
     width: 100%;
     height: fit-content;
@@ -106,7 +103,7 @@
   
   .vajaravel {
     font-size: 10px;
-    background-color: #f7b205;
+    background-color: #0c0c0c;
     text-transform: capitalize;
     text-align: center;
     font-family: 'Josefin Sans';
@@ -117,17 +114,18 @@
   
   .content {
     width: 100%;
-    max-width: 800px; /* Limit content width for larger screens */
+    background-color: #0c0c0c;
+     /* Limit content width for larger screens */
     margin: 0 auto;
-    padding: 0 20px; /* Add padding to the sides for better readability */
+    padding: 0 0px; /* Add padding to the sides for better readability */
   }
   
   .content h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
     text-align: center; /* Center align the heading */
-    color: #f7b205;
-    font-weight: 700;
+    color: #f8f8f6;
+    font-weight: 500;
   }
   
   .content p {
@@ -135,9 +133,12 @@
     line-height: 1.6;
     margin-bottom: 1.5rem;
     text-align: justify;
-    color: rgb(15, 15, 15);
+    color: rgb(248, 245, 245);
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
   
   .imgsection {

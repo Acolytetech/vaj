@@ -1,0 +1,271 @@
+.aboutmain{
+    width: 100%;
+    max-height:fit-content;
+   
+   
+}
+.aboutspage{
+    max-width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.aboutspage img{
+    width: 100%;
+    height: 300px;
+}
+.aboutcard-section{
+    width: 100%;
+    height: fit-content;
+    /* max-height: fit-content; */
+    display: flex;
+    flex-wrap: wrap;
+    /* outline: auto; */
+    background-color: rgb(19, 19, 18);
+    padding: 30px;
+}
+.aboutcardimg{
+    width: 50%;
+    padding: 35px 0px 30px 30px;
+    /* height: 40px; */
+    /* outline: auto; */
+}
+.aboutcardimg img{
+    width: 100%;
+    height: 750px;
+ 
+}
+.aboutcardcontent{
+    width: 50%;
+    /* height: 450px; */
+    /* outline: auto; */
+    text-align: justify;
+    padding: 50px;
+    color: white;
+}
+.aboutcardcontent p h1{
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.aboutcardcontent p span{
+    line-height: 20px;
+    margin-top: 200px;
+}
+.aboutcardcontent p ul{
+    list-style-type:disc;
+    padding-left: 30px;
+}
+.ourteamimg{
+    width: 100%;
+    height: 950px;
+    margin: auto;
+    /* height: fit-content; */
+    position: relative;
+    z-index: 1;
+    padding: auto;
+    /* margin-bottom: 200px; */
+    background-color: black;
+    overflow-y: visible;
+ 
+}
+.ourteamimg img{
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    scale: 1;
+    transition: 3s;
+    top: -100px;
+z-index: -1;
+}
+/* .ourteamimg:Hover img{
+   
+    scale:1;
+    transition: 3s;
+} */
+.ourteamcontent{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    /* background-color: aqua; */
+ 
+    flex-wrap: wrap;
+   top:400px;
+   left:10%;
+ 
+   
+}
+.fivestarrating{
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+ .starrating{
+    font-size: 20px;
+}
+.sec1{
+ 
+    text-align: center;
+    margin: 5%;
+    width: 40%;
+    height: 450;
+    background-color: rgb(43, 39, 39);
+    color: white;
+    border: solid 2px white ;
+    padding-top: 70px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+   
+}
+.sec1 h2{
+    font-weight: 800;
+    color: rgb(237, 164, 6);
+}
+.sec1 p{
+    margin: 30px;
+    line-height: 30px;
+}
+@media only screen and (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .aboutmain{
+        width: 100%;
+        max-height:fit-content;
+       
+       
+    }
+    .aboutspage{
+        max-width: 100%;
+        height: 200px;
+        overflow: hidden;
+    }
+    .aboutspage img{
+        
+        width: 100%;
+        height: 200px;
+        
+    }
+    .aboutcard-section{
+        width: 100%;
+        height: fit-content;
+        /* max-height: fit-content; */
+        display: flex;
+        flex-wrap: wrap-reverse;
+        /* outline: auto; */
+        background-color: rgb(19, 19, 18);
+        padding: 10px;
+    }
+    .aboutcardimg{
+        width: 100%;
+        padding:0px;
+        /* height: 40px; */
+        /* outline: auto; */
+    }
+    .aboutcardimg img{
+        width: 100%;
+        height: 250px;
+   
+    }
+    .aboutcardcontent{
+        width: 100%;
+        /* height: 450px; */
+        /* outline: auto; */
+        text-align: justify;
+        padding: 10px;
+        color: white;
+    }
+    .aboutcardcontent p h1{
+        line-height: 30px;
+        font-size: 15px;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    .aboutcardcontent p span{
+        line-height: 10px;
+        margin-top: 200px;
+    }
+    .aboutcardcontent p ul{
+        list-style-type:disc;
+        padding-left: 30px;
+        line-height: 20px;
+    }
+    .ourteamimg{
+        width: 100%;
+        height: fit-content;
+        margin: auto;
+        /* height: fit-content; */
+        position:static;
+        z-index: 0;
+        padding: auto;
+        /* margin-bottom: 200px; */
+        background-color: black;
+        overflow-y: visible;
+   
+    }
+    .ourteamimg img{
+        width: 90%;
+        height: 300px;
+        margin: auto;
+        scale: 1;
+        transition: 3s;
+        top: 0;
+    z-index: 0;
+    }
+    /* .ourteamimg:Hover img{
+       
+        scale:1;
+        transition: 3s;
+    } */
+    .ourteamcontent{
+        width: 90%;
+        height: fit-content;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        position: static;
+        /* background-color: aqua; */
+   
+        flex-wrap: wrap;
+       top:400px;
+       left:10%;
+   
+       
+    }
+    .fivestarrating{
+        width: 100%;
+    }
+    .starrating{
+        font-size: 1rem;
+        width: fit-content;
+    }
+    .sec1{
+   
+        text-align: center;
+        margin: auto;
+        width: 90%;
+        height: 450;
+        background-color: rgb(43, 39, 39);
+        color: white;
+        border: solid 2px white ;
+        padding-top: 50px;
+        margin-bottom: 30px;
+        border-radius: 30px;
+       
+    }
+    .sec1 h2{
+        font-weight: 800;
+        color: rgb(237, 164, 6);
+    }
+    .sec1 p{
+        margin: 10px;
+        line-height: 20px;
+        text-align: justify;
+       
+    }
+   
+}

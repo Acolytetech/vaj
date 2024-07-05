@@ -1,15 +1,21 @@
 import React from 'react';
-// import coal1 from '../../../image/i./nnerImage/Coal1.jpg'
-import coal2 from '../../../image/innerImage/Indian Coal.jpg'
+import coal1 from '../../../image/innerImage/Indian Coal1.jpg';
+import coal2 from '../../../image/innerImage/Indian Coal2.jpg';
+import coal3 from '../../../image/innerImage/Indian Coal.jpg';
 const Coal = () => {
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 productpage">
+   
       <div className="flex flex-col md:flex-row bg-white  overflow-hidden">
        
-        <div className="md:w-2/2 p-6 flex flex-col justify-center">
+        <div className="md:w-2/2 p-6 flex flex-col justify-center productpage">
+        <img
+            src={coal1}
+            alt="Sub 2"
+            className="object-cover w-full rounded-lg productimg" 
+          />
         
-                <img src='' alt='bitumen'/>
-          <h2 className="text-2xl font-bold mb-4">Indian Coal: An Integral Part of the Energy Landscape</h2>
+          <h1 className="text-2xl font-bold mb-4">Indian Coal: An Integral Part of the Energy Landscape</h1>
           <p className="text-gray-700 mb-4">
           
           
@@ -39,13 +45,13 @@ Indian coal is predominantly bituminous and sub-bituminous, with varying calorif
             className="object-cover w-full h-full rounded-lg"
           />
         </div>
-        {/* <div className="w-1/2 p-2">
+        <div className="w-1/2 p-2">
           <img
-            src={rubber3}
+            src={coal3}
             alt="Sub 2"
             className="object-cover w-full h-full rounded-lg"
           />
-        </div> */}
+        </div>
       </div>
     </div>
   );

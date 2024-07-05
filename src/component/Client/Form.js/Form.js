@@ -8,7 +8,7 @@ function Form() {
     name: '',
     email: '',
     phone: '',
-    industry: ''
+    Message: ''
   });
   const [errors, setErrors] = useState({});
   const [notification, setNotification] = useState({ message: '', type: '' });
@@ -44,10 +44,13 @@ function Form() {
     e.preventDefault();
     if (validate()) {
       try {
-        await emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData, 'YOUR_USER_ID');
+        console.log('Sending formData:', formData); // Log formData
+        const response = await emailjs.send('service_rkvivfh', 'template_0xjo79r', formData, 'pi7HGACaR03yvY8LG');
+        console.log('EmailJS response:', response); // Log EmailJS response
         setNotification({ message: 'Your application is submitted', type: 'success' });
         setFormData({ name: '', email: '', phone: '', industry: '' });
       } catch (error) {
+        console.error('Failed to send email:', error); // Log the detailed error
         setNotification({ message: 'There was an error submitting your application', type: 'error' });
       }
     } else {
@@ -66,12 +69,12 @@ function Form() {
         type={notification.type}
         onClose={handleCloseNotification}
       />
-      <div className="flex flex-col md:flex-row shadow-lg border w-full md:w-2/3 mx-auto my-10" style={{ marginTop: '-160px', position: 'relative', background: 'white' }}>
+      <div className="flex flex-col md:flex-row shadow-lg border w-full md:w-2/3 mx-auto  my-10" style={{ marginTop: '-130px', position: 'relative', background: 'white' }}>
         <div className="w-full md:w-1/2">
           <img src={form} alt="Form" className="w-full h-full object-cover" />
         </div>
         <div className="w-full md:w-1/2 p-8">
-          <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
+          <h1 className="text-2xl font-bold mb-4">Contact Us</h1>
           <form className="space-y-4" onSubmit={handleSubmit}>
             <div>
               <label className="block text-sm font-medium text-gray-700">Name</label>
@@ -110,19 +113,14 @@ function Form() {
               {errors.phone && <p className="text-red-500 text-xs mt-1">{errors.phone}</p>}
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700">Industry</label>
-              <select
+              <label className="block text-sm font-medium text-gray-700">Message</label>
+              <textarea
                 name="industry"
                 className="mt-1 p-2 border w-full rounded"
                 value={formData.industry}
                 onChange={handleChange}
-              >
-                <option value="">Select Industry</option>
-                <option value="Technology">Technology</option>
-                <option value="Healthcare">Healthcare</option>
-                <option value="Finance">Finance</option>
-                <option value="Education">Education</option>
-              </select>
+                placeholder="Enter Industry"
+              />
               {errors.industry && <p className="text-red-500 text-xs mt-1">{errors.industry}</p>}
             </div>
             <div>
@@ -141,3 +139,5 @@ function Form() {
 }
 
 export default Form;
+
+

@@ -1,7 +1,5 @@
 import React from 'react';
-// import miniral1 from '../../../image/innerImage/miniral1.png'
-// // import miniral2 from '../../../image/innerImage'
-// import miniral2 from '../../../image/innerImage/miniral2.jpg'
+
 
 const LimeStone = () => {
   return (
@@ -15,7 +13,7 @@ const LimeStone = () => {
           
           imestone is a sedimentary rock composed primarily of calcium carbonate (CaCO3) minerals, often derived from the skeletal remains of marine organisms such as coral and mollusks. It is one of the most abundant rock types on Earth and has been used by humans for various purposes for thousands of years. Limestone occurs in different geological formations and can exhibit a range of colors and textures, from creamy white to gray and even pink.
           </p>
-          <h2 className="text-2xl font-bold mb-4">Cement Grade Limestone</h2>
+          <h1 className="text-2xl font-bold mb-4">Cement Grade Limestone</h1>
           <p className="text-gray-700 mb-4">
           
           

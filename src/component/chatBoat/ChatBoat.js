@@ -16,7 +16,7 @@ function ChatBoat() {
   };
 
   return (
-    <div className='chatboat-container fixed bottom-4 right-4 m-4 p-4 z-50'>
+    <div className='chatboat-container fixed  right-4 m-4 p-4 z-50'style={{ bottom: '-1.5rem' }}>
       {isOpen ? (
         <div className='chatbot-box bg-white shadow-lg border rounded-lg'>
           <div className='close-icon flex justify-end p-2'>

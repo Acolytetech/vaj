@@ -1,18 +1,39 @@
+/* Add responsive classes using Tailwind CSS */
 .card {
-    position: relative; /* Changed from absolute to relative for better positioning */
-    margin-top: -235px; /* Adjust this value if needed based on your layout */
-    transition: transform 0.3s; /* Added a smooth transition effect */
+  position: relative; /* Changed from absolute to relative for better positioning */
+  margin-top: -235px; /* Adjust this value if needed based on your layout */
+  transition: transform 0.3s; /* Added a smooth transition effect */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Added hover effect for a slight lift */
+}
+
+/* Add responsive margin-top for different screen sizes */
+@media (min-width: 640px) { /* For screens >= 640px (sm) */
+  .card {
+    margin-top: -200px; /* Adjust for small screens */
   }
-  
-  .card:hover {
-    transform: translateY(-10px); /* Added hover effect for a slight lift */
+}
+
+@media (min-width: 768px) { /* For screens >= 768px (md) */
+  .card {
+    margin-top: -235px; /* Adjust for medium screens */
   }
-  
-  .relative {
-    position: relative; /* Ensure the outer div has relative positioning */
+}
+
+@media (min-width: 1024px) { /* For screens >= 1024px (lg) */
+  .card {
+    margin-top: -235px; /* Adjust for large screens */
   }
+}
+
+.relative {
+  position: relative; /* Ensure the outer div has relative positioning */
+}
+
+.mt-24 {
+  margin-top: 6rem; /* Tailwind CSS margin-top utility class */
+  /* margin-bottom: 10rem; */
   
-  .mt-24 {
-    margin-top: 6rem; /* Tailwind CSS margin-top utility class */
-  }
-  
+}

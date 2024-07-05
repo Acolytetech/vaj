@@ -8,8 +8,11 @@
     margin-left:40rem;
     margin-right: 40rem;
     text-align: center;
+    
   }
-  
+  .m-auto{
+    margin-top: 10%;
+  }
   .loader__bar {
     position: absolute;
     bottom: 0;
