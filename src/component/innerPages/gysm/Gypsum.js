@@ -8,7 +8,11 @@ const Gypsum = () => {
       <div className="flex flex-col md:flex-row bg-white  overflow-hidden">
        
         <div className="md:w-2/2 p-6 flex flex-col justify-center">
+<<<<<<< HEAD
           <img src={gypsum} alt='gypsum' className='w-full rounded-xl productimg'/>
+=======
+          <img src={gypsum} alt='gypsum'/>
+>>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
           <h1 className="text-2xl font-bold mb-4">Gypsum: A Versatile Mineral with Wide-Ranging Applications</h1>
           <p className="text-gray-700 mb-4">
           Gypsum is a soft sulfate mineral composed of calcium sulfate dihydrate (CaSO4·2H2O). It forms through the evaporation of saline water and is commonly found in sedimentary rocks. Gypsum has been utilized by humans for various purposes for thousands of years, owing to its abundance, versatility, and unique properties.

@@ -17,6 +17,13 @@ const Toluence = () => {
            
             className="taulene w-full rounded-xl" 
           />
+<<<<<<< HEAD
+=======
+      <div className="flex flex-col md:flex-row bg-white  overflow-hidden">
+        
+        <div className="md:w-2/2 p-6 flex flex-col justify-center">
+       
+>>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
           <h1 className="text-2xl font-bold mb-4">Toluence Oil</h1>
           <p className="text-gray-700 mb-4">
           

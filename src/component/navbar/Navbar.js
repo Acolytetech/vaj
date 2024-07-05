@@ -51,7 +51,11 @@ const NavBar = () => {
                 {/* <div className="content"> */}
                   <div className="row  ">
                     <header className='h5'>Categories</header>
+<<<<<<< HEAD
                     <div className="mega-links-container border shadow p-8">
+=======
+                    <div className="mega-links-container p-8">
+>>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
                       <ul className="mega-links col">
                         <li className="mb-2" onClick={handleSubmenuItemClick}><Link to="/Bitumen" className="hover:text-gray-300">Bitumen</Link></li>
                         <li className="mb-2" onClick={handleSubmenuItemClick}><Link to="/Ca-solvent" className="hover:text-gray-300">CA Solvent</Link></li>

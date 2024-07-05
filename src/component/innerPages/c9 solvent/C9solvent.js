@@ -1,7 +1,11 @@
 import React from 'react';
  import c9 from '../../../image/innerImage/c9 solvent banner.jpg'
  import c91 from '../../../image/innerImage/C9 Solvent.jpg'
+<<<<<<< HEAD
  import c92 from '../../../image/innerImage/c9solvent2.jpg';
+=======
+ import c92 from '../../../image/innerImage/c9solvent2.jpg'
+>>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
 const C9solvent = () => {
   return (
     <div className="container mx-auto p-4 productpage">

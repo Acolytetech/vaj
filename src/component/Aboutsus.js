@@ -11,11 +11,16 @@ import 'aos/dist/aos.css';
 import oil from '../image/about.webp'
 
 
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
 
 function Aboutsus() {
   AOS.init();
   return (
+<<<<<<< HEAD
 
     <div className='productpage'>
       <div className='aboutspage' style={{ maxWidth: '100%' }}>
@@ -28,6 +33,18 @@ function Aboutsus() {
             <img src={oil} alt='about us img' 
             
               data-aos-easing="ease-in-sine" />
+=======
+   
+    <div>
+      <div className='aboutspage'  style={{ maxWidth: '100%' }}>
+        <img src={aboutimg} alt='about us' width={'100%'} style={{ height: '400px' }} />
+
+        <div className='aboutcard-section'>
+          <div className='aboutcardimg'>
+            <img src={oil} alt='about us img'  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" />
+>>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
           </div>
           <div className='aboutcardcontent'>
             {/* <h1>Abouts Us</h1> */}
@@ -62,7 +79,11 @@ function Aboutsus() {
             </p>
             <div style={{ width: '100%', display: 'flex', padding: '30px', textTransform: 'capitalize' }}>
               <div data-aos="fade-right" data-aos-duration="2000" className='fivestarrating' style={{ width: '50%', display: 'flex' }}>
+<<<<<<< HEAD
                 <img fetchpriority="high" decoding="async" width="70" height="70" src="https://astream.in/wp-content/uploads/2023/08/Rating.png"
+=======
+                <img  fetchpriority="high" decoding="async" width="70" height="70" src="https://astream.in/wp-content/uploads/2023/08/Rating.png"
+>>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
                   class="attachment-full  wp-image-1389" alt srcset="https://astream.in/wp-content/uploads/2023/08/Rating.png 512w, https://astream.in/wp-content/uploads/2023/08/Rating-300x300.png 300w, https://astream.in/wp-content/uploads/2023/08/Rating-150x150.png 150w" />
                 <span style={{ width: '150px', fontSize: '20px', margin: 'auto' }}>100+ <br />five star rating</span>
               </div>
@@ -75,13 +96,18 @@ function Aboutsus() {
 
 
             </div>
+<<<<<<< HEAD
             <h1 className='vajaravel' data-aos="fade-left">Vajravel traders pvt.ltd. </h1>
+=======
+      <h1 className='vajaravel' data-aos="fade-left">Vajravel traders pvt.ltd. </h1>
+>>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
 
 
 
           </div>
 
         </div>
+<<<<<<< HEAD
 
       <Whoweare />
       <div className='ourteamimg'>
@@ -107,6 +133,35 @@ function Aboutsus() {
           </div>
 
         </div>
+=======
+      </div>
+
+    
+      <Whoweare/>
+      <div className='ourteamimg'>
+        <img src={oil} alt='vajravel team img' data-aos="zoom-in"  data-aos-duration="2000"/>
+      <div className='ourteamcontent'>
+        <div className='sec1' data-aos="fade-up"
+     data-aos-duration="3000">
+          <h2>OUR MISSION</h2>
+          <p>
+          At Astream Our mission is clear - to be your trusted partner in the digital realm, guiding you through the complexities of the online landscape with innovative solutions and unwavering support. We believe that every business,
+           no matter its size, deserves access to top-notch web services that can make a significant impact on its growth and success.
+          </p>
+
+        </div>
+        <div className='sec1' data-aos="fade-up"
+     data-aos-duration="3000">
+          <h2>OUR VISSION</h2>
+          <p >
+          At Astream, our vision is to be a catalyst for your digital success. We aspire to empower businesses and individuals with innovative online web services that transcend boundaries and drive exceptional growth. Through cutting-edge technologies, creative thinking, and a customer-first approach, we aim to unlock the full potential of the digital world for you, making your dreams a reality in the ever
+          evolving digital landscape.
+          </p>
+
+        </div>
+
+      </div>
+>>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
       </div>
     </div>
   )

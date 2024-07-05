@@ -46,7 +46,11 @@
     line-height: 30px;
     font-size: 20px;
     font-weight: 700;
+<<<<<<< HEAD
     text-decoration: none;
+=======
+    text-decoration: underline;
+>>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
 }
 .aboutcardcontent p span{
     line-height: 20px;

@@ -2,7 +2,10 @@ import React from 'react';
 import rubber1 from '../../../image/innerImage/CA Solvent 1.jpg';
 import ca2 from '../../../image/innerImage/CA Solvent 2.jpg'
 import ca3 from '../../../image/innerImage/CA Solvent 3.jpg'
+<<<<<<< HEAD
 
+=======
+>>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
 const Casolvent = () => {
     return (
         <div className="container mx-auto p-4 productpage">

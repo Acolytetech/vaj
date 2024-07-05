@@ -46,9 +46,15 @@ const Carousel = () => {
         <div key={index} className={`relative carousel-image-container ${currentIndex === index ? 'active' : ''}`}>
           <img src={image.src} alt={image.alt} className="carousel-image" />
           <div className={`absolute top-4 left-4 p-20 text-white px-2 py-1 rounded carousel-caption ${currentIndex === index ? 'active' : ''}`} data-aos="fade-up">
+<<<<<<< HEAD
             {/* <h1 className="text-10xl zsm:text-xl md:text-xl lg:text-8xl font-semibold p-12" style={{marginLeft:'-20px'}}>
               {image.caption}
             </h1> */}
+=======
+            <h1 className="text-4xl sm:text-xl md:text-xl lg:text-8xl font-semibold p-12" style={{marginLeft:'-20px'}}>
+              {image.caption}
+            </h1>
+>>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
           </div>
         </div>
       ))}

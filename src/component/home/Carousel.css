@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 /* General styles */
+=======
+>>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
 .carousel-container {
   position: relative;
   width: 100%;
@@ -64,6 +67,7 @@ button:hover {
   background-color: rgba(255, 255, 255, 0.7);
   color: black;
 }
+<<<<<<< HEAD
 
 /* Responsive styles */
 @media (max-width: 1024px) {
@@ -118,3 +122,5 @@ button:hover {
     font-size: 70px;
   }
 }
+=======
+>>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
