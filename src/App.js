@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Navbar from './component/navbar/Navbar';
 import Home from './component/home/Home';
 import Service from './component/services/Services';
@@ -10,7 +10,7 @@ import Form from './component/Client/Form.js/Form';
 import Footer from './component/footer/Footer';
 import Whoweare from './component/innerPages/Who/Whoweare'
 import First from './First';
-import './App.css';
+import './App.css'
 import Rudder from './component/innerPages/Rubber/Rubber';
 import Miniral from './component/innerPages/mineral turpentineoil/Miniral';
 import Mixed from './component/innerPages/mixed/Mixed';
@@ -32,6 +32,7 @@ import Coal from './component/innerPages/coal/Coal';
 import Indo from './component/innerPages/Indo/Indo';
 import UsaCoal from './component/innerPages/usaCoal/UsaCoal';
 import South from './component/innerPages/south/South';
+// import Limecement from './component/innerPages/lime stone & cement grade/Lime&Cement';
 import Gypsum from './component/innerPages/gysm/Gypsum';
 import Gabbro from './component/innerPages/gabbro/Gabbro';
 import Pyroxenite from './component/innerPages/Pyroxenite/Pyroxenite';
@@ -55,6 +56,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+
     setTimeout(() => {
       setLoading(false);
     }, 2000); 
@@ -109,7 +111,7 @@ function App() {
           <Route path="/Toluene" element={<Toluence />} />
           <Route path="/tyre-oil" element={<Tyre />} />
           <Route path="/industrial-oil" element={<Industrial />} />
-          <Route path="/recyling-oil" element={<Recycle />} />
+          <Route path="/recyling-oil" element={<Recycle/>} />
         </Routes>
         <Footer />
       </div>

@@ -11,11 +11,7 @@ function Client() {
 
   const teamMembers = [
     {
-<<<<<<< HEAD
       name: 'Dinesh', // Correct the name here
-=======
-      name: 'John Doe', // Correct the name here
->>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
       position: 'CEO',
       image: owner, // Use the imported owner image
     }

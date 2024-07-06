@@ -6,7 +6,6 @@ import benzene2 from '../../../image/innerImage/benezene.jpg'
 const Benzene = () => {
   return (
     <div className="container mx-auto p-4">
-<<<<<<< HEAD
       
       <div className="flex flex-col md:flex-row bg-white  overflow-hidden">
         
@@ -16,17 +15,6 @@ const Benzene = () => {
             alt="Main"
             className=" w-full h-1/2 productimg" 
           />
-=======
-       <img
-            src={benzene}
-            alt="Main"
-            className=" w-full h-1/2" style={{height:'300px'}}
-          />
-      <div className="flex flex-col md:flex-row bg-white  overflow-hidden">
-        
-        <div className="md:w-2/2 p-6 flex flex-col justify-center">
-       
->>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
           <h1 className="text-2xl font-bold mb-4">Benzene</h1>
           <p className="text-gray-700 mb-4">
           

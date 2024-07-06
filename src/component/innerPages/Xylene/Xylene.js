@@ -6,7 +6,6 @@ import x3 from '../../../image/innerImage/xylene1.webp'
 
 const Xylene = () => {
   return (
-<<<<<<< HEAD
       <div className="container mx-auto p-4 productpage">
           
       <div className="flex flex-col md:flex-row  overflow-hidden">
@@ -17,21 +16,6 @@ const Xylene = () => {
             alt="Main"
             className=" w-full h-1/2 rounded-xl productimg" 
           />
-=======
-      <div className="container mx-auto p-4">
-          <div style={{position:'relative'}}>
-       <img
-              src={x1}
-            alt="Main"
-            className=" w-full h-1/2" style={{height:'300px'}}
-          />
-              <h1 style={{ fontSize: '2rem', fontWeight: '700',position:'absolute', top:'20px', left:'550px', color:'black' }}></h1>
-              </div>
-      <div className="flex flex-col md:flex-row  overflow-hidden">
-        
-        <div className="md:w-2/2 p-6 flex flex-col justify-center">
-       
->>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
                   <h1 className="text-2xl font-bold mb-4 ">Xylene</h1>
                   
                   <p className="text-gray-700 mb-4">

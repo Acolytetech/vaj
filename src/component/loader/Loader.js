@@ -1,10 +1,6 @@
 import React from 'react'
 import './Loader.css'
-<<<<<<< HEAD
-import loader  from '../../image/loader.png'
-=======
-import loader  from '../../image/loader.jpg'
->>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
+import loader  from '../../image/loader.png';
 function Loader() {
   return (
 //     <div class="loader">

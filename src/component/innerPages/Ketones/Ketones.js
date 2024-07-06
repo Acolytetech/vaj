@@ -5,7 +5,6 @@ import Ketones2 from '../../../image/innerImage/ketone.png'
 
 const KetonesComponent = () => {
   return (
-<<<<<<< HEAD
       <div className="container mx-auto p-4 productpage">
           
       <div className="flex flex-col md:flex-row bg-white overflow-hidden">
@@ -16,21 +15,6 @@ const KetonesComponent = () => {
             alt="Main"
             className=" w-full h-1/2 productimg rounded-xl" 
           />
-=======
-      <div className="container mx-auto p-4 ">
-          <div style={{position:'relative'}}>
-       <img
-              src={KetonesBanner}
-            alt="Main"
-            className=" w-full h-1/2" style={{height:'300px'}}
-          />
-              <h1 style={{ fontSize: '2rem', fontWeight: '700',position:'absolute', top:'50px', left:'30px', color:'dark' }}></h1>
-              </div>
-      <div className="flex flex-col md:flex-row bg-white overflow-hidden">
-        
-        <div className="md:w-2/2 p-6 flex flex-col justify-center">
-       
->>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
           <h1 className="text-2xl font-bold mb-4">Ketones</h1>
           <p className="text-gray-700 mb-4">
           <ol className='list-decimal ml-10 p-4'>

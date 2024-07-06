@@ -6,28 +6,18 @@ import import3 from '../../../image/innerImage/imported3.jpg'
 
 const Import= () => {
   return (
-<<<<<<< HEAD
     <div className="container mx-auto p-4 productpage">
+                <img src={import1} alt='bio-oil'className='rounded-xl' style={{width:'100%', height:'50vh'}} />
       
       <div className="flex flex-col md:flex-row bg-white  overflow-hidden">
        
         <div className="md:w-1/2 p-6 flex flex-col justify-center">
-        <img
+        {/* <img
             src={import1}
             alt="Sub 2"
             className="object-cover w-full h-full rounded-lg productimg" 
-          />
-=======
-    <div className="container mx-auto p-4">
-       <img
-            src={import1}
-            alt="Sub 2"
-            className="object-cover w-full h-full rounded-lg" style={{height:300}}
-          />
-      <div className="flex flex-col md:flex-row bg-white  overflow-hidden">
-       
-        <div className="md:w-1/2 p-6 flex flex-col justify-center">
->>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
+          /> */}
+
           <h1 className="text-2xl font-bold mb-4"> Import Diesel
 
           </h1>

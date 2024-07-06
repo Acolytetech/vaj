@@ -69,7 +69,7 @@ function Form() {
         type={notification.type}
         onClose={handleCloseNotification}
       />
-      <div className="flex flex-col md:flex-row shadow-lg border w-full md:w-2/3 mx-auto  my-10" style={{ marginTop: '-130px', position: 'relative', background: 'white' }}>
+      <div className="flex flex-col md:flex-row shadow-lg border w-full md:w-2/3 mx-auto  my-10" style={{ marginTop: '-14vh', position: 'relative', background: 'white' }}>
         <div className="w-full md:w-1/2">
           <img src={form} alt="Form" className="w-full h-full object-cover" />
         </div>
@@ -119,7 +119,7 @@ function Form() {
                 className="mt-1 p-2 border w-full rounded"
                 value={formData.industry}
                 onChange={handleChange}
-                placeholder="Enter Industry"
+                placeholder="message"
               />
               {errors.industry && <p className="text-red-500 text-xs mt-1">{errors.industry}</p>}
             </div>

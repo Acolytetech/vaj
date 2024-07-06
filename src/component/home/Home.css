@@ -21,7 +21,7 @@
 .carousel-caption {
   
   position: absolute;
-  top: 1rem;
+  top: 0rem;
   left: 1rem;
   padding-left: 20px; /* Adjust padding for smaller screens */
   padding-right: 20px; /* Adjust padding for smaller screens */
@@ -32,8 +32,8 @@
   
 }
 .carousel-caption .image-capton{
-  font-size: 70px;
-  line-height: 80px;
+  font-size: 9vh;
+  line-height: 9vh;
 }
 @keyframes zoomIn {
   from {

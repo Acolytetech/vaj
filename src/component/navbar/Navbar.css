@@ -16,7 +16,6 @@ nav .wrapper{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* overflow-y: hidden; */
 }
 
 nav svg {
@@ -35,6 +34,11 @@ width: fit-content;
   text-decoration: none;
   
 }
+.wrapper .logo a img{
+  width: 80px;
+  height: 70px;
+}
+
 
 .wrapper .nav-links{
   align-items: start;
@@ -103,7 +107,9 @@ ul.nav-links {
   transition: all 0.3s ease;
 }
 .nav-links li a:hover{
-  background: #3A3B3C;
+  /* background: #3A3B3C; */
+  color:chocolate;
+  font-weight: 500;
 }
 .nav-links .mobile-item{
   display: none;
@@ -178,7 +184,7 @@ ul.nav-links {
   display: block;
 }
 .row .mega-links li a:hover{
-  color: #f2f2f2;
+  color: #1d1c1c;
 }
 .wrapper .btn{
   color: #fff;

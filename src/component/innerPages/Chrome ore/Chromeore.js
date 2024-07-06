@@ -1,7 +1,7 @@
 import React from 'react';
 import ChromeoreBanner from '../../../image/innerImage/Chrome Ore banner.jpg'
-import Chromeore1 from '../../../image/innerImage/Chrome Ore.jpg'
-import Chromeore2 from '../../../image/innerImage/chrome3.png'
+import Chromeore1 from '../../../image/innerImage/chrome ore.jpg'
+import Chromeore2 from '../../../image/innerImage/chrome ore final.jpg'
 const ChromeOreComponent = () => {
   return (
     <div className="container mx-auto p-4 productpage ">
@@ -9,11 +9,8 @@ const ChromeOreComponent = () => {
       <div className="flex flex-col md:flex-row bg-white overflow-hidden">
        
         <div className="md:w-2/2 p-6 flex flex-col justify-center">
-<<<<<<< HEAD
        <img src={ChromeoreBanner} alt='indonesian coal' className='w-full rounded-xl productimg' />
 
-=======
->>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
           <h1 className="text-2xl font-bold mb-4">Chrome-Ore: A Durable and Versatile Construction Material</h1>
           <p className="text-gray-700 mb-4">
           <ol className='list-decimal ml-10 p-4'>

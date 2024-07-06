@@ -5,17 +5,10 @@ import b2 from '../../../image/innerImage/Base-oil (1).jpg'
 import b3 from '../../../image/innerImage/base-oil.jpg'
 const Base = () => {
   return (
-<<<<<<< HEAD
     <div className="container mx-auto p-4 productpage">
       <div className="flex flex-col md:flex-row bg-white  overflow-hidden">
                 <div className="md:w-2/2 p-6 flex flex-col justify-center">
                 <img src={b1} alt='bio-oil'className='rounded-xl' />
-=======
-    <div className="container mx-auto p-4">
-      <div className="flex flex-col md:flex-row bg-white  overflow-hidden">
-                <div className="md:w-2/2 p-6 flex flex-col justify-center">
-                <img src={b1} alt='bio-oil'/>
->>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
           <h1 className="text-2xl font-bold mb-4"> Base-Fuel
 
           </h1>

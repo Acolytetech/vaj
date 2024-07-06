@@ -4,17 +4,8 @@ import coal2 from '../../../image/innerImage/Indian Coal2.jpg';
 import coal3 from '../../../image/innerImage/Indian Coal.jpg';
 const Coal = () => {
   return (
-<<<<<<< HEAD
     <div className="container mx-auto p-4 productpage">
    
-=======
-    <div className="container mx-auto p-4">
-       <img
-            src={coal1}
-            alt="Sub 2"
-            className="object-cover w-full h-full rounded-lg" style={{height:300}}
-          />
->>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
       <div className="flex flex-col md:flex-row bg-white  overflow-hidden">
        
         <div className="md:w-2/2 p-6 flex flex-col justify-center productpage">

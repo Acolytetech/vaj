@@ -8,15 +8,11 @@ const Nhexane = () => {
       <div className="flex flex-col md:flex-row bg-white  overflow-hidden">
         
         <div className="md:w-2/2 p-6 flex flex-col justify-center">
-<<<<<<< HEAD
         <img
               src={n}
             alt="Main"
             className=" w-full h-1/2 rounded-xl productimg" 
           />
-=======
-       
->>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
                   <h1 className="text-2xl font-bold mb-4 ">N-Hexane</h1>
                   
                   <p className="text-gray-700 mb-4">

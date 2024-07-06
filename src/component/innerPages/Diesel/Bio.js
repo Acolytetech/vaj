@@ -1,20 +1,13 @@
 import React from 'react'
 import b1 from '../../../image/innerImage/Bio-Diesel.png'
 import b2 from '../../../image/innerImage/bio-diesel3.jpg'
-import b3 from '../../../image/innerImage/bio-diesel2.png'
+import b3 from '../../../image/innerImage/bio 2.jpg'
 function Bio() {
   return (
-<<<<<<< HEAD
     <div className="container mx-auto p-4 productpage">
   <div className="flex flex-col md:flex-row bg-white  overflow-hidden">
                 <div className="md:w-2/2 p-6 flex flex-col justify-center">
                 <img src={b1} alt='bio-diesel' className='rounded-xl'/>
-=======
-    <div className="container mx-auto p-4">
-  <div className="flex flex-col md:flex-row bg-white  overflow-hidden">
-                <div className="md:w-2/2 p-6 flex flex-col justify-center">
-                <img src={b1} alt='bio-diesel'/>
->>>>>>> 56478dde197f63b15e546fbd0e73c43d4052fc33
         <h1 className="text-2xl font-bold mb-4"> Bio-Diesel
 
         </h1>
@@ -45,16 +38,16 @@ function Bio() {
         </p>
       </div>
     </div>
-    <div className="flex flex-wrap mt-4">
+    <div className="flex flex-wrap mt-4" >
         
-        <div className="w-1/2 p-2">
+        <div className="w-1/2 p-2" style={{height:'400px'}}>
           <img
             src={b2}
             alt="Sub 2"
             className="object-cover w-full h-full rounded-lg"
           />
         </div>
-        <div className="w-1/2 p-2">
+        <div className="w-1/2 p-2" style={{height:'400px'}}>
           <img
             src={b3}
             alt="Sub 2"

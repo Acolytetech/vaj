@@ -19,35 +19,10 @@ const LimeStone = () => {
           
           Cement grade limestone refers to limestone with high purity and suitable chemical composition for the production of Portland cement, the most common type of cement used in construction. The key characteristics of cement grade limestone include high calcium content (typically above 90%), low impurities such as silica, alumina, and iron oxide, and a uniform texture that allows for consistent cement production.
           </p>
-          {/* <h2 className="text-2xl font-bold mb-4"> USES</h2>
-          <p className="text-gray-700">
-         
-          .Electricity Generation
-.Steel Production
-.Cement Industry
-.Industrial Heating and Steam Generation
-.Coal Gasification
-.Domestic Use
-.Coal-Based Chemicals
-          </p> */}
         </div>
-      </div>
-      <div className="flex flex-wrap mt-4">
+       
         
-        <div className="w-1/2 p-2">
-          <img
-            src=''
-            alt="Sub 2"
-            className="object-cover w-full h-full rounded-lg"
-          />
-        </div>
-        {/* <div className="w-1/2 p-2">
-          <img
-            src={rubber3}
-            alt="Sub 2"
-            className="object-cover w-full h-full rounded-lg"
-          />
-        </div> */}
+       
       </div>
     </div>
   );
